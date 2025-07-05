@@ -1,4 +1,5 @@
-#### Forked from: https://github.com/Clapcom-Studios/Alien-Extraction
+### Originally from: https://github.com/Clapcom-Studios/Alien-Extraction
+
 ![Alien Extraction](https://github.com/Clapcom-Studios/Alien-Extraction/assets/99948892/b2812924-745e-47c0-88cd-e15a675f1a38)
 
 #### Alien Extraction is a DIABLO-LIKE game themed in the ALIEN universe.
