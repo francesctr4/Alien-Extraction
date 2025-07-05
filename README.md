@@ -1,4 +1,4 @@
-### Originally from: https://github.com/Clapcom-Studios/Alien-Extraction
+### Forked from: https://github.com/Clapcom-Studios/Alien-Extraction
 
 ---
 
