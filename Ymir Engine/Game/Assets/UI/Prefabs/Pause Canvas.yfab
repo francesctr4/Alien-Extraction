@@ -1,0 +1,814 @@
+{
+    "Prefab": [
+        {
+            "Name": "Pause Canvas",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 728169813,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 1849711092,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 2288,
+                    "Height": 1781,
+                    "UI Type": 0,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        0,
+                        0,
+                        1558,
+                        1024
+                    ]
+                }
+            ],
+            "Children UID": [
+                93749415,
+                259721126,
+                1628008163
+            ]
+        },
+        {
+            "Name": "Image Bg",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 93749415,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 728169813,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 1920,
+                    "Height": 1080,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        0,
+                        0,
+                        1920,
+                        1080
+                    ],
+                    "Path": "Assets\/UI\/pause.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                }
+            ]
+        },
+        {
+            "Name": "Empty",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 259721126,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 728169813,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        742,
+                        459,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "UI_Inventory_Grid.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "rows": 3,
+                    "cols": 1,
+                    "leftGridName": " ",
+                    "rightGridName": " ",
+                    "downGridName": " ",
+                    "upGridName": " ",
+                    "navigateX": true,
+                    "navigateY": true,
+                    "bounceX": false,
+                    "bounceY": false,
+                    "empty": false,
+                    "childX": 0,
+                    "childY": 0
+                }
+            ],
+            "Children UID": [
+                1256989267,
+                2072063440,
+                983362550
+            ]
+        },
+        {
+            "Name": "Resume",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1256989267,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 259721126,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 424,
+                    "Height": 152,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        742,
+                        459,
+                        424,
+                        152
+                    ],
+                    "Path": "Assets\/Lava.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 3,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        742,
+                        459,
+                        300,
+                        50
+                    ],
+                    "Is interactable": true,
+                    "Text": 798937101,
+                    "Image": 1256989267,
+                    "Normal": "Assets\/UI\/Buttons\/Button_unpressed.png",
+                    "Focused": "Assets\/UI\/Buttons\/Button.png",
+                    "Pressed": "Assets\/UI\/Buttons\/Button_pressed.png",
+                    "Selected": "Assets\/UI\/Buttons\/Button.png",
+                    "Release": "Assets\/penguin.png",
+                    "Disabled": "Assets\/Lava.png",
+                    "Focused color": [
+                        0,
+                        1,
+                        0,
+                        1
+                    ],
+                    "Pressed color": [
+                        1,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Selected color": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Disabled color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "UI_ToggleMenu.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "menu": "Pause Canvas",
+                    "active": false
+                }
+            ],
+            "Children UID": [
+                798937101
+            ]
+        },
+        {
+            "Name": "Text (1)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 798937101,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 1256989267,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 155,
+                    "Position Y": 77,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 2,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        897,
+                        536,
+                        300,
+                        50
+                    ],
+                    "Text": "Resume",
+                    "Font name": "NK57 Monospace Se Bd.otf",
+                    "Font path": "Assets\\Fonts",
+                    "Font size": 21,
+                    "Line Spacing": 1,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 2
+                }
+            ]
+        },
+        {
+            "Name": "Main Menu",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 2072063440,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 259721126,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 129,
+                    "Width": 424,
+                    "Height": 152,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        742,
+                        588,
+                        424,
+                        152
+                    ],
+                    "Path": "Assets\/Lava.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 3,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        742,
+                        459,
+                        300,
+                        50
+                    ],
+                    "Is interactable": true,
+                    "Text": 1652380264,
+                    "Image": 2072063440,
+                    "Normal": "Assets\/UI\/Buttons\/Button_unpressed.png",
+                    "Focused": "Assets\/UI\/Buttons\/Button.png",
+                    "Pressed": "Assets\/UI\/Buttons\/Button_pressed.png",
+                    "Selected": "Assets\/UI\/Buttons\/Button.png",
+                    "Release": "Assets\/penguin.png",
+                    "Disabled": "Assets\/Lava.png",
+                    "Focused color": [
+                        0,
+                        1,
+                        0,
+                        1
+                    ],
+                    "Pressed color": [
+                        1,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Selected color": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Disabled color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Button_GoToScene.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "sceneName": "UI\/Scenes\/StartScene",
+                    "time": 10,
+                    "saveGame": true
+                }
+            ],
+            "Children UID": [
+                1652380264
+            ]
+        },
+        {
+            "Name": "Text (2)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1652380264,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 2072063440,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 135,
+                    "Position Y": 202,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 2,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        877,
+                        661,
+                        300,
+                        50
+                    ],
+                    "Text": "Main Menu",
+                    "Font name": "NK57 Monospace Se Bd.otf",
+                    "Font path": "Assets\\Fonts",
+                    "Font size": 21,
+                    "Line Spacing": 1,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 2
+                }
+            ]
+        },
+        {
+            "Name": "Exit",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 983362550,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 259721126,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 261,
+                    "Width": 424,
+                    "Height": 152,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        742,
+                        720,
+                        424,
+                        152
+                    ],
+                    "Path": "Assets\/Lava.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 3,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        742,
+                        459,
+                        300,
+                        50
+                    ],
+                    "Is interactable": true,
+                    "Text": 151134588,
+                    "Image": 983362550,
+                    "Normal": "Assets\/UI\/Buttons\/Button_unpressed.png",
+                    "Focused": "Assets\/UI\/Buttons\/Button.png",
+                    "Pressed": "Assets\/UI\/Buttons\/Button_pressed.png",
+                    "Selected": "Assets\/UI\/Buttons\/Button.png",
+                    "Release": "Assets\/penguin.png",
+                    "Disabled": "Assets\/Lava.png",
+                    "Focused color": [
+                        0,
+                        1,
+                        0,
+                        1
+                    ],
+                    "Pressed color": [
+                        1,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Selected color": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Disabled color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Button_Exit.cs",
+                    "Active": 1,
+                    "UID": 0
+                }
+            ],
+            "Children UID": [
+                151134588
+            ]
+        },
+        {
+            "Name": "Text (6)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 151134588,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 983362550,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 166,
+                    "Position Y": 337,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 2,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        908,
+                        796,
+                        300,
+                        50
+                    ],
+                    "Text": "Exit",
+                    "Font name": "NK57 Monospace Se Bd.otf",
+                    "Font path": "Assets\\Fonts",
+                    "Font size": 21,
+                    "Line Spacing": 1,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 2
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Button_Exit.cs",
+                    "Active": 1,
+                    "UID": 0
+                }
+            ]
+        },
+        {
+            "Name": "PauseAnim",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1628008163,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 728169813,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 0,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 1920,
+                    "Height": 1080,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        0,
+                        0,
+                        1920,
+                        1080
+                    ],
+                    "Path": "Assets\/UI\/SpriteSheets\/PauseSpritesheet.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 3,
+                    "Columns": 4,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "UI_Animation.cs",
+                    "Active": 0,
+                    "UID": 0,
+                    "loop": false,
+                    "pingpongWIP": false,
+                    "backwards": false,
+                    "animState": true,
+                    "delay": 0.10000000149011612,
+                    "loopCount": 0,
+                    "totalFrames": 12,
+                    "currentIndex": 0,
+                    "disableOnFinish": true
+                }
+            ]
+        }
+    ]
+}

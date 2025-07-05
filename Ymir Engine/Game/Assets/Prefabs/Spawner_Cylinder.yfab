@@ -1,0 +1,120 @@
+{
+    "Prefab": [
+        {
+            "Name": "Spawner_Cylinder",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1484304711,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 1968864687,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        10,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Spawner.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawn": false,
+                    "porcentajeFaceHugger": 0.5,
+                    "porcentajeDroneXenomorph": 0.5,
+                    "currentEnemies": 0,
+                    "typeOfEnemy": 0
+                }
+            ],
+            "Children UID": [
+                1060257251
+            ]
+        },
+        {
+            "Name": "Sensor",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1060257251,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1484304711,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        3.3479461669921875,
+                        0,
+                        2.6451568603515625
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "SpawnSensor.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawner": 1484304711
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 4,
+                    "Size": [
+                        20,
+                        5,
+                        1.25
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": true,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        }
+    ]
+}

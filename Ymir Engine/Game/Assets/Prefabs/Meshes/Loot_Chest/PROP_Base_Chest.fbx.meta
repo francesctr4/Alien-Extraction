@@ -1,0 +1,17 @@
+{
+    "Name": "PROP_Base_Chest",
+    "Assets Path": "Assets\/Prefabs\/Meshes\/Loot_Chest\/PROP_Base_Chest.fbx",
+    "Library Path": ".\/Library\/Models\/484997781.ymodel",
+    "UID": 484997781,
+    "Type": "Model",
+    "Meshes num": 2,
+    "Meshes Embedded UID": [
+        1871714168,
+        342242430
+    ],
+    "Resources num": 2,
+    "Resources Embedded UID": [
+        333817056,
+        1005804023
+    ]
+}

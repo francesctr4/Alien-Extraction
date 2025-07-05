@@ -1,0 +1,545 @@
+{
+    "Prefab": [
+        {
+            "Name": "Death Canvas",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1827062016,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 505510462,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 1927,
+                    "Height": 1111,
+                    "UI Type": 0,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        0,
+                        0,
+                        618,
+                        398
+                    ]
+                }
+            ],
+            "Children UID": [
+                521441229,
+                199456300
+            ]
+        },
+        {
+            "Name": "Background (1)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 521441229,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 1827062016,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 1920,
+                    "Height": 1080,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        0,
+                        0,
+                        1920,
+                        1080
+                    ],
+                    "Path": "Assets\/UI\/LoseScreenBase.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                }
+            ]
+        },
+        {
+            "Name": "Grid (1)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 199456300,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 1827062016,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        636,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "UI_Inventory_Grid.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "rows": 2,
+                    "cols": 1,
+                    "leftGridName": " ",
+                    "rightGridName": " ",
+                    "downGridName": " ",
+                    "upGridName": " ",
+                    "naviagteX": false,
+                    "naviagteY": false,
+                    "bounceX": false,
+                    "bounceY": false,
+                    "empty": false,
+                    "childX": 0,
+                    "childY": 0
+                }
+            ],
+            "Children UID": [
+                1541707194,
+                150558645
+            ]
+        },
+        {
+            "Name": "Respawn",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1541707194,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 199456300,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 657,
+                    "Width": 600,
+                    "Height": 88,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        636,
+                        657,
+                        600,
+                        88
+                    ],
+                    "Path": "Assets\/Baker_house.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 3,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        636,
+                        0,
+                        300,
+                        50
+                    ],
+                    "Is interactable": true,
+                    "Text": 1641626881,
+                    "Image": 1541707194,
+                    "Normal": "Assets\/UI\/Death Buttons\/ButtonUnselected.png",
+                    "Focused": "Assets\/UI\/Death Buttons\/ButtonHover.png",
+                    "Pressed": "Assets\/UI\/Death Buttons\/ButtonPressed.png",
+                    "Selected": "Assets\/UI\/Death Buttons\/ButtonHover.png",
+                    "Release": "Assets\/Baker_house.png",
+                    "Disabled": "Assets\/Baker_house.png",
+                    "Focused color": [
+                        0,
+                        1,
+                        0,
+                        1
+                    ],
+                    "Pressed color": [
+                        1,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Selected color": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Disabled color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Button_GoToScene.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "sceneName": "BASE_FINAL\/LVL_BASE_COLLIDERS",
+                    "time": 10,
+                    "saveGame": false
+                }
+            ],
+            "Children UID": [
+                1641626881
+            ]
+        },
+        {
+            "Name": "Text (19)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1641626881,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 1541707194,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 82,
+                    "Position Y": 723,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 2,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        718,
+                        723,
+                        300,
+                        50
+                    ],
+                    "Text": "Transfer Conciousness",
+                    "Font name": "de-valencia-beta.otf",
+                    "Font path": "Assets\\Fonts",
+                    "Font size": 48.200000762939453,
+                    "Line Spacing": 0.5,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 2
+                }
+            ]
+        },
+        {
+            "Name": "Back To Menu",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 150558645,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 199456300,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 819,
+                    "Width": 600,
+                    "Height": 88,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        636,
+                        819,
+                        600,
+                        88
+                    ],
+                    "Path": "Assets\/Baker_house.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 3,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        636,
+                        0,
+                        300,
+                        50
+                    ],
+                    "Is interactable": true,
+                    "Text": 1500166531,
+                    "Image": 150558645,
+                    "Normal": "Assets\/UI\/Death Buttons\/ButtonUnselected.png",
+                    "Focused": "Assets\/UI\/Death Buttons\/ButtonHover.png",
+                    "Pressed": "Assets\/UI\/Death Buttons\/ButtonPressed.png",
+                    "Selected": "Assets\/UI\/Death Buttons\/ButtonHover.png",
+                    "Release": "Assets\/Baker_house.png",
+                    "Disabled": "Assets\/Baker_house.png",
+                    "Focused color": [
+                        0,
+                        1,
+                        0,
+                        1
+                    ],
+                    "Pressed color": [
+                        1,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Selected color": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Disabled color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Button_GoToScene.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "sceneName": "UI\/Scenes\/StartScene",
+                    "time": 10,
+                    "saveGame": true
+                }
+            ],
+            "Children UID": [
+                1500166531
+            ]
+        },
+        {
+            "Name": "Text (20)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1500166531,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 150558645,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 180,
+                    "Position Y": 883,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 2,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        816,
+                        883,
+                        300,
+                        50
+                    ],
+                    "Text": "Back To Menu",
+                    "Font name": "de-valencia-beta.otf",
+                    "Font path": "Assets\\Fonts",
+                    "Font size": 48.200000762939453,
+                    "Line Spacing": 0.5,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 2
+                }
+            ]
+        }
+    ]
+}

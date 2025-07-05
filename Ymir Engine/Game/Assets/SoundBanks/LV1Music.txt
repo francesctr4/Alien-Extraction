@@ -1,0 +1,18 @@
+Event	ID	Name			Wwise Object Path	Notes
+	266958530	LvL1_Music			\Default Work Unit\Music\LV1Music\LvL1_Music	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1071758680	CombatState			\Default Work Unit\CombatState	
+	3285234865	PlayerState			\Default Work Unit\PlayerState	
+
+State	ID	Name	State Group			Notes
+	514064485	Fight	CombatState			
+	748895195	None	CombatState			
+	2582085496	Exploration	CombatState			
+	655265632	Alive	PlayerState			
+	748895195	None	PlayerState			
+	2044049779	Dead	PlayerState			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	269906067	SOT_Combat_LV1	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\LV3_Combat_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\LV1Music\Lvl1 Music Switch\Combat\SOT_Combat_LV1\SOT_Combat_LV1		2081254
+

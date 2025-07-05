@@ -1,0 +1,491 @@
+{
+    "Prefab": [
+        {
+            "Name": "PROP_FleshDoor",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 25209980,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 1192284687,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        100,
+                        100,
+                        40
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": true,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Flesh_Door.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "fraction": 0
+                }
+            ],
+            "Children UID": [
+                1839710300,
+                776899125,
+                973208638,
+                1321686818,
+                1174825536,
+                1588452314,
+                403731468
+            ]
+        },
+        {
+            "Name": "Below Door",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1839710300,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/Prefabs\/Meshes\/Hatchery_Door\/PROP_FleshDoor.fbx",
+            "Parent UID": 25209980,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -90.000007629394531,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        100,
+                        99.999961853027344,
+                        99.999961853027344
+                    ]
+                },
+                {
+                    "Type": "Mesh",
+                    "Active": 1,
+                    "UID": 125749402,
+                    "Vertex Count": 102,
+                    "Index Count": 204
+                },
+                {
+                    "Type": "Material",
+                    "Active": 1,
+                    "Shader": "Assets\/Shaders\/MyShader.glsl",
+                    "Uniforms": [
+                        {
+                            "lightDir": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "lightInt": 1,
+                            "lightColor": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "numLights": 1,
+                            "displayNormalMap": true,
+                            "transparency": 1
+                        }
+                    ],
+                    "Diffuse_ID": 1262,
+                    "Diffuse_Path": "Assets\/Prefabs\/Meshes\/Hatchery_Door\/TEX_PROP_FleshDoor_D.png",
+                    "Diffuse_UID": 1288501560,
+                    "Specular_ID": 1325,
+                    "Specular_Path": "Assets\/Prefabs\/Meshes\/Hatchery_Door\/TEX_PROP_FleshDoor_S.png",
+                    "Specular_UID": 1910418446,
+                    "Normal_ID": 1309,
+                    "Normal_Path": "Assets\/Prefabs\/Meshes\/Hatchery_Door\/TEX_PROP_FleshDoor_N.png",
+                    "Normal_UID": 977569625,
+                    "Height_ID": 1293,
+                    "Height_Path": "Assets\/Prefabs\/Meshes\/Hatchery_Door\/TEX_PROP_FleshDoor_H.png",
+                    "Height_UID": 321359018,
+                    "Ambient_ID": 1246,
+                    "Ambient_Path": "Assets\/Prefabs\/Meshes\/Hatchery_Door\/TEX_PROP_FleshDoor_A.png",
+                    "Ambient_UID": 1710419588,
+                    "Emissive_ID": 1277,
+                    "Emissive_Path": "Assets\/Prefabs\/Meshes\/Hatchery_Door\/TEX_PROP_FleshDoor_E.png",
+                    "Emissive_UID": 398177279
+                }
+            ]
+        },
+        {
+            "Name": "Door (1)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 776899125,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/Prefabs\/Meshes\/Hatchery_Door\/PROP_FleshDoor.fbx",
+            "Parent UID": 25209980,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -0.45379474759101868,
+                        31.988801956176758,
+                        22.062000274658203
+                    ],
+                    "Rotation": [
+                        -90.000007629394531,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        100,
+                        100,
+                        100
+                    ]
+                },
+                {
+                    "Type": "Mesh",
+                    "Active": 1,
+                    "UID": 1765575605,
+                    "Vertex Count": 163,
+                    "Index Count": 378
+                },
+                {
+                    "Type": "Material",
+                    "Active": 1,
+                    "Shader": "Assets\/Shaders\/MyShader.glsl",
+                    "Uniforms": [
+                        {
+                            "lightDir": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "lightInt": 1,
+                            "lightColor": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "numLights": 1,
+                            "displayNormalMap": true,
+                            "transparency": 1
+                        }
+                    ],
+                    "Diffuse_ID": 1265,
+                    "Diffuse_Path": "Assets\/Prefabs\/Meshes\/Hatchery_Door\/TEX_PROP_FleshDoor_D.png",
+                    "Diffuse_UID": 1288501560,
+                    "Specular_ID": 1329,
+                    "Specular_Path": "Assets\/Prefabs\/Meshes\/Hatchery_Door\/TEX_PROP_FleshDoor_S.png",
+                    "Specular_UID": 1910418446,
+                    "Normal_ID": 1313,
+                    "Normal_Path": "Assets\/Prefabs\/Meshes\/Hatchery_Door\/TEX_PROP_FleshDoor_N.png",
+                    "Normal_UID": 977569625,
+                    "Height_ID": 1297,
+                    "Height_Path": "Assets\/Prefabs\/Meshes\/Hatchery_Door\/TEX_PROP_FleshDoor_H.png",
+                    "Height_UID": 321359018,
+                    "Ambient_ID": 1250,
+                    "Ambient_Path": "Assets\/Prefabs\/Meshes\/Hatchery_Door\/TEX_PROP_FleshDoor_A.png",
+                    "Ambient_UID": 1710419588,
+                    "Emissive_ID": 1281,
+                    "Emissive_Path": "Assets\/Prefabs\/Meshes\/Hatchery_Door\/TEX_PROP_FleshDoor_E.png",
+                    "Emissive_UID": 398177279
+                }
+            ]
+        },
+        {
+            "Name": "Door Bola",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 973208638,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/Prefabs\/Meshes\/Hatchery_Door\/PROP_FleshDoor.fbx",
+            "Parent UID": 25209980,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -1.6041643619537354,
+                        32.222030639648438,
+                        -22.170999526977539
+                    ],
+                    "Rotation": [
+                        -90.000007629394531,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        100,
+                        99.999961853027344,
+                        99.999961853027344
+                    ]
+                },
+                {
+                    "Type": "Mesh",
+                    "Active": 1,
+                    "UID": 2029166443,
+                    "Vertex Count": 293,
+                    "Index Count": 840
+                },
+                {
+                    "Type": "Material",
+                    "Active": 1,
+                    "Shader": "Assets\/Shaders\/MyShader.glsl",
+                    "Uniforms": [
+                        {
+                            "lightDir": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "lightInt": 1,
+                            "lightColor": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "numLights": 1,
+                            "displayNormalMap": true,
+                            "transparency": 1
+                        }
+                    ],
+                    "Diffuse_ID": 1273,
+                    "Diffuse_Path": "Assets\/Prefabs\/Meshes\/Hatchery_Door\/TEX_PROP_FleshDoor_D.png",
+                    "Diffuse_UID": 1288501560,
+                    "Specular_ID": 1337,
+                    "Specular_Path": "Assets\/Prefabs\/Meshes\/Hatchery_Door\/TEX_PROP_FleshDoor_S.png",
+                    "Specular_UID": 1910418446,
+                    "Normal_ID": 1321,
+                    "Normal_Path": "Assets\/Prefabs\/Meshes\/Hatchery_Door\/TEX_PROP_FleshDoor_N.png",
+                    "Normal_UID": 977569625,
+                    "Height_ID": 1305,
+                    "Height_Path": "Assets\/Prefabs\/Meshes\/Hatchery_Door\/TEX_PROP_FleshDoor_H.png",
+                    "Height_UID": 321359018,
+                    "Ambient_ID": 1258,
+                    "Ambient_Path": "Assets\/Prefabs\/Meshes\/Hatchery_Door\/TEX_PROP_FleshDoor_A.png",
+                    "Ambient_UID": 1710419588,
+                    "Emissive_ID": 1289,
+                    "Emissive_Path": "Assets\/Prefabs\/Meshes\/Hatchery_Door\/TEX_PROP_FleshDoor_E.png",
+                    "Emissive_UID": 398177279
+                }
+            ]
+        },
+        {
+            "Name": "End_Door1",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1321686818,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 25209980,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -0.45399999618530273,
+                        31.98900032043457,
+                        45
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        75,
+                        75,
+                        75
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "End_Door_Bola",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1174825536,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 25209980,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -1.6039999723434448,
+                        32.222000122070312,
+                        -45
+                    ],
+                    "Rotation": [
+                        -2.6564730433165096e-06,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        75,
+                        75,
+                        75
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "End_Door_Vertical",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1588452314,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 25209980,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Rotation": [
+                        -2.6564730433165096e-06,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "_Marc",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 403731468,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/Prefabs\/Meshes\/Hatchery_Door\/PROP_FleshDoor.fbx",
+            "Parent UID": 25209980,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -90.000007629394531,
+                        0,
+                        0
+                    ],
+                    "Scale": [
+                        100,
+                        99.999977111816406,
+                        99.999977111816406
+                    ]
+                },
+                {
+                    "Type": "Mesh",
+                    "Active": 1,
+                    "UID": 165992615,
+                    "Vertex Count": 534,
+                    "Index Count": 1440
+                },
+                {
+                    "Type": "Material",
+                    "Active": 1,
+                    "Shader": "Assets\/Shaders\/MyShader.glsl",
+                    "Uniforms": [
+                        {
+                            "lightDir": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "lightInt": 1,
+                            "lightColor": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "numLights": 1,
+                            "displayNormalMap": true,
+                            "transparency": 1
+                        }
+                    ],
+                    "Diffuse_ID": 1269,
+                    "Diffuse_Path": "Assets\/Prefabs\/Meshes\/Hatchery_Door\/TEX_PROP_FleshDoor_D.png",
+                    "Diffuse_UID": 1288501560,
+                    "Specular_ID": 1333,
+                    "Specular_Path": "Assets\/Prefabs\/Meshes\/Hatchery_Door\/TEX_PROP_FleshDoor_S.png",
+                    "Specular_UID": 1910418446,
+                    "Normal_ID": 1317,
+                    "Normal_Path": "Assets\/Prefabs\/Meshes\/Hatchery_Door\/TEX_PROP_FleshDoor_N.png",
+                    "Normal_UID": 977569625,
+                    "Height_ID": 1301,
+                    "Height_Path": "Assets\/Prefabs\/Meshes\/Hatchery_Door\/TEX_PROP_FleshDoor_H.png",
+                    "Height_UID": 321359018,
+                    "Ambient_ID": 1254,
+                    "Ambient_Path": "Assets\/Prefabs\/Meshes\/Hatchery_Door\/TEX_PROP_FleshDoor_A.png",
+                    "Ambient_UID": 1710419588,
+                    "Emissive_ID": 1285,
+                    "Emissive_Path": "Assets\/Prefabs\/Meshes\/Hatchery_Door\/TEX_PROP_FleshDoor_E.png",
+                    "Emissive_UID": 398177279
+                }
+            ]
+        }
+    ]
+}

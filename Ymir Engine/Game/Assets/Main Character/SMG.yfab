@@ -1,0 +1,68 @@
+{
+    "Prefab": [
+        {
+            "Name": "W_SMG_1",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1450903918,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/Main Character\/FBX_Raisen_Weapon.fbx",
+            "Parent UID": 1454188996,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Mesh",
+                    "Active": 1,
+                    "UID": 86199386,
+                    "Vertex Count": 1017,
+                    "Index Count": 1806
+                },
+                {
+                    "Type": "Material",
+                    "Active": 1,
+                    "Shader": "Assets\/Shaders\/AnimationShader.glsl",
+                    "Uniforms": [
+                        {
+                            "lightDir": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "lightInt": 1,
+                            "lightColor": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "numLights": 1,
+                            "displayNormalMap": true,
+                            "transparency": 1
+                        }
+                    ],
+                    "Diffuse_ID": 0,
+                    "Diffuse_Path": "Checker Image",
+                    "Diffuse_UID": 0
+                }
+            ]
+        }
+    ]
+}

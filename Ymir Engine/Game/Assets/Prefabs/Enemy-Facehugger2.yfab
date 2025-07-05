@@ -1,0 +1,175 @@
+{
+    "Prefab": [
+        {
+            "Name": "ANIM_CHAR_Facehugger",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1024083183,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 1137143640,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Animation",
+                    "Active": 1,
+                    "NumPaths": 8,
+                    "Paths": [
+                        ".\/Assets\/T-Pose.yanim",
+                        ".\/Assets\/Idle_Facehugger.yanim",
+                        ".\/Assets\/Walk_Facehugger.yanim",
+                        ".\/Assets\/TailAttack_Facehugger.yanim",
+                        ".\/Assets\/Cry_Facehugger.yanim",
+                        ".\/Assets\/Death_Facehugger.yanim",
+                        ".\/Assets\/IdleCombat_Facehugger.yanim",
+                        ".\/Assets\/DeathFrame_Facehugger.yanim"
+                    ],
+                    "AssetsPath": [
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        13,
+                        32,
+                        13
+                    ],
+                    "Physics Type": 0,
+                    "Mass": 1,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": true,
+                    "IsSensor": false,
+                    "LockX": true,
+                    "LockY": false,
+                    "LockZ": true,
+                    "Offset": [
+                        0,
+                        15,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Audio source",
+                    "Active": 1,
+                    "Bank Name": "",
+                    "Event Name": "",
+                    "Event ID": 0
+                },
+                {
+                    "Type": "NavMesh",
+                    "Active": 1,
+                    "Speed": 0,
+                    "Angular Speed": 0,
+                    "Stopping Distance": 0
+                }
+            ],
+            "Children UID": [
+                1601106026
+            ]
+        },
+        {
+            "Name": "Facehugger_Mesh",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1601106026,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/FBX\/ANIM_CHAR_Facehugger.fbx",
+            "Parent UID": 1024083183,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Mesh",
+                    "Active": 1,
+                    "UID": 1938072413,
+                    "Vertex Count": 5688,
+                    "Index Count": 8340
+                },
+                {
+                    "Type": "Material",
+                    "Active": 1,
+                    "Shader": "Assets\/Shaders\/AnimationShader.glsl",
+                    "Uniforms": [
+                        {
+                            "lightDir": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "lightInt": 1,
+                            "lightColor": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "numLights": 1,
+                            "displayNormalMap": true,
+                            "transparency": 1
+                        }
+                    ],
+                    "Diffuse_ID": 0,
+                    "Diffuse_Path": "Checker Image",
+                    "Diffuse_UID": 0
+                }
+            ]
+        }
+    ]
+}

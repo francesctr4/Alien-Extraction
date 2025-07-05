@@ -1,0 +1,19 @@
+{
+    "Name": "PROP_BackZoneDoor_LowPoly",
+    "Assets Path": "Assets\/FBX\/PROP_BackZoneDoor_LowPoly.fbx",
+    "Library Path": ".\/Library\/Models\/737864527.ymodel",
+    "UID": 737864527,
+    "Type": "Model",
+    "Meshes num": 3,
+    "Meshes Embedded UID": [
+        1775831597,
+        553706122,
+        50896776
+    ],
+    "Resources num": 3,
+    "Resources Embedded UID": [
+        407709715,
+        930067059,
+        217462715
+    ]
+}

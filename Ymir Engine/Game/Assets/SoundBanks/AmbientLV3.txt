@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2317714342	LV3_HeartBeats			\Default Work Unit\Level3\AmbientLV3\LV3_HeartBeats	
+	2858739430	LV3_Veins			\Default Work Unit\Level3\AmbientLV3\LV3_Veins	
+	3203011774	LV3_DistAlienCry			\Default Work Unit\Level3\AmbientLV3\LV3_DistAlienCry	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	159787685	SFX_Environment_Veins	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\Veins_10C4C929.wem		\Actor-Mixer Hierarchy\Reworked Work Unit\Ambient\LV3\SFX_Environment_Veins		5720016
+	979533529	SFX_Environment_Heartbeat	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\Heartbeat_10C4C929.wem		\Actor-Mixer Hierarchy\Reworked Work Unit\Ambient\LV3\SFX_Environment_Heartbeat		4732480
+	1009183910	SFX_Environment_DistantCry	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\Cry_10C4C929.wem		\Actor-Mixer Hierarchy\Reworked Work Unit\Ambient\LV3\SFX_Environment_DistantCry		1039520
+

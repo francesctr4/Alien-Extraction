@@ -1,0 +1,25 @@
+{
+    "Name": "CHAR_Caius_Engine_Fix",
+    "Assets Path": "Assets\/Dialogue\/CHAR_Caius_Engine_Fix.fbx",
+    "Library Path": ".\/Library\/Models\/1691427243.ymodel",
+    "UID": 1691427243,
+    "Type": "Model",
+    "Meshes num": 6,
+    "Meshes Embedded UID": [
+        941943737,
+        1839703468,
+        1607902011,
+        1878093907,
+        1374477559,
+        2111875496
+    ],
+    "Resources num": 6,
+    "Resources Embedded UID": [
+        1684826868,
+        993854924,
+        471698816,
+        245385632,
+        918208881,
+        636027298
+    ]
+}

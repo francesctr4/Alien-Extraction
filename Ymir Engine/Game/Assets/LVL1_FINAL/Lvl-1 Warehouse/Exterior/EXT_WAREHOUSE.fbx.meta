@@ -1,0 +1,23 @@
+{
+    "Name": "EXT_WAREHOUSE",
+    "Assets Path": "Assets\/LVL1_FINAL\/Lvl-1 Warehouse\/Exterior\/EXT_WAREHOUSE.fbx",
+    "Library Path": ".\/Library\/Models\/394896427.ymodel",
+    "UID": 394896427,
+    "Type": "Model",
+    "Meshes num": 5,
+    "Meshes Embedded UID": [
+        963142440,
+        1463026653,
+        400676353,
+        290736188,
+        466229691
+    ],
+    "Resources num": 5,
+    "Resources Embedded UID": [
+        1715873124,
+        1872865923,
+        1171480681,
+        1911001662,
+        643875402
+    ]
+}

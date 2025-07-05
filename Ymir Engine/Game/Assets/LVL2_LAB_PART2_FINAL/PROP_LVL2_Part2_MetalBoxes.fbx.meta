@@ -1,0 +1,25 @@
+{
+    "Name": "PROP_LVL2_Part2_MetalBoxes",
+    "Assets Path": "Assets\/LVL2_LAB_PART2_FINAL\/PROP_LVL2_Part2_MetalBoxes.fbx",
+    "Library Path": ".\/Library\/Models\/2107836948.ymodel",
+    "UID": 2107836948,
+    "Type": "Model",
+    "Meshes num": 6,
+    "Meshes Embedded UID": [
+        1160695004,
+        8394727,
+        1269198336,
+        789009726,
+        1697215209,
+        501993415
+    ],
+    "Resources num": 6,
+    "Resources Embedded UID": [
+        2039896331,
+        1840173201,
+        122650293,
+        569709781,
+        562779738,
+        1888312015
+    ]
+}

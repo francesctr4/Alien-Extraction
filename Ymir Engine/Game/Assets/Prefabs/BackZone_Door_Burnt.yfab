@@ -1,0 +1,601 @@
+{
+    "Prefab": [
+        {
+            "Name": "BackZone_Door_Burnt",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 737864527,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 1020865750,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        0.99999988079071045,
+                        1,
+                        0.99999988079071045
+                    ]
+                },
+                {
+                    "Type": "Material",
+                    "Active": 1,
+                    "Shader": "Assets\/Shaders\/MyShader.glsl",
+                    "Uniforms": [
+                        {
+                            "lightDir": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "lightInt": 1,
+                            "lightColor": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "numLights": 1,
+                            "displayNormalMap": true,
+                            "transparency": 1
+                        }
+                    ],
+                    "Diffuse_ID": 1517,
+                    "Diffuse_Path": "Assets\/Textures\/General_Props\/BackZone_Door\/Burnt\/TEX_PROP_BackZoneDoor_D.png",
+                    "Diffuse_UID": 475149771,
+                    "Specular_ID": 1521,
+                    "Specular_Path": "Assets\/Textures\/General_Props\/BackZone_Door\/Burnt\/TEX_PROP_BackZoneDoor_S.png",
+                    "Specular_UID": 1233326534,
+                    "Normal_ID": 1520,
+                    "Normal_Path": "Assets\/Textures\/General_Props\/BackZone_Door\/Burnt\/TEX_PROP_BackZoneDoor_N.png",
+                    "Normal_UID": 90017096,
+                    "Height_ID": 1519,
+                    "Height_Path": "Assets\/Textures\/General_Props\/BackZone_Door\/Burnt\/TEX_PROP_BackZoneDoor_H.png",
+                    "Height_UID": 576952277,
+                    "Ambient_ID": 1516,
+                    "Ambient_Path": "Assets\/Textures\/General_Props\/BackZone_Door\/Burnt\/TEX_PROP_BackZoneDoor_A.png",
+                    "Ambient_UID": 821916075,
+                    "Emissive_ID": 1518,
+                    "Emissive_Path": "Assets\/Textures\/General_Props\/BackZone_Door\/Burnt\/TEX_PROP_BackZoneDoor_E.png",
+                    "Emissive_UID": 406262089
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "BackZoneDoor.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "unlockAfterOpen": true,
+                    "lockFront": false,
+                    "lockBack": false,
+                    "fraction": 0
+                }
+            ],
+            "Children UID": [
+                50896776,
+                553706122,
+                1775831597,
+                353273149,
+                2061335501,
+                1186450617,
+                331677704,
+                646399621
+            ]
+        },
+        {
+            "Name": "Puerta_L",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 50896776,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/FBX\/PROP_BackZoneDoor_LowPoly.fbx",
+            "Parent UID": 737864527,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -0.42440012097358704,
+                        17.003498077392578,
+                        9.4364595413208008
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Mesh",
+                    "Active": 1,
+                    "UID": 217462715,
+                    "Vertex Count": 44,
+                    "Index Count": 75
+                },
+                {
+                    "Type": "Material",
+                    "Active": 1,
+                    "Shader": "Assets\/Shaders\/MyShader.glsl",
+                    "Uniforms": [
+                        {
+                            "lightDir": [
+                                -69.390953063964844,
+                                16.196561813354492,
+                                -75.571304321289062
+                            ],
+                            "lightInt": 1,
+                            "lightColor": [
+                                1,
+                                1,
+                                1
+                            ],
+                            "numLights": 1,
+                            "displayNormalMap": true,
+                            "transparency": 1
+                        }
+                    ],
+                    "Diffuse_ID": 1517,
+                    "Diffuse_Path": "Assets\/Textures\/General_Props\/BackZone_Door\/Burnt\/TEX_PROP_BackZoneDoor_D.png",
+                    "Diffuse_UID": 475149771,
+                    "Specular_ID": 1521,
+                    "Specular_Path": "Assets\/Textures\/General_Props\/BackZone_Door\/Burnt\/TEX_PROP_BackZoneDoor_S.png",
+                    "Specular_UID": 1233326534,
+                    "Normal_ID": 1520,
+                    "Normal_Path": "Assets\/Textures\/General_Props\/BackZone_Door\/Burnt\/TEX_PROP_BackZoneDoor_N.png",
+                    "Normal_UID": 90017096,
+                    "Height_ID": 1519,
+                    "Height_Path": "Assets\/Textures\/General_Props\/BackZone_Door\/Burnt\/TEX_PROP_BackZoneDoor_H.png",
+                    "Height_UID": 576952277,
+                    "Ambient_ID": 1516,
+                    "Ambient_Path": "Assets\/Textures\/General_Props\/BackZone_Door\/Burnt\/TEX_PROP_BackZoneDoor_A.png",
+                    "Ambient_UID": 821916075,
+                    "Emissive_ID": 1518,
+                    "Emissive_Path": "Assets\/Textures\/General_Props\/BackZone_Door\/Burnt\/TEX_PROP_BackZoneDoor_E.png",
+                    "Emissive_UID": 406262089
+                }
+            ]
+        },
+        {
+            "Name": "Puerta_R",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 553706122,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/FBX\/PROP_BackZoneDoor_LowPoly.fbx",
+            "Parent UID": 737864527,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -0.42440012097358704,
+                        17.003499984741211,
+                        -10.082544326782227
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Mesh",
+                    "Active": 1,
+                    "UID": 930067059,
+                    "Vertex Count": 44,
+                    "Index Count": 78
+                },
+                {
+                    "Type": "Material",
+                    "Active": 1,
+                    "Shader": "Assets\/Shaders\/MyShader.glsl",
+                    "Uniforms": [
+                        {
+                            "lightDir": [
+                                -69.390953063964844,
+                                16.196561813354492,
+                                -75.571304321289062
+                            ],
+                            "lightInt": 1,
+                            "lightColor": [
+                                1,
+                                1,
+                                1
+                            ],
+                            "numLights": 1,
+                            "displayNormalMap": true,
+                            "transparency": 1
+                        }
+                    ],
+                    "Diffuse_ID": 1517,
+                    "Diffuse_Path": "Assets\/Textures\/General_Props\/BackZone_Door\/Burnt\/TEX_PROP_BackZoneDoor_D.png",
+                    "Diffuse_UID": 475149771,
+                    "Specular_ID": 1521,
+                    "Specular_Path": "Assets\/Textures\/General_Props\/BackZone_Door\/Burnt\/TEX_PROP_BackZoneDoor_S.png",
+                    "Specular_UID": 1233326534,
+                    "Normal_ID": 1520,
+                    "Normal_Path": "Assets\/Textures\/General_Props\/BackZone_Door\/Burnt\/TEX_PROP_BackZoneDoor_N.png",
+                    "Normal_UID": 90017096,
+                    "Height_ID": 1519,
+                    "Height_Path": "Assets\/Textures\/General_Props\/BackZone_Door\/Burnt\/TEX_PROP_BackZoneDoor_H.png",
+                    "Height_UID": 576952277,
+                    "Ambient_ID": 1516,
+                    "Ambient_Path": "Assets\/Textures\/General_Props\/BackZone_Door\/Burnt\/TEX_PROP_BackZoneDoor_A.png",
+                    "Ambient_UID": 821916075,
+                    "Emissive_ID": 1518,
+                    "Emissive_Path": "Assets\/Textures\/General_Props\/BackZone_Door\/Burnt\/TEX_PROP_BackZoneDoor_E.png",
+                    "Emissive_UID": 406262089
+                }
+            ]
+        },
+        {
+            "Name": "MarcoPuerta",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1775831597,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/FBX\/PROP_BackZoneDoor_LowPoly.fbx",
+            "Parent UID": 737864527,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0.00010009832476498559,
+                        23.085853576660156,
+                        -0.34003782272338867
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Mesh",
+                    "Active": 1,
+                    "UID": 407709715,
+                    "Vertex Count": 536,
+                    "Index Count": 882
+                },
+                {
+                    "Type": "Material",
+                    "Active": 1,
+                    "Shader": "Assets\/Shaders\/MyShader.glsl",
+                    "Uniforms": [
+                        {
+                            "lightDir": [
+                                -69.390953063964844,
+                                16.196561813354492,
+                                -75.571304321289062
+                            ],
+                            "lightInt": 1,
+                            "lightColor": [
+                                1,
+                                1,
+                                1
+                            ],
+                            "numLights": 1,
+                            "displayNormalMap": true,
+                            "transparency": 1
+                        }
+                    ],
+                    "Diffuse_ID": 1517,
+                    "Diffuse_Path": "Assets\/Textures\/General_Props\/BackZone_Door\/Burnt\/TEX_PROP_BackZoneDoor_D.png",
+                    "Diffuse_UID": 475149771,
+                    "Specular_ID": 1521,
+                    "Specular_Path": "Assets\/Textures\/General_Props\/BackZone_Door\/Burnt\/TEX_PROP_BackZoneDoor_S.png",
+                    "Specular_UID": 1233326534,
+                    "Normal_ID": 1520,
+                    "Normal_Path": "Assets\/Textures\/General_Props\/BackZone_Door\/Burnt\/TEX_PROP_BackZoneDoor_N.png",
+                    "Normal_UID": 90017096,
+                    "Height_ID": 1519,
+                    "Height_Path": "Assets\/Textures\/General_Props\/BackZone_Door\/Burnt\/TEX_PROP_BackZoneDoor_H.png",
+                    "Height_UID": 576952277,
+                    "Ambient_ID": 1516,
+                    "Ambient_Path": "Assets\/Textures\/General_Props\/BackZone_Door\/Burnt\/TEX_PROP_BackZoneDoor_A.png",
+                    "Ambient_UID": 821916075,
+                    "Emissive_ID": 1518,
+                    "Emissive_Path": "Assets\/Textures\/General_Props\/BackZone_Door\/Burnt\/TEX_PROP_BackZoneDoor_E.png",
+                    "Emissive_UID": 406262089
+                }
+            ]
+        },
+        {
+            "Name": "End_Door2",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 353273149,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 737864527,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -0.42399978637695312,
+                        17,
+                        22.423101425170898
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "End_Door1",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 2061335501,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 737864527,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -0.42399978637695312,
+                        17,
+                        -22.048166275024414
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "DoorCollider",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1186450617,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 737864527,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        18.564413070678711,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        19.399999618530273,
+                        43.5,
+                        53.900001525878906
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Sensor1",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 331677704,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 737864527,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        20.225837707519531,
+                        18,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        31.600000381469727,
+                        39.400001525878906,
+                        39.099998474121094
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": true,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "BackZoneDoor_Sensor.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "active": true
+                }
+            ]
+        },
+        {
+            "Name": "Sensor2",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 646399621,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 737864527,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -19.945144653320312,
+                        18,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        31,
+                        39,
+                        39
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": true,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "BackZoneDoor_Sensor.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "active": true
+                }
+            ]
+        }
+    ]
+}

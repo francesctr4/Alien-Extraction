@@ -1,0 +1,21 @@
+{
+    "Name": "CHAR_Boss_Lowpoly",
+    "Assets Path": "Assets\/CHAR_Boss_Lowpoly.fbx",
+    "Library Path": ".\/Library\/Models\/1776195202.ymodel",
+    "UID": 1776195202,
+    "Type": "Model",
+    "Meshes num": 4,
+    "Meshes Embedded UID": [
+        259869820,
+        2120793358,
+        367852894,
+        1479385975
+    ],
+    "Resources num": 4,
+    "Resources Embedded UID": [
+        1674659718,
+        84054802,
+        781687786,
+        907233258
+    ]
+}

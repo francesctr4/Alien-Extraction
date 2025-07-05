@@ -1,0 +1,11 @@
+Cuadro Dialogo: 366x 712y
+
+Option 1: 1320x 188y
+Option 2: 1320x 337y
+Option 3: 1320x 466y
+Option 4: 1320x 605y
+
+Boton 1: 1739x 240y
+Boton 2: 1739x 379y
+Boton 3: 1739x 518y
+Boton 4: 1739x 657y

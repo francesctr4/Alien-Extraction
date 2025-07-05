@@ -1,0 +1,15 @@
+{
+    "Name": "PROP_Trap",
+    "Assets Path": "Assets\/Prefabs\/Meshes\/Trampa_Electrica\/PROP_Trap.fbx",
+    "Library Path": ".\/Library\/Models\/1615510694.ymodel",
+    "UID": 1615510694,
+    "Type": "Model",
+    "Meshes num": 1,
+    "Meshes Embedded UID": [
+        571892309
+    ],
+    "Resources num": 1,
+    "Resources Embedded UID": [
+        1523675278
+    ]
+}

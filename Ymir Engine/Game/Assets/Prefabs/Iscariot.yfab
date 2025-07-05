@@ -1,0 +1,941 @@
+{
+    "Prefab": [
+        {
+            "Name": "Npc_Placeholder",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1086457827,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1950834715,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        92.156044006347656,
+                        4.4847474098205566,
+                        -20.907581329345703
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1.1699994802474976,
+                        1.1699999570846558,
+                        1.1699994802474976
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        11.300000190734863,
+                        21.799999237060547,
+                        10.399999618530273
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": true,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0.10000000149011612,
+                        -2.9000000953674316
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Caius.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "dialogue_": 0
+                }
+            ],
+            "Children UID": [
+                2007459757,
+                1522841663
+            ]
+        },
+        {
+            "Name": "FBX_Iscariot",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 2007459757,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 1086457827,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        -3.9453041553497314,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        0.099999994039535522,
+                        0.10000000149011612,
+                        0.099999994039535522
+                    ]
+                },
+                {
+                    "Type": "Animation",
+                    "Active": 1,
+                    "NumPaths": 2,
+                    "Paths": [
+                        ".\/Assets\/Iscariot_Angry.yanim",
+                        ".\/Assets\/Iscariot_Idle.yanim"
+                    ],
+                    "UIDs": [
+                        261729160,
+                        1968643081
+                    ]
+                }
+            ],
+            "Children UID": [
+                1354615984,
+                1183260235,
+                620329559,
+                481632131,
+                526523181,
+                1655158422,
+                338534348
+            ]
+        },
+        {
+            "Name": "worm6",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1354615984,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/Dialogue\/Iscariot\/FBX_Iscariot.fbx",
+            "Parent UID": 2007459757,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -14.489720344543457,
+                        131.43690490722656,
+                        -15.176079750061035
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "Children UID": [
+                1215516131
+            ]
+        },
+        {
+            "Name": "worm5",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1215516131,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/Dialogue\/Iscariot\/FBX_Iscariot.fbx",
+            "Parent UID": 1354615984,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        3.5756430625915527,
+                        7.5639338493347168,
+                        -6.3082518577575684
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "Children UID": [
+                338986856
+            ]
+        },
+        {
+            "Name": "worm4",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 338986856,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/Dialogue\/Iscariot\/FBX_Iscariot.fbx",
+            "Parent UID": 1215516131,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        1.1834540367126465,
+                        9.8844757080078125,
+                        3.1741769313812256
+                    ],
+                    "Rotation": [
+                        -2.2451977729797363,
+                        0.18273282051086426,
+                        0.43568322062492371
+                    ],
+                    "Scale": [
+                        0.99999994039535522,
+                        0.99999994039535522,
+                        0.99999982118606567
+                    ]
+                }
+            ],
+            "Children UID": [
+                1085604023
+            ]
+        },
+        {
+            "Name": "worm3",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1085604023,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/Dialogue\/Iscariot\/FBX_Iscariot.fbx",
+            "Parent UID": 338986856,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -5.1283001899719238,
+                        5.341576099395752,
+                        3.0423920154571533
+                    ],
+                    "Rotation": [
+                        2.0803232192993164,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        0.9999997615814209,
+                        0.99999982118606567
+                    ]
+                }
+            ],
+            "Children UID": [
+                325946831
+            ]
+        },
+        {
+            "Name": "worm2",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 325946831,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/Dialogue\/Iscariot\/FBX_Iscariot.fbx",
+            "Parent UID": 1085604023,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -7.4952068328857422,
+                        6.3974118232727051,
+                        8.6272754669189453
+                    ],
+                    "Rotation": [
+                        -0,
+                        1.781898021697998,
+                        -0
+                    ],
+                    "Scale": [
+                        0.99999988079071045,
+                        0.99999988079071045,
+                        0.99999988079071045
+                    ]
+                }
+            ],
+            "Children UID": [
+                92400837
+            ]
+        },
+        {
+            "Name": "worm1",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 92400837,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/Dialogue\/Iscariot\/FBX_Iscariot.fbx",
+            "Parent UID": 325946831,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -4.1412920951843262,
+                        -2.9077699184417725,
+                        8.372645378112793
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        0.99999988079071045,
+                        1
+                    ]
+                }
+            ],
+            "Children UID": [
+                785385177
+            ]
+        },
+        {
+            "Name": "worm1_end",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 785385177,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/Dialogue\/Iscariot\/FBX_Iscariot.fbx",
+            "Parent UID": 92400837,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        9.7829742431640625,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Isc_HEAD",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1183260235,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/Dialogue\/Iscariot\/FBX_Iscariot.fbx",
+            "Parent UID": 2007459757,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Mesh",
+                    "Active": 1,
+                    "UID": 20881660,
+                    "Vertex Count": 392,
+                    "Index Count": 1905
+                },
+                {
+                    "Type": "Material",
+                    "Active": 1,
+                    "Shader": "Assets\/Shaders\/AnimationShader.glsl",
+                    "Uniforms": [
+                        {
+                            "lightDir": [
+                                0,
+                                16.196561813354492,
+                                -3.8318030834197998
+                            ],
+                            "lightInt": 1,
+                            "lightColor": [
+                                1,
+                                1,
+                                1
+                            ],
+                            "numLights": 1,
+                            "displayNormalMap": false,
+                            "transparency": 1,
+                            "setColor": false,
+                            "weaponColor": [
+                                0,
+                                0,
+                                0
+                            ]
+                        }
+                    ],
+                    "Diffuse_ID": 196,
+                    "Diffuse_Path": "Assets\/Dialogue\/Iscariot\/Textures\/TEX_CHAR_Iscariot_D.png",
+                    "Diffuse_UID": 1020427562,
+                    "Specular_ID": 1391,
+                    "Specular_Path": "Assets\/Dialogue\/Iscariot\/Textures\/TEX_CHAR_Iscariot_S.png",
+                    "Specular_UID": 351820814,
+                    "Normal_ID": 1389,
+                    "Normal_Path": "Assets\/Dialogue\/Iscariot\/Textures\/TEX_CHAR_Iscariot_N.png",
+                    "Normal_UID": 86408228,
+                    "Height_ID": 1387,
+                    "Height_Path": "Assets\/Dialogue\/Iscariot\/Textures\/TEX_CHAR_Iscariot_H.png",
+                    "Height_UID": 2051765822,
+                    "Emissive_ID": 200,
+                    "Emissive_Path": "Assets\/Dialogue\/Iscariot\/Textures\/TEX_CHAR_Iscariot_E.png",
+                    "Emissive_UID": 2036212740
+                }
+            ]
+        },
+        {
+            "Name": "Isc_Mono",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 620329559,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/Dialogue\/Iscariot\/FBX_Iscariot.fbx",
+            "Parent UID": 2007459757,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        0.99999988079071045,
+                        0.99999988079071045
+                    ]
+                },
+                {
+                    "Type": "Mesh",
+                    "Active": 1,
+                    "UID": 744281250,
+                    "Vertex Count": 1660,
+                    "Index Count": 4956
+                },
+                {
+                    "Type": "Material",
+                    "Active": 1,
+                    "Shader": "Assets\/Shaders\/AnimationShader.glsl",
+                    "Uniforms": [
+                        {
+                            "lightDir": [
+                                0,
+                                16.196561813354492,
+                                -3.8318030834197998
+                            ],
+                            "lightInt": 1,
+                            "lightColor": [
+                                1,
+                                1,
+                                1
+                            ],
+                            "numLights": 1,
+                            "displayNormalMap": false,
+                            "transparency": 1,
+                            "setColor": false,
+                            "weaponColor": [
+                                0,
+                                0,
+                                0
+                            ]
+                        }
+                    ],
+                    "Diffuse_ID": 196,
+                    "Diffuse_Path": "Assets\/Dialogue\/Iscariot\/Textures\/TEX_CHAR_Iscariot_D.png",
+                    "Diffuse_UID": 1020427562,
+                    "Specular_ID": 1391,
+                    "Specular_Path": "Assets\/Dialogue\/Iscariot\/Textures\/TEX_CHAR_Iscariot_S.png",
+                    "Specular_UID": 351820814,
+                    "Normal_ID": 1389,
+                    "Normal_Path": "Assets\/Dialogue\/Iscariot\/Textures\/TEX_CHAR_Iscariot_N.png",
+                    "Normal_UID": 86408228,
+                    "Height_ID": 1387,
+                    "Height_Path": "Assets\/Dialogue\/Iscariot\/Textures\/TEX_CHAR_Iscariot_H.png",
+                    "Height_UID": 2051765822,
+                    "Emissive_ID": 200,
+                    "Emissive_Path": "Assets\/Dialogue\/Iscariot\/Textures\/TEX_CHAR_Iscariot_E.png",
+                    "Emissive_UID": 2036212740
+                }
+            ]
+        },
+        {
+            "Name": "Isc_Body",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 481632131,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/Dialogue\/Iscariot\/FBX_Iscariot.fbx",
+            "Parent UID": 2007459757,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        0.99999988079071045,
+                        0.99999988079071045
+                    ]
+                },
+                {
+                    "Type": "Mesh",
+                    "Active": 1,
+                    "UID": 1226367636,
+                    "Vertex Count": 2270,
+                    "Index Count": 7659
+                },
+                {
+                    "Type": "Material",
+                    "Active": 1,
+                    "Shader": "Assets\/Shaders\/AnimationShader.glsl",
+                    "Uniforms": [
+                        {
+                            "lightDir": [
+                                0,
+                                16.196561813354492,
+                                -3.8318030834197998
+                            ],
+                            "lightInt": 1,
+                            "lightColor": [
+                                1,
+                                1,
+                                1
+                            ],
+                            "numLights": 1,
+                            "displayNormalMap": false,
+                            "transparency": 1,
+                            "setColor": false,
+                            "weaponColor": [
+                                0,
+                                0,
+                                0
+                            ]
+                        }
+                    ],
+                    "Diffuse_ID": 196,
+                    "Diffuse_Path": "Assets\/Dialogue\/Iscariot\/Textures\/TEX_CHAR_Iscariot_D.png",
+                    "Diffuse_UID": 1020427562,
+                    "Specular_ID": 1391,
+                    "Specular_Path": "Assets\/Dialogue\/Iscariot\/Textures\/TEX_CHAR_Iscariot_S.png",
+                    "Specular_UID": 351820814,
+                    "Normal_ID": 1389,
+                    "Normal_Path": "Assets\/Dialogue\/Iscariot\/Textures\/TEX_CHAR_Iscariot_N.png",
+                    "Normal_UID": 86408228,
+                    "Height_ID": 1387,
+                    "Height_Path": "Assets\/Dialogue\/Iscariot\/Textures\/TEX_CHAR_Iscariot_H.png",
+                    "Height_UID": 2051765822,
+                    "Emissive_ID": 200,
+                    "Emissive_Path": "Assets\/Dialogue\/Iscariot\/Textures\/TEX_CHAR_Iscariot_E.png",
+                    "Emissive_UID": 2036212740
+                }
+            ]
+        },
+        {
+            "Name": "BezierCurve",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 526523181,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/Dialogue\/Iscariot\/FBX_Iscariot.fbx",
+            "Parent UID": 2007459757,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Mesh",
+                    "Active": 1,
+                    "UID": 1599752705,
+                    "Vertex Count": 1709,
+                    "Index Count": 6456
+                },
+                {
+                    "Type": "Material",
+                    "Active": 1,
+                    "Shader": "Assets\/Shaders\/AnimationShader.glsl",
+                    "Uniforms": [
+                        {
+                            "lightDir": [
+                                0,
+                                16.196561813354492,
+                                -3.8318030834197998
+                            ],
+                            "lightInt": 1,
+                            "lightColor": [
+                                1,
+                                1,
+                                1
+                            ],
+                            "numLights": 1,
+                            "displayNormalMap": false,
+                            "transparency": 1,
+                            "setColor": false,
+                            "weaponColor": [
+                                0,
+                                0,
+                                0
+                            ]
+                        }
+                    ],
+                    "Diffuse_ID": 196,
+                    "Diffuse_Path": "Assets\/Dialogue\/Iscariot\/Textures\/TEX_CHAR_Iscariot_D.png",
+                    "Diffuse_UID": 1020427562,
+                    "Specular_ID": 1391,
+                    "Specular_Path": "Assets\/Dialogue\/Iscariot\/Textures\/TEX_CHAR_Iscariot_S.png",
+                    "Specular_UID": 351820814,
+                    "Normal_ID": 1389,
+                    "Normal_Path": "Assets\/Dialogue\/Iscariot\/Textures\/TEX_CHAR_Iscariot_N.png",
+                    "Normal_UID": 86408228,
+                    "Height_ID": 1387,
+                    "Height_Path": "Assets\/Dialogue\/Iscariot\/Textures\/TEX_CHAR_Iscariot_H.png",
+                    "Height_UID": 2051765822,
+                    "Emissive_ID": 200,
+                    "Emissive_Path": "Assets\/Dialogue\/Iscariot\/Textures\/TEX_CHAR_Iscariot_E.png",
+                    "Emissive_UID": 2036212740
+                }
+            ]
+        },
+        {
+            "Name": "Isc_Neck",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1655158422,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/Dialogue\/Iscariot\/FBX_Iscariot.fbx",
+            "Parent UID": 2007459757,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Mesh",
+                    "Active": 1,
+                    "UID": 531550316,
+                    "Vertex Count": 47,
+                    "Index Count": 168
+                },
+                {
+                    "Type": "Material",
+                    "Active": 1,
+                    "Shader": "Assets\/Shaders\/AnimationShader.glsl",
+                    "Uniforms": [
+                        {
+                            "lightDir": [
+                                0,
+                                16.196561813354492,
+                                -3.8318030834197998
+                            ],
+                            "lightInt": 1,
+                            "lightColor": [
+                                1,
+                                1,
+                                1
+                            ],
+                            "numLights": 1,
+                            "displayNormalMap": false,
+                            "transparency": 1,
+                            "setColor": false,
+                            "weaponColor": [
+                                0,
+                                0,
+                                0
+                            ]
+                        }
+                    ],
+                    "Diffuse_ID": 196,
+                    "Diffuse_Path": "Assets\/Dialogue\/Iscariot\/Textures\/TEX_CHAR_Iscariot_D.png",
+                    "Diffuse_UID": 1020427562,
+                    "Specular_ID": 1391,
+                    "Specular_Path": "Assets\/Dialogue\/Iscariot\/Textures\/TEX_CHAR_Iscariot_S.png",
+                    "Specular_UID": 351820814,
+                    "Normal_ID": 1389,
+                    "Normal_Path": "Assets\/Dialogue\/Iscariot\/Textures\/TEX_CHAR_Iscariot_N.png",
+                    "Normal_UID": 86408228,
+                    "Height_ID": 1387,
+                    "Height_Path": "Assets\/Dialogue\/Iscariot\/Textures\/TEX_CHAR_Iscariot_H.png",
+                    "Height_UID": 2051765822,
+                    "Emissive_ID": 200,
+                    "Emissive_Path": "Assets\/Dialogue\/Iscariot\/Textures\/TEX_CHAR_Iscariot_E.png",
+                    "Emissive_UID": 2036212740
+                }
+            ]
+        },
+        {
+            "Name": "Isc_Eyes",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 338534348,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/Dialogue\/Iscariot\/FBX_Iscariot.fbx",
+            "Parent UID": 2007459757,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Mesh",
+                    "Active": 1,
+                    "UID": 142783379,
+                    "Vertex Count": 1079,
+                    "Index Count": 3816
+                },
+                {
+                    "Type": "Material",
+                    "Active": 1,
+                    "Shader": "Assets\/Shaders\/AnimationShader.glsl",
+                    "Uniforms": [
+                        {
+                            "lightDir": [
+                                0,
+                                16.196561813354492,
+                                -3.8318030834197998
+                            ],
+                            "lightInt": 1,
+                            "lightColor": [
+                                1,
+                                1,
+                                1
+                            ],
+                            "numLights": 1,
+                            "displayNormalMap": false,
+                            "transparency": 1,
+                            "setColor": false,
+                            "weaponColor": [
+                                0,
+                                0,
+                                0
+                            ]
+                        }
+                    ],
+                    "Diffuse_ID": 196,
+                    "Diffuse_Path": "Assets\/Dialogue\/Iscariot\/Textures\/TEX_CHAR_Iscariot_D.png",
+                    "Diffuse_UID": 1020427562,
+                    "Specular_ID": 1391,
+                    "Specular_Path": "Assets\/Dialogue\/Iscariot\/Textures\/TEX_CHAR_Iscariot_S.png",
+                    "Specular_UID": 351820814,
+                    "Normal_ID": 1389,
+                    "Normal_Path": "Assets\/Dialogue\/Iscariot\/Textures\/TEX_CHAR_Iscariot_N.png",
+                    "Normal_UID": 86408228,
+                    "Height_ID": 1387,
+                    "Height_Path": "Assets\/Dialogue\/Iscariot\/Textures\/TEX_CHAR_Iscariot_H.png",
+                    "Height_UID": 2051765822,
+                    "Emissive_ID": 200,
+                    "Emissive_Path": "Assets\/Dialogue\/Iscariot\/Textures\/TEX_CHAR_Iscariot_E.png",
+                    "Emissive_UID": 2036212740
+                }
+            ]
+        },
+        {
+            "Name": "Pop-Up",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1522841663,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 1086457827,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        20.895999908447266,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        6.4102587699890137,
+                        6.4102559089660645,
+                        6.4102597236633301
+                    ]
+                }
+            ],
+            "Children UID": [
+                1520000699
+            ]
+        },
+        {
+            "Name": "Cube (2)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1520000699,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/Primitives\/Cube.fbx",
+            "Parent UID": 1522841663,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Mesh",
+                    "Active": 1,
+                    "UID": 1728623793,
+                    "Vertex Count": 24,
+                    "Index Count": 36
+                },
+                {
+                    "Type": "Material",
+                    "Active": 1,
+                    "Shader": "Assets\/Shaders\/DefaultShader.glsl",
+                    "Uniforms": [
+                        {}
+                    ],
+                    "Diffuse_ID": 656,
+                    "Diffuse_Path": "Assets\/Prefabs\/x_ps4_PROVISIONAL.png",
+                    "Diffuse_UID": 962411016
+                }
+            ]
+        }
+    ]
+}

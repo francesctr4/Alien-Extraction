@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	368736514	QX_Egghatch			\Default Work Unit\Enemies\QueenXenomorph\QX_Egghatch	
+	1375369856	QX_TailMove			\Default Work Unit\Enemies\QueenXenomorph\QX_TailMove	
+	1976728978	QX_TailHit			\Default Work Unit\Enemies\QueenXenomorph\QX_TailHit	
+	2449904509	QX_Puddle			\Default Work Unit\Enemies\QueenXenomorph\QX_Puddle	
+	2475171950	QX_Acid			\Default Work Unit\Enemies\QueenXenomorph\QX_Acid	
+	3729983792	QX_Claw			\Default Work Unit\Enemies\QueenXenomorph\QX_Claw	
+	3788417510	QX_Move			\Default Work Unit\Enemies\QueenXenomorph\QX_Move	
+	3895141477	QX_Death			\Default Work Unit\Enemies\QueenXenomorph\QX_Death	
+	4211173799	QX_Cry			\Default Work Unit\Enemies\QueenXenomorph\QX_Cry	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	67516328	SFX_ENEMY_Egghatch	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SFX_ENEMY_Egghatch_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\QueenXenomorph\SFX_ENEMY_Egghatch		252972
+	79142333	SFX_ANIM_ENEMY_QX_TailHit	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\QX_TailHit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\QueenXenomorph\SFX_ANIM_ENEMY_QX_TailHit		140668
+	168298090	SFX_ENEMY_QX_Puddle	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\QX_Puddle_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\QueenXenomorph\SFX_ENEMY_QX_Puddle		465932
+	259153102	SFX_ANIM_ENEMY_QX_Cry	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\QX_Cry_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\QueenXenomorph\SFX_ANIM_ENEMY_QX_Cry		786704
+	378892935	SFX_ANIM_ENEMY_QX_Move	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\QX_Move_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\QueenXenomorph\SFX_ANIM_ENEMY_QX_Move		268856
+	532574631	SFX_ANIM_ENEMY_QX_Acid	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\QX_Acid_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\QueenXenomorph\SFX_ANIM_ENEMY_QX_Acid		224184
+	590935653	SFX_ANIM_ENEMY_QX_Death	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\QX_Death_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\QueenXenomorph\SFX_ANIM_ENEMY_QX_Death		413344
+	601489919	SFX_ANIM_ENEMY_QX_TailMove	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\QX_TailMove_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\QueenXenomorph\SFX_ANIM_ENEMY_QX_TailMove		128264
+	665670989	SFX_ANIM_ENEMY_QX_Claw	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\QX_Claw_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\QueenXenomorph\SFX_ANIM_ENEMY_QX_Claw		312060
+

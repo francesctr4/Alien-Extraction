@@ -1,0 +1,4256 @@
+{
+    "Prefab": [
+        {
+            "Name": "Colliders",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1161519485,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 113583646,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "Children UID": [
+                497719399,
+                533678724,
+                1406860257,
+                2126733736,
+                430181746,
+                1220049819,
+                162232428,
+                1175693634,
+                563740547,
+                2077340825,
+                1251981863,
+                680300491,
+                1047108101,
+                1575648898,
+                2019727731,
+                1126156657,
+                1867320441,
+                1280462183,
+                304602485,
+                289039142,
+                1201849357,
+                545795739,
+                1308971265,
+                2000825206,
+                495169847,
+                1925764416,
+                1582850349,
+                1704824001,
+                1200675990,
+                2000358723,
+                784760,
+                1806120877,
+                1879982993,
+                376456832,
+                385392999,
+                868090536,
+                233270979,
+                621089396,
+                2118148252,
+                2095983062,
+                170929881,
+                909524161,
+                268110836,
+                1076223112,
+                43702548,
+                940288155,
+                1842106730,
+                1350067807,
+                2126472510,
+                885685770,
+                220725380,
+                680929080,
+                1385403946,
+                1336399827,
+                508705281,
+                977553183,
+                854609485,
+                620196364,
+                2061895262,
+                1469739108,
+                73664833,
+                638709459,
+                1075382451,
+                1286832322,
+                266733634
+            ]
+        },
+        {
+            "Name": "Floor",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 497719399,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        547.893798828125,
+                        -1,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        360.67431640625,
+                        2,
+                        196.215576171875
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        5,
+                        5,
+                        5
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (61)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 533678724,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        1049.632568359375,
+                        15,
+                        144.73947143554688
+                    ],
+                    "Rotation": [
+                        -0,
+                        2.5000011920928955,
+                        -0
+                    ],
+                    "Scale": [
+                        10,
+                        10,
+                        10
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        12.100000381469727,
+                        5,
+                        5
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (1)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1406860257,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        1045.9769287109375,
+                        20,
+                        -32.399982452392578
+                    ],
+                    "Rotation": [
+                        -0,
+                        2.0000002384185791,
+                        -0
+                    ],
+                    "Scale": [
+                        10,
+                        10,
+                        10
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        9.1999998092651367,
+                        5,
+                        2
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (2)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 2126733736,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        1097.22021484375,
+                        15,
+                        50.855781555175781
+                    ],
+                    "Rotation": [
+                        -0,
+                        2.8310244083404541,
+                        -0
+                    ],
+                    "Scale": [
+                        10,
+                        10,
+                        10
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        1.3999999761581421,
+                        5,
+                        17.200000762939453
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (4)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 430181746,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        937.3914794921875,
+                        20,
+                        109.36135864257812
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        18.124687194824219,
+                        10,
+                        10
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        5.1999998092651367,
+                        5,
+                        5
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (5)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1220049819,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        996.14288330078125,
+                        20,
+                        111.36872863769531
+                    ],
+                    "Rotation": [
+                        -0,
+                        26.279104232788086,
+                        -0
+                    ],
+                    "Scale": [
+                        0.99999964237213135,
+                        10,
+                        11.415942192077637
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        5,
+                        5,
+                        5
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (6)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 162232428,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        991.3668212890625,
+                        20,
+                        -2.3053297996520996
+                    ],
+                    "Rotation": [
+                        0,
+                        -27.173196792602539,
+                        0
+                    ],
+                    "Scale": [
+                        1.5887982845306396,
+                        10,
+                        8.5958280563354492
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        5,
+                        5,
+                        7
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (7)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1175693634,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        936.831787109375,
+                        20,
+                        19.198160171508789
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        19.209827423095703,
+                        10,
+                        2.9055209159851074
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        4.6999998092651367,
+                        5,
+                        5
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (8)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 563740547,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        888.553955078125,
+                        20,
+                        -33.096607208251953
+                    ],
+                    "Rotation": [
+                        -0,
+                        30.536731719970703,
+                        -0
+                    ],
+                    "Scale": [
+                        15.723445892333984,
+                        11.794938087463379,
+                        16.214860916137695
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        5,
+                        5,
+                        5.5
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (9)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 2077340825,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        6.654541015625,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (10)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1251981863,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        991.330810546875,
+                        20,
+                        -71.065910339355469
+                    ],
+                    "Rotation": [
+                        -0,
+                        33.754013061523438,
+                        -0
+                    ],
+                    "Scale": [
+                        10,
+                        10,
+                        10
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        13.800000190734863,
+                        5,
+                        1.7000000476837158
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (11)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 680300491,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        1040.786376953125,
+                        14.722101211547852,
+                        -158.90431213378906
+                    ],
+                    "Rotation": [
+                        -0,
+                        31.327005386352539,
+                        -0
+                    ],
+                    "Scale": [
+                        15.10250186920166,
+                        10,
+                        10.000002861022949
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        5,
+                        5,
+                        5
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (12)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1047108101,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        970.611572265625,
+                        15,
+                        -217.6068115234375
+                    ],
+                    "Rotation": [
+                        0,
+                        -31.649332046508789,
+                        0
+                    ],
+                    "Scale": [
+                        19.333002090454102,
+                        10,
+                        9.8279895782470703
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        5,
+                        5,
+                        5.5
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (13)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1575648898,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        1002.8005981445312,
+                        15,
+                        -260.39459228515625
+                    ],
+                    "Rotation": [
+                        5.0497883652411701e-10,
+                        34.174037933349609,
+                        -2.836507972947544e-10
+                    ],
+                    "Scale": [
+                        10.000015258789062,
+                        10,
+                        10.000001907348633
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        1.3999999761581421,
+                        5,
+                        15
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (14)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 2019727731,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        925.0350341796875,
+                        15,
+                        -300.58053588867188
+                    ],
+                    "Rotation": [
+                        -0,
+                        29.194099426269531,
+                        -0
+                    ],
+                    "Scale": [
+                        23.768783569335938,
+                        9.8999996185302734,
+                        9.9000034332275391
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        4.4000000953674316,
+                        5,
+                        5
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (15)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1126156657,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        849.0474853515625,
+                        15,
+                        -219.77656555175781
+                    ],
+                    "Rotation": [
+                        0,
+                        -35.474998474121094,
+                        0
+                    ],
+                    "Scale": [
+                        10,
+                        10,
+                        10
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        1,
+                        5,
+                        12.699999809265137
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (16)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1867320441,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        747.7420654296875,
+                        15,
+                        -185.36378479003906
+                    ],
+                    "Rotation": [
+                        -0,
+                        27.591022491455078,
+                        -0
+                    ],
+                    "Scale": [
+                        10.049942970275879,
+                        10.049935340881348,
+                        25.234493255615234
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        7.8000001907348633,
+                        5,
+                        9.75
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (17)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1280462183,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        891.3486328125,
+                        15,
+                        -172.12162780761719
+                    ],
+                    "Rotation": [
+                        -0,
+                        34.310001373291016,
+                        -0
+                    ],
+                    "Scale": [
+                        10.000002861022949,
+                        10,
+                        10
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        12.800000190734863,
+                        5,
+                        0.60000002384185791
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (20)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 304602485,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        675.7139892578125,
+                        3.0465620511677116e-05,
+                        -24.508533477783203
+                    ],
+                    "Rotation": [
+                        -0,
+                        32.524993896484375,
+                        -0
+                    ],
+                    "Scale": [
+                        22.896018981933594,
+                        22.895999908447266,
+                        22.896018981933594
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        6.8000001907348633,
+                        5,
+                        16.5
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (21)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 289039142,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        532.0950927734375,
+                        2.5764053134480491e-05,
+                        -155.49595642089844
+                    ],
+                    "Rotation": [
+                        -0,
+                        32.219806671142578,
+                        -0
+                    ],
+                    "Scale": [
+                        16.352008819580078,
+                        16.352001190185547,
+                        16.352008819580078
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        9.3000001907348633,
+                        5,
+                        2.2000000476837158
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (22)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1201849357,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        485.90878295898438,
+                        15,
+                        -18.500333786010742
+                    ],
+                    "Rotation": [
+                        -0,
+                        34.476009368896484,
+                        -0
+                    ],
+                    "Scale": [
+                        10.000003814697266,
+                        10,
+                        10.000003814697266
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        10.100000381469727,
+                        5,
+                        12
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (23)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 545795739,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        630.74951171875,
+                        15,
+                        -311.17184448242188
+                    ],
+                    "Rotation": [
+                        -0,
+                        33.201866149902344,
+                        -0
+                    ],
+                    "Scale": [
+                        10.000032424926758,
+                        10,
+                        10.000032424926758
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        5,
+                        5,
+                        9.8999996185302734
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (24)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1308971265,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        560.18328857421875,
+                        15,
+                        -293.12542724609375
+                    ],
+                    "Rotation": [
+                        -0,
+                        32.644962310791016,
+                        -0
+                    ],
+                    "Scale": [
+                        10.000001907348633,
+                        10,
+                        10.000001907348633
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        9.1999998092651367,
+                        5,
+                        1.7000000476837158
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (25)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 2000825206,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        478.871337890625,
+                        15,
+                        -215.02220153808594
+                    ],
+                    "Rotation": [
+                        -0,
+                        32.118782043457031,
+                        -0
+                    ],
+                    "Scale": [
+                        10.530007362365723,
+                        10.529999732971191,
+                        10.530007362365723
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        14.800000190734863,
+                        5,
+                        5
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (26)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 495169847,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        303.98043823242188,
+                        -6.103515625e-05,
+                        -267.24493408203125
+                    ],
+                    "Rotation": [
+                        -0,
+                        33.830162048339844,
+                        -0
+                    ],
+                    "Scale": [
+                        10.110000610351562,
+                        10.109999656677246,
+                        10.110000610351562
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        2.0999999046325684,
+                        10,
+                        30.200000762939453
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (27)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1925764416,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        106.54273223876953,
+                        0,
+                        -323.19400024414062
+                    ],
+                    "Rotation": [
+                        -0,
+                        32.402667999267578,
+                        -0
+                    ],
+                    "Scale": [
+                        10.510003089904785,
+                        10.510000228881836,
+                        10.510003089904785
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        20.899999618530273,
+                        10,
+                        5
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (28)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1582850349,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        72.945274353027344,
+                        0,
+                        -196.71788024902344
+                    ],
+                    "Rotation": [
+                        -0,
+                        32.678382873535156,
+                        -0
+                    ],
+                    "Scale": [
+                        9.8800010681152344,
+                        9.880000114440918,
+                        9.8800010681152344
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        6.8000001907348633,
+                        10,
+                        10
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (29)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1704824001,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        376.73129272460938,
+                        0,
+                        -131.755126953125
+                    ],
+                    "Rotation": [
+                        0,
+                        -34.98199462890625,
+                        0
+                    ],
+                    "Scale": [
+                        10.060007095336914,
+                        10.059999465942383,
+                        10.060007095336914
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        1,
+                        10,
+                        6.3000001907348633
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (30)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1200675990,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        11.635519027709961,
+                        15,
+                        -81.563491821289062
+                    ],
+                    "Rotation": [
+                        -0,
+                        32.866432189941406,
+                        -0
+                    ],
+                    "Scale": [
+                        9.8700027465820312,
+                        9.8699989318847656,
+                        9.8700027465820312
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        17.100000381469727,
+                        5,
+                        5
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (31)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 2000358723,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -22.65580940246582,
+                        15,
+                        22.26399040222168
+                    ],
+                    "Rotation": [
+                        -0,
+                        32.775012969970703,
+                        -0
+                    ],
+                    "Scale": [
+                        10.035996437072754,
+                        10.035999298095703,
+                        10.035996437072754
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        2.4000000953674316,
+                        5,
+                        7.4000000953674316
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (32)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 784760,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        85.486579895019531,
+                        15,
+                        -0.7041935920715332
+                    ],
+                    "Rotation": [
+                        -0,
+                        33.474575042724609,
+                        -0
+                    ],
+                    "Scale": [
+                        10.01160717010498,
+                        10.011599540710449,
+                        10.01160717010498
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        17.799999237060547,
+                        5,
+                        5
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (33)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1806120877,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        232.57809448242188,
+                        15,
+                        29.069252014160156
+                    ],
+                    "Rotation": [
+                        -0,
+                        33.664794921875,
+                        -0
+                    ],
+                    "Scale": [
+                        10.430000305175781,
+                        10.429999351501465,
+                        10.430000305175781
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        7.8000001907348633,
+                        5,
+                        2.4000000953674316
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (34)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1879982993,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        141.15254211425781,
+                        15,
+                        68.782920837402344
+                    ],
+                    "Rotation": [
+                        -0,
+                        32.655452728271484,
+                        -0
+                    ],
+                    "Scale": [
+                        10.237200736999512,
+                        10.237199783325195,
+                        10.237200736999512
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        12.199999809265137,
+                        5,
+                        5
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (35)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 376456832,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        131.71702575683594,
+                        15,
+                        134.27342224121094
+                    ],
+                    "Rotation": [
+                        -0,
+                        33.63800048828125,
+                        -0
+                    ],
+                    "Scale": [
+                        10.023306846618652,
+                        10.023300170898438,
+                        10.023306846618652
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        4.9000000953674316,
+                        5,
+                        4.6999998092651367
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (36)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 385392999,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        60.985877990722656,
+                        15,
+                        111.96337127685547
+                    ],
+                    "Rotation": [
+                        -0,
+                        32.450218200683594,
+                        -0
+                    ],
+                    "Scale": [
+                        10.19000244140625,
+                        10.189999580383301,
+                        10.19000244140625
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        6.0999999046325684,
+                        5,
+                        1.3999999761581421
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (37)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 868090536,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        58.450355529785156,
+                        15,
+                        146.88102722167969
+                    ],
+                    "Rotation": [
+                        -0,
+                        32.579330444335938,
+                        -0
+                    ],
+                    "Scale": [
+                        8.2299985885620117,
+                        8.2299995422363281,
+                        8.2299985885620117
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        1.1000000238418579,
+                        5,
+                        5
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (38)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 233270979,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        100.62715911865234,
+                        0,
+                        184.21080017089844
+                    ],
+                    "Rotation": [
+                        -0,
+                        34.120071411132812,
+                        -0
+                    ],
+                    "Scale": [
+                        10.000005722045898,
+                        10,
+                        10.000005722045898
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        2.7999999523162842,
+                        5,
+                        7.6999998092651367
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (39)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 621089396,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        240.37055969238281,
+                        15,
+                        267.54010009765625
+                    ],
+                    "Rotation": [
+                        -0,
+                        32.4276123046875,
+                        -0
+                    ],
+                    "Scale": [
+                        10.422897338867188,
+                        10.42289924621582,
+                        10.422897338867188
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        6.6999998092651367,
+                        5,
+                        24.399999618530273
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (40)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 2118148252,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        221.79443359375,
+                        15,
+                        189.81108093261719
+                    ],
+                    "Rotation": [
+                        -0,
+                        32.144874572753906,
+                        -0
+                    ],
+                    "Scale": [
+                        10.436304092407227,
+                        10.436301231384277,
+                        10.436304092407227
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        3.4000000953674316,
+                        5,
+                        7.5999999046325684
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (41)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 2095983062,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        363.54745483398438,
+                        14.99993896484375,
+                        101.22969055175781
+                    ],
+                    "Rotation": [
+                        0,
+                        -35.509044647216797,
+                        0
+                    ],
+                    "Scale": [
+                        10.200006484985352,
+                        10.199999809265137,
+                        10.200006484985352
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        11.5,
+                        5,
+                        15.399999618530273
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (42)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 170929881,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        273.63958740234375,
+                        15,
+                        76.817207336425781
+                    ],
+                    "Rotation": [
+                        -0,
+                        33.512683868408203,
+                        -0
+                    ],
+                    "Scale": [
+                        10.278604507446289,
+                        10.278600692749023,
+                        10.278604507446289
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        7.3000001907348633,
+                        5,
+                        2.7999999523162842
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (43)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 909524161,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        314.66650390625,
+                        15,
+                        67.553993225097656
+                    ],
+                    "Rotation": [
+                        0,
+                        -2.6234006881713867,
+                        0
+                    ],
+                    "Scale": [
+                        10.199999809265137,
+                        10.199999809265137,
+                        10.199999809265137
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        5,
+                        5,
+                        5
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (44)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 268110836,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        277.48876953125,
+                        15,
+                        139.396240234375
+                    ],
+                    "Rotation": [
+                        -0,
+                        33.428009033203125,
+                        -0
+                    ],
+                    "Scale": [
+                        10.577998161315918,
+                        10.577999114990234,
+                        10.577998161315918
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        3.2999999523162842,
+                        5,
+                        7.5999999046325684
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (46)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1076223112,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        293.28961181640625,
+                        15.800000190734863,
+                        -54.717426300048828
+                    ],
+                    "Rotation": [
+                        0,
+                        -34.684242248535156,
+                        0
+                    ],
+                    "Scale": [
+                        10.180000305175781,
+                        10.179998397827148,
+                        10.180000305175781
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        0.80000001192092896,
+                        8.1000003814697266,
+                        7.9000000953674316
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (47)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 43702548,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        116.18848419189453,
+                        15,
+                        -177.60507202148438
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        9.3199996948242188,
+                        9.3199996948242188,
+                        9.3199996948242188
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        6.9000000953674316,
+                        5,
+                        3.0999999046325684
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (48)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 940288155,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        426.02423095703125,
+                        15,
+                        227.22406005859375
+                    ],
+                    "Rotation": [
+                        -0,
+                        32.922008514404297,
+                        -0
+                    ],
+                    "Scale": [
+                        9.9224958419799805,
+                        9.9224987030029297,
+                        9.9224958419799805
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        8.1000003814697266,
+                        5,
+                        6.5
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (49)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1842106730,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        487.71884155273438,
+                        15,
+                        253.53248596191406
+                    ],
+                    "Rotation": [
+                        -0,
+                        32.118000030517578,
+                        -0
+                    ],
+                    "Scale": [
+                        10.041803359985352,
+                        10.04179859161377,
+                        10.041803359985352
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        18.399999618530273,
+                        5,
+                        9.6000003814697266
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (50)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1350067807,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        509.24368286132812,
+                        15,
+                        354.421630859375
+                    ],
+                    "Rotation": [
+                        -0,
+                        33.035991668701172,
+                        -0
+                    ],
+                    "Scale": [
+                        10.040006637573242,
+                        10.039999961853027,
+                        10.040006637573242
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        8,
+                        5,
+                        9.1000003814697266
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (51)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 2126472510,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        420.6114501953125,
+                        15,
+                        417.62860107421875
+                    ],
+                    "Rotation": [
+                        -0,
+                        32.651008605957031,
+                        -0
+                    ],
+                    "Scale": [
+                        10.139994621276855,
+                        10.139999389648438,
+                        10.139994621276855
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        5,
+                        5,
+                        25.200000762939453
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (52)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 885685770,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        586.550048828125,
+                        15,
+                        470.084716796875
+                    ],
+                    "Rotation": [
+                        -0,
+                        33.797809600830078,
+                        -0
+                    ],
+                    "Scale": [
+                        10.753203392028809,
+                        10.753199577331543,
+                        10.753203392028809
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        11.899999618530273,
+                        5,
+                        9.3999996185302734
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (53)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 220725380,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        638.85516357421875,
+                        15,
+                        118.13801574707031
+                    ],
+                    "Rotation": [
+                        -0,
+                        32.882858276367188,
+                        -0
+                    ],
+                    "Scale": [
+                        10.179998397827148,
+                        10.179998397827148,
+                        10.179998397827148
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        13.300000190734863,
+                        5,
+                        9.1000003814697266
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (54)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 680929080,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        746.29510498046875,
+                        15,
+                        368.2969970703125
+                    ],
+                    "Rotation": [
+                        0,
+                        -35.046001434326172,
+                        0
+                    ],
+                    "Scale": [
+                        10.670029640197754,
+                        10.670000076293945,
+                        10.670029640197754
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        5,
+                        5,
+                        29.299999237060547
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (55)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1385403946,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        861.59600830078125,
+                        15.00006103515625,
+                        171.27320861816406
+                    ],
+                    "Rotation": [
+                        0,
+                        -35.564472198486328,
+                        0
+                    ],
+                    "Scale": [
+                        10.450000762939453,
+                        10.449999809265137,
+                        10.450000762939453
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        8.1999998092651367,
+                        5,
+                        15.5
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (56)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1336399827,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        688.64959716796875,
+                        15,
+                        370.13836669921875
+                    ],
+                    "Rotation": [
+                        -0,
+                        33.591026306152344,
+                        -0
+                    ],
+                    "Scale": [
+                        10.329999923706055,
+                        10.329999923706055,
+                        10.329999923706055
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        4.5999999046325684,
+                        5,
+                        8.3000001907348633
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (57)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 508705281,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        763.2001953125,
+                        15,
+                        300.67596435546875
+                    ],
+                    "Rotation": [
+                        -0,
+                        33.577999114990234,
+                        -0
+                    ],
+                    "Scale": [
+                        10.280000686645508,
+                        10.279999732971191,
+                        10.280000686645508
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        5,
+                        5,
+                        8.8999996185302734
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (58)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 977553183,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        662.75677490234375,
+                        15,
+                        195.36395263671875
+                    ],
+                    "Rotation": [
+                        -0,
+                        33.609001159667969,
+                        -0
+                    ],
+                    "Scale": [
+                        10.18440055847168,
+                        10.184399604797363,
+                        10.18440055847168
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        5.0999999046325684,
+                        5,
+                        8.1000003814697266
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (59)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 854609485,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        592.5035400390625,
+                        15,
+                        268.1875
+                    ],
+                    "Rotation": [
+                        -0,
+                        33.629001617431641,
+                        -0
+                    ],
+                    "Scale": [
+                        10.170000076293945,
+                        10.170000076293945,
+                        10.170000076293945
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        4.5999999046325684,
+                        5,
+                        7.5999999046325684
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (60)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 620196364,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        418.4398193359375,
+                        15,
+                        -168.64259338378906
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        8.5200004577636719,
+                        8.5200004577636719,
+                        8.5200004577636719
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        5,
+                        5,
+                        5
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (62)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 2061895262,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        244.41789245605469,
+                        15,
+                        -9.2737884521484375
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        9.9399995803833008,
+                        9.9399995803833008,
+                        9.9399995803833008
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        5,
+                        5,
+                        4.0999999046325684
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (63)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1469739108,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        216.24224853515625,
+                        15,
+                        -53.714672088623047
+                    ],
+                    "Rotation": [
+                        -0,
+                        33.47943115234375,
+                        -0
+                    ],
+                    "Scale": [
+                        10.000007629394531,
+                        10,
+                        10.000007629394531
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        5,
+                        10,
+                        10.600000381469727
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (64)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 73664833,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        184.76168823242188,
+                        15,
+                        -105.20638275146484
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        9.7519989013671875,
+                        9.7519989013671875,
+                        9.7519989013671875
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        2.4000000953674316,
+                        5,
+                        5
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (65)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 638709459,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        152.35621643066406,
+                        15,
+                        -70.35418701171875
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        9.7477998733520508,
+                        9.7477998733520508,
+                        9.7477998733520508
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        4,
+                        5,
+                        2
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (66)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1075382451,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        72.386566162109375,
+                        15,
+                        -138.75569152832031
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        10.059999465942383,
+                        10.059999465942383,
+                        10.059999465942383
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        3.5999999046325684,
+                        3.5999999046325684,
+                        3.5999999046325684
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (67)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1286832322,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Empty (3)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 266733634,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1161519485,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        471.35015869140625,
+                        15,
+                        -92.846572875976562
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        10,
+                        10,
+                        10
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        1.6000000238418579,
+                        5,
+                        5
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        }
+    ]
+}

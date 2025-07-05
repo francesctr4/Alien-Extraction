@@ -1,0 +1,15 @@
+{
+    "Name": "PROP_Bar_Door",
+    "Assets Path": "Assets\/Prefabs\/Meshes\/Bar Door\/PROP_Bar_Door.fbx",
+    "Library Path": ".\/Library\/Models\/270068987.ymodel",
+    "UID": 270068987,
+    "Type": "Model",
+    "Meshes num": 1,
+    "Meshes Embedded UID": [
+        328596612
+    ],
+    "Resources num": 1,
+    "Resources Embedded UID": [
+        1697288460
+    ]
+}

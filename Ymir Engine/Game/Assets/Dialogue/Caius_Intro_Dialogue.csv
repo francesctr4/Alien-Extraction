@@ -1,0 +1,57 @@
+1; Caius;Oh, good, I see they've woken you up. Just in time.;  ;<end>
+2; Me;In time for what?; ;<end>
+5; Caius;We've just arrived at Gliese 667. You'll have to clean up the planet. I 
+don't have much information about the mission, it's labeled "Confidential 
+level: EXTREME", I'm not allowed to access beyond the summary annex. I 
+hope you have been briefed on better Raisen.;  ;<end>
+6; Me;Clear your hopes Caius.;  ;<end>
+7; Caius;I see... Don't worry ma'am, I'm sure you'll be able to resolve the situation 
+without too much trouble. The teleport beacon is up ahead. Get them!; ; <end>
+8; Me;I wish they did.;  ;<end>
+9; Caius;The people at the top know your skills, surely they know what they are 
+doing by not saying anything. If I could tell you more, you know I'm 
+here to serve. Good luck Raisen. The teleport beacon is up ahead.; ;<end>
+3; Me;Woken me up? What do you
+mean?;  ;<end>
+10; Caius;You have been cryopreserved for the journey, about 40 years deep 
+sleeping. But don't worry, we're already at Gliese 667,our final 
+destination. Now it's your turn to continue the mission.; ;<end>
+11; Me;Mission?; ;<end>
+12; Caius;Indeed, the mission. The files are classified with a very high confidentiality
+value, I cannot access the full information, but according to the brief, you 
+have to clear the planet, wipe out any sign of life, hostile or not. I can 
+imagine that won't be much of a problem.; ;<end>
+13; Me;I guess I'll have to get down 
+to work.; ;<end>
+14; Caius;Of course. Just follow the corridor, you will find a teleportation beacon. 
+Good luck.;  ;<end>
+15; Me;When do we start?;  ;<end>
+16; Caius;Right away. Just continue to the next room, you will find a teleportation 
+beacon.;  ;<end>
+17; Me;Anyone would say it was more, 
+don't you think?; ;<end>
+18; Caius;It is normal to feel very nauseous and dizzy when waking up after a long 
+time under the effects of cryogenics. So, yes, I'm sure it's only been 40 
+years, if you need more time to adjust, you can give the ship a spin, in 
+a few minutes you should feel better.;  ;<end>
+19; Me;I'm fine Caius.; ;<end>
+20; Caius;Perfect! I'm glad to hear that. Then you won't have any problems getting 
+started with the mission. Just go to the teleport beacon, it will send 
+you directly to the planet.;  ;<end>
+21; Me;I was... Ugh. Just tell me about 
+the mission.; ;<end>
+22; Caius;There is not much to tell, I have limited access due to mission. But I can 
+tell you that it has to eradicate the life of Gliese 667. Iassumed you would 
+know more about it, but I see I was wrong. If you want to godown and 
+investigate, go to the next room, you'll find the teleport beacon, it will
+takeyou straight to the planet.;  ;<end>
+23; Me;When do we start?; ;<end>
+24; Caius;Right away. Just continue to the next room, you will find a 
+teleportation beacon.?; ;<end>
+25; Me;Up and ready for the mission.; ;<end>
+26; Caius;I'm glad to hear that. Then you won't have any problems getting started
+with the mission. Just go to the teleport beacon, it will send you directly
+to the planet.;  ;<end>
+4; Me;Up and ready for the mission.;  ;<end>
+
+

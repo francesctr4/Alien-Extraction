@@ -1,0 +1,19 @@
+{
+    "Name": "New_Props_LVL2_Part2",
+    "Assets Path": "Assets\/LVL2_LAB_PART1_FINAL\/New_Props_LVL2_Part2.fbx",
+    "Library Path": ".\/Library\/Models\/1423819104.ymodel",
+    "UID": 1423819104,
+    "Type": "Model",
+    "Meshes num": 3,
+    "Meshes Embedded UID": [
+        684398497,
+        1351782835,
+        880939724
+    ],
+    "Resources num": 3,
+    "Resources Embedded UID": [
+        423140648,
+        276343496,
+        176167955
+    ]
+}

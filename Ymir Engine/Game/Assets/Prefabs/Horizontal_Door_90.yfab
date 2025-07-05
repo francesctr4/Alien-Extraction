@@ -1,0 +1,381 @@
+{
+    "Prefab": [
+        {
+            "Name": "Door_LowPoly (4)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 764467289,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/Prefabs\/Meshes\/PROP_Door_Lab.fbx",
+            "Parent UID": 1079595304,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        234.18534851074219,
+                        111.04399871826172,
+                        66.169174194335938
+                    ],
+                    "Rotation": [
+                        1.3512411634053478e-08,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        0.090000100433826447,
+                        0.09000001847743988,
+                        0.10904045403003693
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        500,
+                        250,
+                        250
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": true,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        -1,
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Door_Horizontal.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "fraction": 0
+                }
+            ],
+            "Children UID": [
+                1740048289,
+                737342567,
+                1611753713,
+                1533086864,
+                1146038040
+            ]
+        },
+        {
+            "Name": "Door2 (5)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1740048289,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/Prefabs\/Meshes\/PROP_Door_Lab.fbx",
+            "Parent UID": 764467289,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        3.8302716554028393e-09,
+                        90,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Mesh",
+                    "Active": 1,
+                    "UID": 728437194,
+                    "Vertex Count": 242,
+                    "Index Count": 540
+                },
+                {
+                    "Type": "Material",
+                    "Active": 1,
+                    "Shader": "Assets\/Shaders\/MyShader.glsl",
+                    "Uniforms": [
+                        {
+                            "lightDir": [
+                                -222.58538818359375,
+                                110.81430816650391,
+                                356.43319702148438
+                            ],
+                            "lightInt": 1,
+                            "lightColor": [
+                                1,
+                                1,
+                                1
+                            ],
+                            "numLights": 1,
+                            "displayNormalMap": true,
+                            "transparency": 1
+                        }
+                    ],
+                    "Diffuse_ID": 308,
+                    "Diffuse_Path": "Assets\/Prefabs\/Meshes\/Door\/TEX_PROP_Door_D.png",
+                    "Diffuse_UID": 1409043110,
+                    "Specular_ID": 316,
+                    "Specular_Path": "Assets\/Prefabs\/Meshes\/Door\/TEX_PROP_Door_S.png",
+                    "Specular_UID": 960732568,
+                    "Normal_ID": 314,
+                    "Normal_Path": "Assets\/Prefabs\/Meshes\/Door\/TEX_PROP_Door_N.png",
+                    "Normal_UID": 1112776949,
+                    "Height_ID": 312,
+                    "Height_Path": "Assets\/Prefabs\/Meshes\/Door\/TEX_PROP_Door_H.png",
+                    "Height_UID": 319471824,
+                    "Ambient_ID": 306,
+                    "Ambient_Path": "Assets\/Prefabs\/Meshes\/Door\/TEX_PROP_Door_A.png",
+                    "Ambient_UID": 1782471351,
+                    "Emissive_ID": 310,
+                    "Emissive_Path": "Assets\/Prefabs\/Meshes\/Door\/TEX_PROP_Door_E.png",
+                    "Emissive_UID": 1442365833
+                }
+            ]
+        },
+        {
+            "Name": "Door1 (5)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 737342567,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/Prefabs\/Meshes\/PROP_Door_Lab.fbx",
+            "Parent UID": 764467289,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        1.7866815369416145e-06,
+                        90,
+                        0
+                    ],
+                    "Scale": [
+                        0.99999910593032837,
+                        1,
+                        1.0000069141387939
+                    ]
+                },
+                {
+                    "Type": "Mesh",
+                    "Active": 1,
+                    "UID": 2101808898,
+                    "Vertex Count": 238,
+                    "Index Count": 564
+                },
+                {
+                    "Type": "Material",
+                    "Active": 1,
+                    "Shader": "Assets\/Shaders\/MyShader.glsl",
+                    "Uniforms": [
+                        {
+                            "lightDir": [
+                                -222.58538818359375,
+                                110.81430816650391,
+                                356.43319702148438
+                            ],
+                            "lightInt": 1,
+                            "lightColor": [
+                                1,
+                                1,
+                                1
+                            ],
+                            "numLights": 1,
+                            "displayNormalMap": true,
+                            "transparency": 1
+                        }
+                    ],
+                    "Diffuse_ID": 308,
+                    "Diffuse_Path": "Assets\/Prefabs\/Meshes\/Door\/TEX_PROP_Door_D.png",
+                    "Diffuse_UID": 1409043110,
+                    "Specular_ID": 316,
+                    "Specular_Path": "Assets\/Prefabs\/Meshes\/Door\/TEX_PROP_Door_S.png",
+                    "Specular_UID": 960732568,
+                    "Normal_ID": 314,
+                    "Normal_Path": "Assets\/Prefabs\/Meshes\/Door\/TEX_PROP_Door_N.png",
+                    "Normal_UID": 1112776949,
+                    "Height_ID": 312,
+                    "Height_Path": "Assets\/Prefabs\/Meshes\/Door\/TEX_PROP_Door_H.png",
+                    "Height_UID": 319471824,
+                    "Ambient_ID": 306,
+                    "Ambient_Path": "Assets\/Prefabs\/Meshes\/Door\/TEX_PROP_Door_A.png",
+                    "Ambient_UID": 1782471351,
+                    "Emissive_ID": 310,
+                    "Emissive_Path": "Assets\/Prefabs\/Meshes\/Door\/TEX_PROP_Door_E.png",
+                    "Emissive_UID": 1442365833
+                }
+            ]
+        },
+        {
+            "Name": "Marc (5)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1611753713,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/Prefabs\/Meshes\/PROP_Door_Lab.fbx",
+            "Parent UID": 764467289,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        -1.2768347490421661e-10
+                    ],
+                    "Rotation": [
+                        3.8302738758488886e-09,
+                        90,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Mesh",
+                    "Active": 1,
+                    "UID": 1533505745,
+                    "Vertex Count": 72,
+                    "Index Count": 168
+                },
+                {
+                    "Type": "Material",
+                    "Active": 1,
+                    "Shader": "Assets\/Shaders\/MyShader.glsl",
+                    "Uniforms": [
+                        {
+                            "lightDir": [
+                                -222.58538818359375,
+                                110.81430816650391,
+                                356.43319702148438
+                            ],
+                            "lightInt": 1,
+                            "lightColor": [
+                                1,
+                                1,
+                                1
+                            ],
+                            "numLights": 1,
+                            "displayNormalMap": true,
+                            "transparency": 1
+                        }
+                    ],
+                    "Diffuse_ID": 308,
+                    "Diffuse_Path": "Assets\/Prefabs\/Meshes\/Door\/TEX_PROP_Door_D.png",
+                    "Diffuse_UID": 1409043110,
+                    "Specular_ID": 316,
+                    "Specular_Path": "Assets\/Prefabs\/Meshes\/Door\/TEX_PROP_Door_S.png",
+                    "Specular_UID": 960732568,
+                    "Normal_ID": 314,
+                    "Normal_Path": "Assets\/Prefabs\/Meshes\/Door\/TEX_PROP_Door_N.png",
+                    "Normal_UID": 1112776949,
+                    "Height_ID": 312,
+                    "Height_Path": "Assets\/Prefabs\/Meshes\/Door\/TEX_PROP_Door_H.png",
+                    "Height_UID": 319471824,
+                    "Ambient_ID": 306,
+                    "Ambient_Path": "Assets\/Prefabs\/Meshes\/Door\/TEX_PROP_Door_A.png",
+                    "Ambient_UID": 1782471351,
+                    "Emissive_ID": 310,
+                    "Emissive_Path": "Assets\/Prefabs\/Meshes\/Door\/TEX_PROP_Door_E.png",
+                    "Emissive_UID": 1442365833
+                }
+            ]
+        },
+        {
+            "Name": "End_Door2 (4)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1533086864,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 764467289,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        190,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        0,
+                        90,
+                        0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "End_Door1 (4)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1146038040,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 764467289,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -200,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "Name": "Sphere",
+    "Assets Path": "Assets\/Primitives\/Sphere.fbx",
+    "Library Path": ".\/Library\/Models\/103971677.ymodel",
+    "UID": 103971677,
+    "Type": "Model",
+    "Meshes num": 1,
+    "Meshes Embedded UID": [
+        826872905
+    ],
+    "Resources num": 1,
+    "Resources Embedded UID": [
+        621813214
+    ]
+}

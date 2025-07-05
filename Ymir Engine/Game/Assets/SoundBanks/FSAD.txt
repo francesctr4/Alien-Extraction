@@ -1,0 +1,20 @@
+Event	ID	Name			Wwise Object Path	Notes
+	585791641	W_FSADShot2			\Default Work Unit\Weapons\FSAD\W_FSADShot2	
+	779644395	W_FSADEnemy			\Default Work Unit\Weapons\FSAD\W_FSADEnemy	
+	1530428297	W_FSADShot			\Default Work Unit\Weapons\FSAD\W_FSADShot	
+	1753215977	W_FSADSurf			\Default Work Unit\Weapons\FSAD\W_FSADSurf	
+	1760895991	W_FSADShotLongB			\Default Work Unit\Weapons\FSAD\W_FSADShotLongB	
+	1950171510	W_FSADReloadCap			\Default Work Unit\Weapons\FSAD\W_FSADReloadCap	
+	2959608070	W_FSADReload			\Default Work Unit\Weapons\FSAD\W_FSADReload	
+	3032687762	W_FSADUpShot			\Default Work Unit\Weapons\FSAD\W_FSADUpShot	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	61609410	SFX_Weapon_FSADShotLongBarrel	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SFX_Weapon_FSADShotLongBarrel_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\FSAD\SFX_Weapon_FSADShotLongBarrel		271936
+	78189267	SFX_Weapon_FSADShot2	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SFX_Weapon_FSADShot2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\FSAD\SFX_Weapon_FSADShot2		202816
+	316221824	SFX_Weapon_FSADSurface	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SurfaceHit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\FSAD\SFX_Weapon_FSADSurface		417308
+	414184268	SFX_Weapon_FSADUpgradeShot1	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SFX_Weapon_FSADUpgradeShot1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\FSAD\SFX_Weapon_FSADUpgradeShot1		175244
+	486821775	SFX_Weapon_FSADHit	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\EnemyHit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\FSAD\SFX_Weapon_FSADHit		112096
+	522121485	SFX_Weapon_FSADReloadWithCap	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SFX_Weapon_FSADReloadWithCap_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\FSAD\SFX_Weapon_FSADReloadWithCap		262220
+	724287722	SFX_Weapon_FSADShot	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\FSADShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\FSAD\SFX_Weapon_FSADShot		221652
+	900068951	SFX_Weapon_FSADReload	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\FSADReload_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\FSAD\SFX_Weapon_FSADReload		58020
+

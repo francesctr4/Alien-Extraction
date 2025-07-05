@@ -1,0 +1,15 @@
+{
+    "Name": "Cylinder",
+    "Assets Path": "Assets\/Primitives\/Cylinder.fbx",
+    "Library Path": ".\/Library\/Models\/2063663470.ymodel",
+    "UID": 2063663470,
+    "Type": "Model",
+    "Meshes num": 1,
+    "Meshes Embedded UID": [
+        1899531165
+    ],
+    "Resources num": 1,
+    "Resources Embedded UID": [
+        1690959163
+    ]
+}

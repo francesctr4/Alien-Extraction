@@ -1,0 +1,67 @@
+{
+    "Prefab": [
+        {
+            "Name": "Button_A",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 483488929,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 818596370,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        0.68999999761581421,
+                        0.68999999761581421,
+                        0.68999999761581421
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1723,
+                    "Position Y": 848,
+                    "Width": 123,
+                    "Height": 123,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1723,
+                        848,
+                        123,
+                        123
+                    ],
+                    "Path": "Assets\/CutScenes\/asdf.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        0,
+                        0.30000001192092896,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "Name": "PROP_Door_Lab",
+    "Assets Path": "Assets\/Prefabs\/Meshes\/PROP_Door_Lab.fbx",
+    "Library Path": ".\/Library\/Models\/1395844755.ymodel",
+    "UID": 1395844755,
+    "Type": "Model",
+    "Meshes num": 4,
+    "Meshes Embedded UID": [
+        232432059,
+        1163680921,
+        902427818,
+        1106644159
+    ],
+    "Resources num": 4,
+    "Resources Embedded UID": [
+        1433016644,
+        728437194,
+        2101808898,
+        1533505745
+    ]
+}

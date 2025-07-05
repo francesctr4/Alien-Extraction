@@ -1,0 +1,31 @@
+{
+    "Name": "Floor_Veins",
+    "Assets Path": "Assets\/LVL3_BlockOut\/Floor_Veins.fbx",
+    "Library Path": ".\/Library\/Models\/1288139189.ymodel",
+    "UID": 1288139189,
+    "Type": "Model",
+    "Meshes num": 9,
+    "Meshes Embedded UID": [
+        643063361,
+        1593355875,
+        66520998,
+        1386797486,
+        791917480,
+        274379346,
+        548499412,
+        1062593502,
+        1653935753
+    ],
+    "Resources num": 9,
+    "Resources Embedded UID": [
+        533722609,
+        954107895,
+        730764572,
+        685566607,
+        582863794,
+        520625294,
+        939945523,
+        229031855,
+        634555279
+    ]
+}

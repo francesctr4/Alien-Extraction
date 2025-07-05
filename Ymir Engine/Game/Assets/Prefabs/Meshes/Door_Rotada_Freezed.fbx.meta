@@ -1,0 +1,21 @@
+{
+    "Name": "Door_Rotada_Freezed",
+    "Assets Path": "Assets\/Prefabs\/Meshes\/Door_Rotada_Freezed.fbx",
+    "Library Path": ".\/Library\/Models\/1446411343.ymodel",
+    "UID": 1446411343,
+    "Type": "Model",
+    "Meshes num": 4,
+    "Meshes Embedded UID": [
+        1278526660,
+        841355026,
+        1976261894,
+        1036085508
+    ],
+    "Resources num": 4,
+    "Resources Embedded UID": [
+        1141949212,
+        541104849,
+        1536114096,
+        1508520937
+    ]
+}

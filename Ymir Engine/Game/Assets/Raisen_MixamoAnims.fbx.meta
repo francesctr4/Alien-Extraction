@@ -1,0 +1,21 @@
+{
+    "Name": "Raisen_MixamoAnims",
+    "Assets Path": "Assets\/Raisen_MixamoAnims.fbx",
+    "Library Path": ".\/Library\/Models\/402787232.ymodel",
+    "UID": 402787232,
+    "Type": "Model",
+    "Meshes num": 4,
+    "Meshes Embedded UID": [
+        674768309,
+        680428138,
+        2003545222,
+        2105473488
+    ],
+    "Resources num": 4,
+    "Resources Embedded UID": [
+        1003707611,
+        1089882795,
+        798019010,
+        1970909842
+    ]
+}

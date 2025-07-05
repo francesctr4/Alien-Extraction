@@ -1,0 +1,3872 @@
+{
+    "Prefab": [
+        {
+            "Name": "Inventory",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 730604888,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1904908806,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "UI_Inventory_Grid.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "rows": 5,
+                    "cols": 3,
+                    "leftGridName": "",
+                    "rightGridName": "",
+                    "naviagteGrids": false
+                }
+            ],
+            "Children UID": [
+                1649563615,
+                859937820,
+                1263838880,
+                1294683051,
+                914218921,
+                1995946548,
+                631059356,
+                381666577,
+                981694012,
+                533956899,
+                1023312370,
+                1420247647,
+                102710654,
+                1249812674,
+                58850297
+            ]
+        },
+        {
+            "Name": "Item Armor",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1649563615,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 730604888,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1154,
+                    "Position Y": 236,
+                    "Width": 100,
+                    "Height": 100,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1154,
+                        236,
+                        100,
+                        100
+                    ],
+                    "Path": "Assets\/Baker_house.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 3,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        0,
+                        0,
+                        300,
+                        50
+                    ],
+                    "Is interactable": true,
+                    "Text": 1131207758,
+                    "Image": 1649563615,
+                    "Normal": "Assets\/juan.png",
+                    "Focused": "Assets\/UI\/Inventory Buttons\/InventorySlotHover.png",
+                    "Pressed": "Assets\/UI\/Inventory Buttons\/InventorySlotPressed.png",
+                    "Selected": "Assets\/UI\/Inventory Buttons\/InventorySlotHover.png",
+                    "Release": "Assets\/Baker_house.png",
+                    "Disabled": "Assets\/Baker_house.png",
+                    "Focused color": [
+                        0,
+                        1,
+                        0,
+                        1
+                    ],
+                    "Pressed color": [
+                        1,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Selected color": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Disabled color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "UI_Item_Button.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "currentSlot": 0,
+                    "itemType": 0,
+                    "enumItem": "ARMOR",
+                    "enumSlot": "NONE"
+                }
+            ],
+            "Children UID": [
+                555681420
+            ]
+        },
+        {
+            "Name": "Description (7)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 555681420,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1649563615,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 833,
+                    "Position Y": 227,
+                    "Width": 336,
+                    "Height": 277,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        833,
+                        227,
+                        336,
+                        277
+                    ],
+                    "Path": "Assets\/UI\/Inventory Buttons\/SpecialSlotHover.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                }
+            ],
+            "Children UID": [
+                1131207758
+            ]
+        },
+        {
+            "Name": "Text (2)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1131207758,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 555681420,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 891,
+                    "Position Y": 292,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 2,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        891,
+                        292,
+                        300,
+                        50
+                    ],
+                    "Text": "Armor",
+                    "Font name": "de-valencia-beta.otf",
+                    "Font path": "Assets\/Fonts",
+                    "Font size": 21,
+                    "Line Spacing": 0.5,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 2
+                }
+            ]
+        },
+        {
+            "Name": "Item (1)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 859937820,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 730604888,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1154,
+                    "Position Y": 367,
+                    "Width": 100,
+                    "Height": 100,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1154,
+                        367,
+                        100,
+                        100
+                    ],
+                    "Path": "Assets\/pato.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 3,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        0,
+                        0,
+                        300,
+                        50
+                    ],
+                    "Is interactable": true,
+                    "Text": 218868507,
+                    "Image": 859937820,
+                    "Normal": ".\/Library\/Textures\/120577598.dds",
+                    "Focused": ".\/Library\/Textures\/424495814.dds",
+                    "Pressed": ".\/Library\/Textures\/997451359.dds",
+                    "Selected": ".\/Library\/Textures\/424495814.dds",
+                    "Release": "Assets\/Baker_house.png",
+                    "Disabled": "Assets\/pato.png",
+                    "Focused color": [
+                        0,
+                        1,
+                        0,
+                        1
+                    ],
+                    "Pressed color": [
+                        1,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Selected color": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Disabled color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "UI_Item_Button.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "currentSlot": 0,
+                    "itemType": 0,
+                    "enumItem": "NONE",
+                    "enumSlot": "NONE"
+                }
+            ],
+            "Children UID": [
+                569092409
+            ]
+        },
+        {
+            "Name": "Description (8)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 569092409,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 859937820,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 814,
+                    "Position Y": 364,
+                    "Width": 336,
+                    "Height": 277,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        814,
+                        364,
+                        336,
+                        277
+                    ],
+                    "Path": "Assets\/UI\/Inventory Buttons\/SpecialSlotHover.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                }
+            ],
+            "Children UID": [
+                218868507
+            ]
+        },
+        {
+            "Name": "Text (16)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 218868507,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 569092409,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 922,
+                    "Position Y": 419,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 2,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        922,
+                        419,
+                        300,
+                        50
+                    ],
+                    "Text": "Empty\n",
+                    "Font name": "arial.ttf",
+                    "Font path": "Assets\\Fonts",
+                    "Font size": 21,
+                    "Line Spacing": 0.5,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 2
+                }
+            ]
+        },
+        {
+            "Name": "Item (2)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1263838880,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 730604888,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1154,
+                    "Position Y": 489,
+                    "Width": 100,
+                    "Height": 100,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1154,
+                        489,
+                        100,
+                        100
+                    ],
+                    "Path": "Assets\/pato.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 3,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        0,
+                        0,
+                        300,
+                        50
+                    ],
+                    "Is interactable": true,
+                    "Text": 1717747725,
+                    "Image": 1263838880,
+                    "Normal": ".\/Library\/Textures\/120577598.dds",
+                    "Focused": ".\/Library\/Textures\/424495814.dds",
+                    "Pressed": ".\/Library\/Textures\/997451359.dds",
+                    "Selected": ".\/Library\/Textures\/424495814.dds",
+                    "Release": "Assets\/Baker_house.png",
+                    "Disabled": "Assets\/pato.png",
+                    "Focused color": [
+                        0,
+                        1,
+                        0,
+                        1
+                    ],
+                    "Pressed color": [
+                        1,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Selected color": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Disabled color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "UI_Item_Button.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "currentSlot": 0,
+                    "itemType": 0,
+                    "enumItem": "NONE",
+                    "enumSlot": "NONE"
+                }
+            ],
+            "Children UID": [
+                1526782472
+            ]
+        },
+        {
+            "Name": "Description (9)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1526782472,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1263838880,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 820,
+                    "Position Y": 489,
+                    "Width": 336,
+                    "Height": 277,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        820,
+                        489,
+                        336,
+                        277
+                    ],
+                    "Path": "Assets\/UI\/Inventory Buttons\/SpecialSlotHover.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                }
+            ],
+            "Children UID": [
+                1717747725
+            ]
+        },
+        {
+            "Name": "Text (15)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1717747725,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1526782472,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 926,
+                    "Position Y": 549,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 2,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        926,
+                        549,
+                        300,
+                        50
+                    ],
+                    "Text": "Empty",
+                    "Font name": "arial.ttf",
+                    "Font path": "Assets\\Fonts",
+                    "Font size": 21,
+                    "Line Spacing": 0.5,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 2
+                }
+            ]
+        },
+        {
+            "Name": "Item (3)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1294683051,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 730604888,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1154,
+                    "Position Y": 602,
+                    "Width": 100,
+                    "Height": 100,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1154,
+                        602,
+                        100,
+                        100
+                    ],
+                    "Path": "Assets\/pato.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 3,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        0,
+                        0,
+                        300,
+                        50
+                    ],
+                    "Is interactable": true,
+                    "Text": 1439520452,
+                    "Image": 1294683051,
+                    "Normal": ".\/Library\/Textures\/120577598.dds",
+                    "Focused": ".\/Library\/Textures\/424495814.dds",
+                    "Pressed": ".\/Library\/Textures\/997451359.dds",
+                    "Selected": ".\/Library\/Textures\/424495814.dds",
+                    "Release": "Assets\/Baker_house.png",
+                    "Disabled": "Assets\/pato.png",
+                    "Focused color": [
+                        0,
+                        1,
+                        0,
+                        1
+                    ],
+                    "Pressed color": [
+                        1,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Selected color": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Disabled color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "UI_Item_Button.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "currentSlot": 0,
+                    "itemType": 0,
+                    "enumItem": "NONE",
+                    "enumSlot": "NONE"
+                }
+            ],
+            "Children UID": [
+                273253275
+            ]
+        },
+        {
+            "Name": "Description (10)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 273253275,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1294683051,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 819,
+                    "Position Y": 602,
+                    "Width": 336,
+                    "Height": 277,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        819,
+                        602,
+                        336,
+                        277
+                    ],
+                    "Path": "Assets\/UI\/Inventory Buttons\/SpecialSlotHover.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                }
+            ],
+            "Children UID": [
+                1439520452
+            ]
+        },
+        {
+            "Name": "Text (14)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1439520452,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 273253275,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 917,
+                    "Position Y": 671,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 2,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        917,
+                        671,
+                        300,
+                        50
+                    ],
+                    "Text": "Empty\n",
+                    "Font name": "arial.ttf",
+                    "Font path": "Assets\\Fonts",
+                    "Font size": 21,
+                    "Line Spacing": 0.5,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 2
+                }
+            ]
+        },
+        {
+            "Name": "Item (4)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 914218921,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 730604888,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1154,
+                    "Position Y": 715,
+                    "Width": 100,
+                    "Height": 100,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1154,
+                        715,
+                        100,
+                        100
+                    ],
+                    "Path": "Assets\/pato.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 3,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        0,
+                        0,
+                        300,
+                        50
+                    ],
+                    "Is interactable": true,
+                    "Text": 1297611138,
+                    "Image": 914218921,
+                    "Normal": ".\/Library\/Textures\/120577598.dds",
+                    "Focused": ".\/Library\/Textures\/424495814.dds",
+                    "Pressed": ".\/Library\/Textures\/997451359.dds",
+                    "Selected": ".\/Library\/Textures\/424495814.dds",
+                    "Release": "Assets\/Baker_house.png",
+                    "Disabled": "Assets\/pato.png",
+                    "Focused color": [
+                        0,
+                        1,
+                        0,
+                        1
+                    ],
+                    "Pressed color": [
+                        1,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Selected color": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Disabled color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "UI_Item_Button.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "currentSlot": 0,
+                    "itemType": 0,
+                    "enumItem": "NONE",
+                    "enumSlot": "NONE"
+                }
+            ],
+            "Children UID": [
+                1766720529
+            ]
+        },
+        {
+            "Name": "Description (11)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1766720529,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 914218921,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 823,
+                    "Position Y": 715,
+                    "Width": 336,
+                    "Height": 277,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        823,
+                        715,
+                        336,
+                        277
+                    ],
+                    "Path": "Assets\/UI\/Inventory Buttons\/SpecialSlotHover.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                }
+            ],
+            "Children UID": [
+                1297611138
+            ]
+        },
+        {
+            "Name": "Text (13)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1297611138,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1766720529,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 918,
+                    "Position Y": 765,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 2,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        918,
+                        765,
+                        300,
+                        50
+                    ],
+                    "Text": "Empty\n",
+                    "Font name": "arial.ttf",
+                    "Font path": "Assets\\Fonts",
+                    "Font size": 21,
+                    "Line Spacing": 0.5,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 2
+                }
+            ]
+        },
+        {
+            "Name": "Item Chip1",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1995946548,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 730604888,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1256,
+                    "Position Y": 236,
+                    "Width": 100,
+                    "Height": 100,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1256,
+                        236,
+                        100,
+                        100
+                    ],
+                    "Path": "Assets\/Baker_house.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 3,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        0,
+                        0,
+                        300,
+                        50
+                    ],
+                    "Is interactable": true,
+                    "Text": 843042817,
+                    "Image": 1995946548,
+                    "Normal": "Assets\/Baker_house.png",
+                    "Focused": "Assets\/UI\/Inventory Buttons\/InventorySlotHover.png",
+                    "Pressed": "Assets\/UI\/Inventory Buttons\/InventorySlotPressed.png",
+                    "Selected": "Assets\/UI\/Inventory Buttons\/InventorySlotHover.png",
+                    "Release": "Assets\/Baker_house.png",
+                    "Disabled": "Assets\/Baker_house.png",
+                    "Focused color": [
+                        0,
+                        1,
+                        0,
+                        1
+                    ],
+                    "Pressed color": [
+                        1,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Selected color": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Disabled color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "UI_Item_Button.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "currentSlot": 0,
+                    "itemType": 0,
+                    "enumItem": "CHIP1",
+                    "enumSlot": "NONE"
+                }
+            ],
+            "Children UID": [
+                1512174703
+            ]
+        },
+        {
+            "Name": "Description (12)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1512174703,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1995946548,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 919,
+                    "Position Y": 236,
+                    "Width": 336,
+                    "Height": 277,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        919,
+                        236,
+                        336,
+                        277
+                    ],
+                    "Path": "Assets\/UI\/Inventory Buttons\/SpecialSlotHover.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                }
+            ],
+            "Children UID": [
+                843042817
+            ]
+        },
+        {
+            "Name": "Text (12)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 843042817,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1512174703,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1036,
+                    "Position Y": 303,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 2,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1036,
+                        303,
+                        300,
+                        50
+                    ],
+                    "Text": "Chip1",
+                    "Font name": "arial.ttf",
+                    "Font path": "Assets\\Fonts",
+                    "Font size": 21,
+                    "Line Spacing": 0.5,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 2
+                }
+            ]
+        },
+        {
+            "Name": "Item (5)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 631059356,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 730604888,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1256,
+                    "Position Y": 367,
+                    "Width": 100,
+                    "Height": 100,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1256,
+                        367,
+                        100,
+                        100
+                    ],
+                    "Path": "Assets\/pato.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 3,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        0,
+                        0,
+                        300,
+                        50
+                    ],
+                    "Is interactable": true,
+                    "Text": 1101949662,
+                    "Image": 631059356,
+                    "Normal": ".\/Library\/Textures\/120577598.dds",
+                    "Focused": ".\/Library\/Textures\/424495814.dds",
+                    "Pressed": ".\/Library\/Textures\/997451359.dds",
+                    "Selected": ".\/Library\/Textures\/424495814.dds",
+                    "Release": "Assets\/Baker_house.png",
+                    "Disabled": "Assets\/pato.png",
+                    "Focused color": [
+                        0,
+                        1,
+                        0,
+                        1
+                    ],
+                    "Pressed color": [
+                        1,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Selected color": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Disabled color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "UI_Item_Button.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "currentSlot": 0,
+                    "itemType": 0,
+                    "enumItem": "NONE",
+                    "enumSlot": "NONE"
+                }
+            ],
+            "Children UID": [
+                1592071308
+            ]
+        },
+        {
+            "Name": "Description (13)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1592071308,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 631059356,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 919,
+                    "Position Y": 367,
+                    "Width": 336,
+                    "Height": 277,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        919,
+                        367,
+                        336,
+                        277
+                    ],
+                    "Path": "Assets\/UI\/Inventory Buttons\/SpecialSlotHover.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                }
+            ],
+            "Children UID": [
+                1101949662
+            ]
+        },
+        {
+            "Name": "Text (11)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1101949662,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1592071308,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1040,
+                    "Position Y": 409,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 2,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1040,
+                        409,
+                        300,
+                        50
+                    ],
+                    "Text": "Empty",
+                    "Font name": "arial.ttf",
+                    "Font path": "Assets\\Fonts",
+                    "Font size": 21,
+                    "Line Spacing": 0.5,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 2
+                }
+            ]
+        },
+        {
+            "Name": "Item (6)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 381666577,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 730604888,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1256,
+                    "Position Y": 489,
+                    "Width": 100,
+                    "Height": 100,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1256,
+                        489,
+                        100,
+                        100
+                    ],
+                    "Path": "Assets\/pato.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 3,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        0,
+                        0,
+                        300,
+                        50
+                    ],
+                    "Is interactable": true,
+                    "Text": 644224063,
+                    "Image": 381666577,
+                    "Normal": ".\/Library\/Textures\/120577598.dds",
+                    "Focused": ".\/Library\/Textures\/424495814.dds",
+                    "Pressed": ".\/Library\/Textures\/997451359.dds",
+                    "Selected": ".\/Library\/Textures\/424495814.dds",
+                    "Release": "Assets\/Baker_house.png",
+                    "Disabled": "Assets\/pato.png",
+                    "Focused color": [
+                        0,
+                        1,
+                        0,
+                        1
+                    ],
+                    "Pressed color": [
+                        1,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Selected color": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Disabled color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "UI_Item_Button.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "currentSlot": 0,
+                    "itemType": 0,
+                    "enumItem": "NONE",
+                    "enumSlot": "NONE"
+                }
+            ],
+            "Children UID": [
+                1166172480
+            ]
+        },
+        {
+            "Name": "Description (14)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1166172480,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 381666577,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 920,
+                    "Position Y": 489,
+                    "Width": 336,
+                    "Height": 277,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        920,
+                        489,
+                        336,
+                        277
+                    ],
+                    "Path": "Assets\/UI\/Inventory Buttons\/SpecialSlotHover.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                }
+            ],
+            "Children UID": [
+                644224063
+            ]
+        },
+        {
+            "Name": "Text (10)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 644224063,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1166172480,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1033,
+                    "Position Y": 549,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 2,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1033,
+                        549,
+                        300,
+                        50
+                    ],
+                    "Text": "Empty",
+                    "Font name": "arial.ttf",
+                    "Font path": "Assets\\Fonts",
+                    "Font size": 21,
+                    "Line Spacing": 0.5,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 2
+                }
+            ]
+        },
+        {
+            "Name": "Item (7)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 981694012,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 730604888,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1256,
+                    "Position Y": 602,
+                    "Width": 100,
+                    "Height": 100,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1256,
+                        602,
+                        100,
+                        100
+                    ],
+                    "Path": "Assets\/pato.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 3,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        0,
+                        0,
+                        300,
+                        50
+                    ],
+                    "Is interactable": true,
+                    "Text": 654116996,
+                    "Image": 981694012,
+                    "Normal": ".\/Library\/Textures\/120577598.dds",
+                    "Focused": ".\/Library\/Textures\/424495814.dds",
+                    "Pressed": ".\/Library\/Textures\/997451359.dds",
+                    "Selected": ".\/Library\/Textures\/424495814.dds",
+                    "Release": "Assets\/Baker_house.png",
+                    "Disabled": "Assets\/pato.png",
+                    "Focused color": [
+                        0,
+                        1,
+                        0,
+                        1
+                    ],
+                    "Pressed color": [
+                        1,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Selected color": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Disabled color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "UI_Item_Button.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "currentSlot": 0,
+                    "itemType": 0,
+                    "enumItem": "NONE",
+                    "enumSlot": "NONE"
+                }
+            ],
+            "Children UID": [
+                708266849
+            ]
+        },
+        {
+            "Name": "Description (15)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 708266849,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 981694012,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 921,
+                    "Position Y": 602,
+                    "Width": 336,
+                    "Height": 277,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        921,
+                        602,
+                        336,
+                        277
+                    ],
+                    "Path": "Assets\/UI\/Inventory Buttons\/SpecialSlotHover.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                }
+            ],
+            "Children UID": [
+                654116996
+            ]
+        },
+        {
+            "Name": "Text (9)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 654116996,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 708266849,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1028,
+                    "Position Y": 648,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 2,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1028,
+                        648,
+                        300,
+                        50
+                    ],
+                    "Text": "Empty",
+                    "Font name": "arial.ttf",
+                    "Font path": "Assets\\Fonts",
+                    "Font size": 21,
+                    "Line Spacing": 0.5,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 2
+                }
+            ]
+        },
+        {
+            "Name": "Item (8)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 533956899,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 730604888,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1256,
+                    "Position Y": 715,
+                    "Width": 100,
+                    "Height": 100,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1256,
+                        715,
+                        100,
+                        100
+                    ],
+                    "Path": "Assets\/pato.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        0,
+                        1,
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 3,
+                    "UI State": 2,
+                    "Drag Limits": [
+                        0,
+                        0,
+                        300,
+                        50
+                    ],
+                    "Is interactable": true,
+                    "Text": 547711246,
+                    "Image": 533956899,
+                    "Normal": ".\/Library\/Textures\/120577598.dds",
+                    "Focused": ".\/Library\/Textures\/424495814.dds",
+                    "Pressed": ".\/Library\/Textures\/997451359.dds",
+                    "Selected": ".\/Library\/Textures\/424495814.dds",
+                    "Release": "Assets\/Baker_house.png",
+                    "Disabled": "Assets\/pato.png",
+                    "Focused color": [
+                        0,
+                        1,
+                        0,
+                        1
+                    ],
+                    "Pressed color": [
+                        1,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Selected color": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Disabled color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "UI_Item_Button.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "currentSlot": 0,
+                    "itemType": 0,
+                    "enumItem": "NONE",
+                    "enumSlot": "NONE"
+                }
+            ],
+            "Children UID": [
+                1587236607
+            ]
+        },
+        {
+            "Name": "Description (16)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1587236607,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 533956899,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 922,
+                    "Position Y": 715,
+                    "Width": 336,
+                    "Height": 277,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        922,
+                        715,
+                        336,
+                        277
+                    ],
+                    "Path": "Assets\/UI\/Inventory Buttons\/SpecialSlotHover.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                }
+            ],
+            "Children UID": [
+                547711246
+            ]
+        },
+        {
+            "Name": "Text (8)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 547711246,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1587236607,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1034,
+                    "Position Y": 771,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 2,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1034,
+                        771,
+                        300,
+                        50
+                    ],
+                    "Text": "Empty",
+                    "Font name": "arial.ttf",
+                    "Font path": "Assets\\Fonts",
+                    "Font size": 21,
+                    "Line Spacing": 0.5,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 2
+                }
+            ]
+        },
+        {
+            "Name": "Item Chip2",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1023312370,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 730604888,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1367,
+                    "Position Y": 236,
+                    "Width": 100,
+                    "Height": 100,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1367,
+                        236,
+                        100,
+                        100
+                    ],
+                    "Path": "Assets\/Baker_house.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 3,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        0,
+                        0,
+                        300,
+                        50
+                    ],
+                    "Is interactable": true,
+                    "Text": 233419383,
+                    "Image": 1023312370,
+                    "Normal": "Assets\/pato.png",
+                    "Focused": "Assets\/UI\/Inventory Buttons\/InventorySlotHover.png",
+                    "Pressed": "Assets\/UI\/Inventory Buttons\/InventorySlotPressed.png",
+                    "Selected": "Assets\/UI\/Inventory Buttons\/InventorySlotHover.png",
+                    "Release": "Assets\/Baker_house.png",
+                    "Disabled": "Assets\/Baker_house.png",
+                    "Focused color": [
+                        0,
+                        1,
+                        0,
+                        1
+                    ],
+                    "Pressed color": [
+                        1,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Selected color": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Disabled color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "UI_Item_Button.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "currentSlot": 0,
+                    "itemType": 0,
+                    "enumItem": "CHIP2",
+                    "enumSlot": "NONE"
+                }
+            ],
+            "Children UID": [
+                2101603239
+            ]
+        },
+        {
+            "Name": "Description (17)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 2101603239,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1023312370,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1031,
+                    "Position Y": 226,
+                    "Width": 336,
+                    "Height": 277,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1031,
+                        226,
+                        336,
+                        277
+                    ],
+                    "Path": "Assets\/UI\/Inventory Buttons\/SpecialSlotHover.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                }
+            ],
+            "Children UID": [
+                233419383
+            ]
+        },
+        {
+            "Name": "Text (7)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 233419383,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 2101603239,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1144,
+                    "Position Y": 276,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 2,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1144,
+                        276,
+                        300,
+                        50
+                    ],
+                    "Text": "Chip 2\n",
+                    "Font name": "arial.ttf",
+                    "Font path": "Assets\\Fonts",
+                    "Font size": 21,
+                    "Line Spacing": 0.5,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 2
+                }
+            ]
+        },
+        {
+            "Name": "Item (9)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1420247647,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 730604888,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1367,
+                    "Position Y": 367,
+                    "Width": 100,
+                    "Height": 100,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1367,
+                        367,
+                        100,
+                        100
+                    ],
+                    "Path": "Assets\/pato.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 3,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        0,
+                        0,
+                        300,
+                        50
+                    ],
+                    "Is interactable": true,
+                    "Text": 41022260,
+                    "Image": 1420247647,
+                    "Normal": ".\/Library\/Textures\/120577598.dds",
+                    "Focused": ".\/Library\/Textures\/424495814.dds",
+                    "Pressed": ".\/Library\/Textures\/997451359.dds",
+                    "Selected": ".\/Library\/Textures\/424495814.dds",
+                    "Release": "Assets\/Baker_house.png",
+                    "Disabled": "Assets\/pato.png",
+                    "Focused color": [
+                        0,
+                        1,
+                        0,
+                        1
+                    ],
+                    "Pressed color": [
+                        1,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Selected color": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Disabled color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "UI_Item_Button.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "currentSlot": 0,
+                    "itemType": 0,
+                    "enumItem": "NONE",
+                    "enumSlot": "NONE"
+                }
+            ],
+            "Children UID": [
+                437053924
+            ]
+        },
+        {
+            "Name": "Description (18)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 437053924,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1420247647,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1054,
+                    "Position Y": 367,
+                    "Width": 336,
+                    "Height": 277,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1054,
+                        367,
+                        336,
+                        277
+                    ],
+                    "Path": "Assets\/UI\/Inventory Buttons\/SpecialSlotHover.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                }
+            ],
+            "Children UID": [
+                41022260
+            ]
+        },
+        {
+            "Name": "Text (6)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 41022260,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 437053924,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1157,
+                    "Position Y": 422,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 2,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1157,
+                        422,
+                        300,
+                        50
+                    ],
+                    "Text": "Empty",
+                    "Font name": "arial.ttf",
+                    "Font path": "Assets\\Fonts",
+                    "Font size": 21,
+                    "Line Spacing": 0.5,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 2
+                }
+            ]
+        },
+        {
+            "Name": "Item (10)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 102710654,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 730604888,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1367,
+                    "Position Y": 489,
+                    "Width": 100,
+                    "Height": 100,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1367,
+                        489,
+                        100,
+                        100
+                    ],
+                    "Path": "Assets\/pato.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 3,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        0,
+                        0,
+                        300,
+                        50
+                    ],
+                    "Is interactable": true,
+                    "Text": 1759668415,
+                    "Image": 102710654,
+                    "Normal": ".\/Library\/Textures\/120577598.dds",
+                    "Focused": ".\/Library\/Textures\/424495814.dds",
+                    "Pressed": ".\/Library\/Textures\/997451359.dds",
+                    "Selected": ".\/Library\/Textures\/424495814.dds",
+                    "Release": "Assets\/Baker_house.png",
+                    "Disabled": "Assets\/pato.png",
+                    "Focused color": [
+                        0,
+                        1,
+                        0,
+                        1
+                    ],
+                    "Pressed color": [
+                        1,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Selected color": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Disabled color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "UI_Item_Button.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "currentSlot": 0,
+                    "itemType": 0,
+                    "enumItem": "NONE",
+                    "enumSlot": "NONE"
+                }
+            ],
+            "Children UID": [
+                1165671783
+            ]
+        },
+        {
+            "Name": "Description (19)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1165671783,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 102710654,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1073,
+                    "Position Y": 489,
+                    "Width": 336,
+                    "Height": 277,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1073,
+                        489,
+                        336,
+                        277
+                    ],
+                    "Path": "Assets\/UI\/Inventory Buttons\/SpecialSlotHover.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                }
+            ],
+            "Children UID": [
+                1759668415
+            ]
+        },
+        {
+            "Name": "Text (5)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1759668415,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1165671783,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1184,
+                    "Position Y": 535,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 2,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1184,
+                        535,
+                        300,
+                        50
+                    ],
+                    "Text": "Empty",
+                    "Font name": "arial.ttf",
+                    "Font path": "Assets\\Fonts",
+                    "Font size": 21,
+                    "Line Spacing": 0.5,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 2
+                }
+            ]
+        },
+        {
+            "Name": "Item (11)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1249812674,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 730604888,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1367,
+                    "Position Y": 602,
+                    "Width": 100,
+                    "Height": 100,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1367,
+                        602,
+                        100,
+                        100
+                    ],
+                    "Path": "Assets\/pato.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 3,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        0,
+                        0,
+                        300,
+                        50
+                    ],
+                    "Is interactable": true,
+                    "Text": 1229207877,
+                    "Image": 1249812674,
+                    "Normal": ".\/Library\/Textures\/120577598.dds",
+                    "Focused": ".\/Library\/Textures\/424495814.dds",
+                    "Pressed": ".\/Library\/Textures\/997451359.dds",
+                    "Selected": ".\/Library\/Textures\/424495814.dds",
+                    "Release": "Assets\/Baker_house.png",
+                    "Disabled": "Assets\/pato.png",
+                    "Focused color": [
+                        0,
+                        1,
+                        0,
+                        1
+                    ],
+                    "Pressed color": [
+                        1,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Selected color": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Disabled color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "UI_Item_Button.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "currentSlot": 0,
+                    "itemType": 0,
+                    "enumItem": "NONE",
+                    "enumSlot": "NONE"
+                }
+            ],
+            "Children UID": [
+                407680558
+            ]
+        },
+        {
+            "Name": "Description (20)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 407680558,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1249812674,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1038,
+                    "Position Y": 602,
+                    "Width": 336,
+                    "Height": 277,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1038,
+                        602,
+                        336,
+                        277
+                    ],
+                    "Path": "Assets\/UI\/Inventory Buttons\/SpecialSlotHover.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                }
+            ],
+            "Children UID": [
+                1229207877
+            ]
+        },
+        {
+            "Name": "Text (4)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1229207877,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 407680558,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1161,
+                    "Position Y": 651,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 2,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1161,
+                        651,
+                        300,
+                        50
+                    ],
+                    "Text": "Empty",
+                    "Font name": "arial.ttf",
+                    "Font path": "Assets\\Fonts",
+                    "Font size": 21,
+                    "Line Spacing": 0.5,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 2
+                }
+            ]
+        },
+        {
+            "Name": "Item",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 58850297,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 730604888,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1367,
+                    "Position Y": 715,
+                    "Width": 100,
+                    "Height": 100,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1367,
+                        715,
+                        100,
+                        100
+                    ],
+                    "Path": "Assets\/pato.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 3,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        0,
+                        0,
+                        300,
+                        50
+                    ],
+                    "Is interactable": true,
+                    "Text": 1216183641,
+                    "Image": 58850297,
+                    "Normal": ".\/Library\/Textures\/120577598.dds",
+                    "Focused": ".\/Library\/Textures\/424495814.dds",
+                    "Pressed": ".\/Library\/Textures\/997451359.dds",
+                    "Selected": ".\/Library\/Textures\/424495814.dds",
+                    "Release": "Assets\/Baker_house.png",
+                    "Disabled": "Assets\/pato.png",
+                    "Focused color": [
+                        0,
+                        1,
+                        0,
+                        1
+                    ],
+                    "Pressed color": [
+                        1,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Selected color": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Disabled color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "UI_Item_Button.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "currentSlot": 0,
+                    "itemType": 0,
+                    "enumItem": "NONE",
+                    "enumSlot": "NONE"
+                }
+            ],
+            "Children UID": [
+                1738432521
+            ]
+        },
+        {
+            "Name": "Description",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1738432521,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 58850297,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 928,
+                    "Position Y": 715,
+                    "Width": 336,
+                    "Height": 277,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        928,
+                        715,
+                        336,
+                        277
+                    ],
+                    "Path": "Assets\/UI\/Inventory Buttons\/SpecialSlotHover.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                }
+            ],
+            "Children UID": [
+                1216183641
+            ]
+        },
+        {
+            "Name": "Text (3)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1216183641,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1738432521,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1040,
+                    "Position Y": 762,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 2,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1040,
+                        762,
+                        300,
+                        50
+                    ],
+                    "Text": "Empty",
+                    "Font name": "arial.ttf",
+                    "Font path": "Assets\\Fonts",
+                    "Font size": 21,
+                    "Line Spacing": 0.5,
+                    "Color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 2
+                }
+            ]
+        }
+    ]
+}

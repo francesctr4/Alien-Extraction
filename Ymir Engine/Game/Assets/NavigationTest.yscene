@@ -1,0 +1,587 @@
+{
+    "NavMesh": "187460689",
+    "Editor Camera Position": [
+        -21.831228256225586,
+        16.244546890258789,
+        17.458244323730469
+    ],
+    "Editor Camera Right (X)": [
+        0.53088891506195068,
+        1.6391277313232422e-07,
+        0.84678977727890015
+    ],
+    "Editor Camera Up (Y)": [
+        0.32154545187950134,
+        0.92459315061569214,
+        -0.20159085094928741
+    ],
+    "Editor Camera Front (Z)": [
+        0.78379994630813599,
+        -0.37970906496047974,
+        -0.49139779806137085
+    ],
+    "Hierarchy": [
+        {
+            "Name": "Scene",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 381266425,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 381266425,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "Children UID": [
+                1009784856,
+                2060736023,
+                1614375652,
+                553270870,
+                165230177
+            ]
+        },
+        {
+            "Name": "Cube",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1009784856,
+            "Active": true,
+            "Element_Type": "Model",
+            "Origin_Path": "Assets\/Primitives\/Cube.fbx",
+            "Parent UID": 381266425,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        6.617523193359375,
+                        0,
+                        -3.1974244117736816
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        22.24986457824707,
+                        1,
+                        62.267818450927734
+                    ]
+                }
+            ],
+            "Children UID": [
+                1553236809
+            ]
+        },
+        {
+            "Name": "1553236809",
+            "Static": true,
+            "Tag": "Untagged",
+            "UID": 1553236809,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1009784856,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Mesh",
+                    "Active": 1,
+                    "Vertex Count": 24,
+                    "Index Count": 36
+                },
+                {
+                    "Type": "Material",
+                    "Active": 1,
+                    "Shader": "Assets\/Shaders\/MyShader.glsl",
+                    "Uniforms": [
+                        {
+                            "lightDir": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "lightInt": 1,
+                            "lightColor": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "numLights": 1,
+                            "displayNormalMap": false,
+                            "transparency": 1
+                        }
+                    ],
+                    "ID": 0,
+                    "Diffuse": "Checker Image",
+                    "UID": 4277009102
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": 1,
+                    "Collider Type": 0,
+                    "Size": [
+                        22.24986457824707,
+                        1,
+                        62.267818450927734
+                    ],
+                    "Radius": 33.065608978271484,
+                    "Height": 1,
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false
+                }
+            ]
+        },
+        {
+            "Name": "Capsule",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 2060736023,
+            "Active": true,
+            "Element_Type": "Model",
+            "Origin_Path": "Assets\/Primitives\/Capsule.fbx",
+            "Parent UID": 381266425,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        2.9597058296203613,
+                        1.8335129022598267,
+                        -4.1150283813476562
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "Children UID": [
+                1393634873
+            ]
+        },
+        {
+            "Name": "Capsule (1)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1393634873,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 2060736023,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Material",
+                    "Active": 1,
+                    "Shader": "Assets\/Shaders\/MyShader.glsl",
+                    "Uniforms": [
+                        {
+                            "lightDir": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "lightInt": 1,
+                            "lightColor": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "numLights": 1,
+                            "displayNormalMap": false,
+                            "transparency": 1
+                        }
+                    ],
+                    "ID": 0,
+                    "Diffuse": "Checker Image",
+                    "UID": 4277009102
+                },
+                {
+                    "Type": "Mesh",
+                    "Active": 1,
+                    "Vertex Count": 568,
+                    "Index Count": 2496
+                },
+                {
+                    "Type": "NavMesh",
+                    "Active": 1,
+                    "Speed": 5,
+                    "Angular Speed": 5,
+                    "Stopping Distance": 5
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": 1,
+                    "Collider Type": 0,
+                    "Size": [
+                        1,
+                        2,
+                        1
+                    ],
+                    "Radius": 1.2247449159622192,
+                    "Height": 2,
+                    "Physics Type": 0,
+                    "Mass": 1,
+                    "UseGravity": true,
+                    "IsSensor": false,
+                    "LockX": true,
+                    "LockY": false,
+                    "LockZ": true
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "PruebaPathFinding.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "wanderSpeed": 3.5,
+                    "runningSpeed": 7.5,
+                    "range": 20,
+                    "damage": 20,
+                    "bulletSpeed": 10,
+                    "healthPoints": 60,
+                    "shotTimes": 0,
+                    "timeBewteenShots": 0.5,
+                    "timePassed": 0,
+                    "idleTime": 5,
+                    "stoppingDistance": 1,
+                    "wanderRange": 5,
+                    "runningRange": 15,
+                    "slerpSpeed": 1000.5,
+                    "turretMode": false,
+                    "movementSpeed": 20,
+                    "life": 100,
+                    "xSpeed": 0,
+                    "ySpeed": 0,
+                    "PlayerDetected": false,
+                    "DetectionRadius": 15,
+                    "wanderDuration": 5,
+                    "stopedDuration": 1,
+                    "cumDuration": 2,
+                    "cumDuration2": 5
+                }
+            ]
+        },
+        {
+            "Name": "Player",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1614375652,
+            "Active": true,
+            "Element_Type": "Model",
+            "Origin_Path": "Assets\/Primitives\/Sphere.fbx",
+            "Parent UID": 381266425,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        7.2816600799560547,
+                        2.5620467662811279,
+                        14.148568153381348
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "Children UID": [
+                1431930153
+            ]
+        },
+        {
+            "Name": "1431930153",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1431930153,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1614375652,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Mesh",
+                    "Active": 1,
+                    "Vertex Count": 439,
+                    "Index Count": 2280
+                },
+                {
+                    "Type": "Material",
+                    "Active": 1,
+                    "Shader": "Assets\/Shaders\/MyShader.glsl",
+                    "Uniforms": [
+                        {
+                            "lightDir": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "lightInt": 1,
+                            "lightColor": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "numLights": 1,
+                            "displayNormalMap": false,
+                            "transparency": 1
+                        }
+                    ],
+                    "ID": 0,
+                    "Diffuse": "Checker Image",
+                    "UID": 4277009102
+                }
+            ]
+        },
+        {
+            "Name": "Camera",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 553270870,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 381266425,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Camera",
+                    "Active": 1,
+                    "Right": [
+                        -1,
+                        0,
+                        0
+                    ],
+                    "Up": [
+                        0,
+                        1,
+                        0
+                    ],
+                    "Front": [
+                        0,
+                        0,
+                        1
+                    ],
+                    "FOV": 60.000003814697266,
+                    "Near Plane": 1,
+                    "Far Plane": 1000,
+                    "Frustum Culling": 0,
+                    "Draw Bounding Boxes": 1,
+                    "Game Camera": true
+                }
+            ]
+        },
+        {
+            "Name": "Cylinder",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 165230177,
+            "Active": true,
+            "Element_Type": "Model",
+            "Origin_Path": "Assets\/Primitives\/Cylinder.fbx",
+            "Parent UID": 381266425,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        2.6369171142578125,
+                        0,
+                        -11.012689590454102
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        4.0887999534606934,
+                        21.205461502075195,
+                        4.0887999534606934
+                    ]
+                }
+            ],
+            "Children UID": [
+                1094188326
+            ]
+        },
+        {
+            "Name": "1094188326",
+            "Static": true,
+            "Tag": "Untagged",
+            "UID": 1094188326,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 165230177,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Mesh",
+                    "Active": 1,
+                    "Vertex Count": 90,
+                    "Index Count": 240
+                },
+                {
+                    "Type": "Material",
+                    "Active": 1,
+                    "Shader": "Assets\/Shaders\/MyShader.glsl",
+                    "Uniforms": [
+                        {
+                            "lightDir": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "lightInt": 1,
+                            "lightColor": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "numLights": 1,
+                            "displayNormalMap": false,
+                            "transparency": 1
+                        }
+                    ],
+                    "ID": 0,
+                    "Diffuse": "Checker Image",
+                    "UID": 4277009102
+                }
+            ]
+        }
+    ]
+}

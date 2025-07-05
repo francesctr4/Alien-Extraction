@@ -1,0 +1,81 @@
+{
+    "Prefab": [
+        {
+            "Name": "Spawner",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1484304711,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 798699882,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        88.339324951171875,
+                        109.17709350585938,
+                        290.80859375
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Spawner.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawn": false,
+                    "porcentajeFaceHugger": 1,
+                    "porcentajeDroneXenomorph": 0,
+                    "porcentajeSpitter": 0,
+                    "currentEnemies": 0,
+                    "typeOfEnemy": 0
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        10.100000381469727,
+                        12.399999618530273,
+                        10.100000381469727
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": true,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        }
+    ]
+}

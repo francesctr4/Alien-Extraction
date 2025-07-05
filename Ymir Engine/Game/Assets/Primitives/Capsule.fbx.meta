@@ -1,0 +1,15 @@
+{
+    "Name": "Capsule",
+    "Assets Path": "Assets\/Primitives\/Capsule.fbx",
+    "Library Path": ".\/Library\/Models\/177546289.ymodel",
+    "UID": 177546289,
+    "Type": "Model",
+    "Meshes num": 1,
+    "Meshes Embedded UID": [
+        2005644240
+    ],
+    "Resources num": 1,
+    "Resources Embedded UID": [
+        956748279
+    ]
+}

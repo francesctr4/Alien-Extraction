@@ -1,0 +1,226 @@
+{
+    "Prefab": [
+        {
+            "Name": "Info (1)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 763691002,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 369438965,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        7.4000000953674316,
+                        -3.2999999523162842,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "Children UID": [
+                1332281778,
+                1109302146,
+                882234668
+            ]
+        },
+        {
+            "Name": "Item Description Image (2)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1332281778,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 763691002,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        1488,
+                        481,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 300,
+                    "Height": 300,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1495.4000244140625,
+                        477.70001220703125,
+                        300,
+                        300
+                    ],
+                    "Path": "Assets\/UI\/Inventory Buttons\/SpecialSlotHover.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                }
+            ]
+        },
+        {
+            "Name": "Item Description Text (2)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1109302146,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 763691002,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        1488,
+                        481,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 20,
+                    "Position Y": 80,
+                    "Width": 200,
+                    "Height": 50,
+                    "UI Type": 2,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1515.4000244140625,
+                        557.70001220703125,
+                        200,
+                        50
+                    ],
+                    "Text": "Rarity: RARE\nEmpty",
+                    "Font name": "NK57 Monospace Se Bd.otf",
+                    "Font path": "Assets\\Fonts",
+                    "Font size": 18,
+                    "Line Spacing": 2,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 2
+                }
+            ]
+        },
+        {
+            "Name": "Item Description Name (1)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 882234668,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 763691002,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        1488,
+                        481,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 20,
+                    "Position Y": 40,
+                    "Width": 200,
+                    "Height": 50,
+                    "UI Type": 2,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1515.4000244140625,
+                        517.70001220703125,
+                        200,
+                        50
+                    ],
+                    "Text": "Alien Claw",
+                    "Font name": "NK57 Monospace Se Bd.otf",
+                    "Font path": "Assets\\Fonts",
+                    "Font size": 20,
+                    "Line Spacing": 0,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 2
+                }
+            ]
+        }
+    ]
+}

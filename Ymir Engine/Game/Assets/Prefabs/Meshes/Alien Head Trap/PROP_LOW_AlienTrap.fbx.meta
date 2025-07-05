@@ -1,0 +1,17 @@
+{
+    "Name": "PROP_LOW_AlienTrap",
+    "Assets Path": "Assets\/Prefabs\/Meshes\/Alien Head Trap\/PROP_LOW_AlienTrap.fbx",
+    "Library Path": ".\/Library\/Models\/165934810.ymodel",
+    "UID": 165934810,
+    "Type": "Model",
+    "Meshes num": 2,
+    "Meshes Embedded UID": [
+        1235571974,
+        947326569
+    ],
+    "Resources num": 2,
+    "Resources Embedded UID": [
+        1762183897,
+        1240057372
+    ]
+}

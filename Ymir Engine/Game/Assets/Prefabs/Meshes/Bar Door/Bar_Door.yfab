@@ -1,0 +1,151 @@
+{
+    "Prefab": [
+        {
+            "Name": "PROP_Bar_Door",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 270068987,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 1620851419,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -251.88005065917969,
+                        91.889678955078125,
+                        140.78749084472656
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        0.11000001430511475,
+                        0.11000001430511475,
+                        0.11000001430511475
+                    ]
+                }
+            ],
+            "Children UID": [
+                328596612
+            ]
+        },
+        {
+            "Name": "Door_Bar_LowPoly",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 328596612,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/Prefabs\/Meshes\/Bar Door\/PROP_Bar_Door.fbx",
+            "Parent UID": 270068987,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -6.79638671875,
+                        219.7333984375,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Mesh",
+                    "Active": 1,
+                    "UID": 1697288460,
+                    "Vertex Count": 360,
+                    "Index Count": 540
+                },
+                {
+                    "Type": "Material",
+                    "Active": 1,
+                    "Shader": "Assets\/Shaders\/MyShader.glsl",
+                    "Uniforms": [
+                        {
+                            "lightDir": [
+                                -222.58538818359375,
+                                110.81430816650391,
+                                356.43319702148438
+                            ],
+                            "lightInt": 1,
+                            "lightColor": [
+                                1,
+                                1,
+                                1
+                            ],
+                            "numLights": 1,
+                            "displayNormalMap": true,
+                            "transparency": 1
+                        }
+                    ],
+                    "Diffuse_ID": 1642,
+                    "Diffuse_Path": "Assets\/Prefabs\/Meshes\/Bar Door\/TEX_PROP_Barrotes_D.png",
+                    "Diffuse_UID": 254740510,
+                    "Specular_ID": 1657,
+                    "Specular_Path": "Assets\/Prefabs\/Meshes\/Bar Door\/TEX_PROP_Barrotes_S.png",
+                    "Specular_UID": 1429006312,
+                    "Normal_ID": 1653,
+                    "Normal_Path": "Assets\/Prefabs\/Meshes\/Bar Door\/TEX_PROP_Barrotes_N.png",
+                    "Normal_UID": 2029474112,
+                    "Height_ID": 1649,
+                    "Height_Path": "Assets\/Prefabs\/Meshes\/Bar Door\/TEX_PROP_Barrotes_H.png",
+                    "Height_UID": 1969229983,
+                    "Ambient_ID": 1638,
+                    "Ambient_Path": "Assets\/Prefabs\/Meshes\/Bar Door\/TEX_PROP_Barrotes_A.png",
+                    "Ambient_UID": 875017027,
+                    "Emissive_ID": 1645,
+                    "Emissive_Path": "Assets\/Prefabs\/Meshes\/Bar Door\/TEX_PROP_Barrotes_E.png",
+                    "Emissive_UID": 203342216
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        17.281553268432617,
+                        330.58990478515625,
+                        347.55889892578125
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "Name": "New_Props_LVL1",
+    "Assets Path": "Assets\/LVL1_FINAL\/New_Props_LVL1.fbx",
+    "Library Path": ".\/Library\/Models\/1932512867.ymodel",
+    "UID": 1932512867,
+    "Type": "Model",
+    "Meshes num": 10,
+    "Meshes Embedded UID": [
+        743741215,
+        1277667674,
+        192317598,
+        737734597,
+        1393899601,
+        1642731746,
+        1477849403,
+        333936892,
+        1183951134,
+        1707715583
+    ],
+    "Resources num": 10,
+    "Resources Embedded UID": [
+        691571511,
+        649428212,
+        1181919087,
+        1215560829,
+        1033781956,
+        1179676260,
+        335815103,
+        933566536,
+        65448669,
+        307847440
+    ]
+}

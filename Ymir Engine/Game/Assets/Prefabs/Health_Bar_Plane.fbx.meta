@@ -1,0 +1,15 @@
+{
+    "Name": "Health_Bar_Plane",
+    "Assets Path": "Assets\/Prefabs\/Health_Bar_Plane.fbx",
+    "Library Path": ".\/Library\/Models\/1953913454.ymodel",
+    "UID": 1953913454,
+    "Type": "Model",
+    "Meshes num": 1,
+    "Meshes Embedded UID": [
+        1882853862
+    ],
+    "Resources num": 1,
+    "Resources Embedded UID": [
+        1712041820
+    ]
+}

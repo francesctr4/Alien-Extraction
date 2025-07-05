@@ -1,0 +1,166 @@
+{
+    "Prefab": [
+        {
+            "Name": "BakerHouse",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1285509392,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 1331433403,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "Children UID": [
+                1840801444,
+                1853688484
+            ]
+        },
+        {
+            "Name": "Chimney",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1840801444,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/BakerHouse.fbx",
+            "Parent UID": 1285509392,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Mesh",
+                    "Active": 1,
+                    "UID": 541109108,
+                    "Vertex Count": 160,
+                    "Index Count": 324
+                },
+                {
+                    "Type": "Material",
+                    "Active": 1,
+                    "Shader": "Assets\/Shaders\/MyShader.glsl",
+                    "Uniforms": [
+                        {
+                            "lightDir": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "lightInt": 1,
+                            "lightColor": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "numLights": 1,
+                            "displayNormalMap": true,
+                            "transparency": 1
+                        }
+                    ],
+                    "Diffuse_ID": 0,
+                    "Diffuse_Path": ".\/Library\/Textures\/366441211.dds",
+                    "Diffuse_UID": 366441211
+                }
+            ]
+        },
+        {
+            "Name": "Baker_house",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1853688484,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/BakerHouse.fbx",
+            "Parent UID": 1285509392,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Mesh",
+                    "Active": 1,
+                    "UID": 2085124685,
+                    "Vertex Count": 1641,
+                    "Index Count": 2751
+                },
+                {
+                    "Type": "Material",
+                    "Active": 1,
+                    "Shader": "Assets\/Shaders\/MyShader.glsl",
+                    "Uniforms": [
+                        {
+                            "lightDir": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "lightInt": 1,
+                            "lightColor": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "numLights": 1,
+                            "displayNormalMap": true,
+                            "transparency": 1
+                        }
+                    ],
+                    "Diffuse_ID": 0,
+                    "Diffuse_Path": ".\/Library\/Textures\/366441211.dds",
+                    "Diffuse_UID": 366441211
+                }
+            ]
+        }
+    ]
+}

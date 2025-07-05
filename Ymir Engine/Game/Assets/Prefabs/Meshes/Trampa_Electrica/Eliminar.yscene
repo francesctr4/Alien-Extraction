@@ -1,0 +1,543 @@
+{
+    "NavMesh": "",
+    "Editor Camera Position": [
+        -56.007167816162109,
+        65.657791137695312,
+        38.691471099853516
+    ],
+    "Editor Camera Right (X)": [
+        -0.85081583261489868,
+        -2.5331974029541016e-07,
+        0.44595444202423096
+    ],
+    "Editor Camera Up (Y)": [
+        0.26393136382102966,
+        0.77430403232574463,
+        0.50354290008544922
+    ],
+    "Editor Camera Front (Z)": [
+        0.37420752644538879,
+        -0.59183579683303833,
+        0.71393293142318726
+    ],
+    "Hierarchy": [
+        {
+            "Name": "Scene",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 662751961,
+            "Active": true,
+            "Element_Type": "None",
+            "Components": [],
+            "Children UID": [
+                1029713801,
+                1259328255
+            ]
+        },
+        {
+            "Name": "Main Camera",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1029713801,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 662751961,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -33.62652587890625,
+                        16.509109497070312,
+                        123.19089508056641
+                    ],
+                    "Rotation": [
+                        -180,
+                        40.000007629394531,
+                        -180
+                    ],
+                    "Scale": [
+                        1.0000250339508057,
+                        1,
+                        1.0000250339508057
+                    ]
+                },
+                {
+                    "Type": "Audio listener",
+                    "Active": 1,
+                    "Default Listener": 1
+                },
+                {
+                    "Type": "Audio source",
+                    "Active": 1,
+                    "Bank Name": "",
+                    "Event Name": "",
+                    "Event ID": 0
+                },
+                {
+                    "Type": "Camera",
+                    "Active": 1,
+                    "Right": [
+                        0.76604437828063965,
+                        -1.4361705780174816e-07,
+                        0.64278769493103027
+                    ],
+                    "Up": [
+                        6.696972576492044e-08,
+                        1,
+                        1.4361705780174816e-07
+                    ],
+                    "Front": [
+                        0.64278769493103027,
+                        6.696972576492044e-08,
+                        -0.76604437828063965
+                    ],
+                    "FOV": 60.000003814697266,
+                    "Near Plane": 1,
+                    "Far Plane": 1000,
+                    "Frustum Culling": 1,
+                    "Draw Bounding Boxes": 1,
+                    "Game Camera": true
+                }
+            ]
+        },
+        {
+            "Name": "Prop_Electric_Trap",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1259328255,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 662751961,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -0.22114205360412598,
+                        0,
+                        89.883193969726562
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "Children UID": [
+                2063663470,
+                1615510694
+            ]
+        },
+        {
+            "Name": "Electric_Trap (1)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 2063663470,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 1259328255,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0.22114205360412598,
+                        0,
+                        0.388946533203125
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        10,
+                        10,
+                        10
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 4,
+                    "Size": [
+                        0.55000001192092896,
+                        2.5,
+                        1.25
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": true,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Electric_trap.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "damage": 220
+                }
+            ],
+            "Children UID": [
+                1899531165,
+                1581427754
+            ]
+        },
+        {
+            "Name": "Cylinder (1)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1899531165,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/Primitives\/Cylinder.fbx",
+            "Parent UID": 2063663470,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Mesh",
+                    "Active": 0,
+                    "UID": 1690959163,
+                    "Vertex Count": 90,
+                    "Index Count": 240
+                },
+                {
+                    "Type": "Material",
+                    "Active": 1,
+                    "Shader": "Assets\/Shaders\/ColorShader.glsl",
+                    "Uniforms": [
+                        {
+                            "lightDir": [
+                                0.5,
+                                0.60000002384185791,
+                                0.30000001192092896
+                            ],
+                            "color": [
+                                1,
+                                0,
+                                1
+                            ],
+                            "light": true
+                        }
+                    ],
+                    "Diffuse_ID": 0,
+                    "Diffuse_Path": "Checker Image",
+                    "Diffuse_UID": 0
+                }
+            ]
+        },
+        {
+            "Name": "Electric Trap Paticle System",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1581427754,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 2063663470,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        1.0905036926269531,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        0.17000000178813934,
+                        0.17000000178813934,
+                        0.17000000178813934
+                    ]
+                },
+                {
+                    "Type": "ParticleSystem",
+                    "Active": 1,
+                    "NumEmitters": 1,
+                    "Emitters": [
+                        {
+                            "ModulesSize": 7,
+                            "EmitterUID": 1213467325,
+                            "Settings": [
+                                {
+                                    "Type": 0,
+                                    "Lifetime": 0.20000000298023224,
+                                    "Lifetime2": 2,
+                                    "RandomLT": true,
+                                    "Position": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "DistanceLimit": 0,
+                                    "HasDistanceLimit": false,
+                                    "BaseRotation": 0,
+                                    "BaseShape": 1,
+                                    "PositiveBoxPoints": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "NegativeBoxPoints": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "RadiusHollow": 0,
+                                    "RadiusBase": 1.0099999904632568,
+                                    "RadiusTop": 6.976923942565918,
+                                    "Heigth": 1.6100000143051147
+                                },
+                                {
+                                    "Type": 1,
+                                    "SpawnMode": 0,
+                                    "StartMode": 0,
+                                    "NumParticles": 55,
+                                    "SpawnRatio": 0.5,
+                                    "NumParticlesToStop": 200,
+                                    "PointingUID": 0,
+                                    "ConditionForSpawn": 2,
+                                    "SubemitterMaxLifetime": 1,
+                                    "SubemitterMinLifetime": 0
+                                },
+                                {
+                                    "Type": 2,
+                                    "Random": true,
+                                    "UseShapeBase": true,
+                                    "Direction1": [
+                                        3,
+                                        1,
+                                        3
+                                    ],
+                                    "Direction2": [
+                                        -3,
+                                        -1,
+                                        -3
+                                    ],
+                                    "NormalizedBaseDirection": true,
+                                    "Accelerates": false,
+                                    "Speed1": 5,
+                                    "Speed2": 0,
+                                    "ChangeSpeedMode": 0,
+                                    "NewDirection": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "ChangeSpeed1": 0,
+                                    "ChangeSpeed2": 1,
+                                    "NormalizedChange": true
+                                },
+                                {
+                                    "Type": 3,
+                                    "AligmentMode": 1,
+                                    "WorldOrientation": 3,
+                                    "AxisOrientation": 3,
+                                    "FreeRotation": [
+                                        0,
+                                        0,
+                                        0
+                                    ]
+                                },
+                                {
+                                    "Type": 4,
+                                    "Progressive": true,
+                                    "Loop": true,
+                                    "Size1": 10,
+                                    "Size2": 1,
+                                    "TimeStart": 0,
+                                    "TimeStop": 1
+                                },
+                                {
+                                    "Type": 5,
+                                    "Progressive": true,
+                                    "Loop": true,
+                                    "Color1": [
+                                        0.66493082046508789,
+                                        0.1194690465927124,
+                                        1,
+                                        1
+                                    ],
+                                    "Color2": [
+                                        1,
+                                        1,
+                                        1,
+                                        0
+                                    ],
+                                    "TimeStart": 0,
+                                    "TimeStop": 1
+                                },
+                                {
+                                    "Type": 6,
+                                    "Path": "Assets\/Particles\/IMAGES\/particle2.png"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "PROP_Trap",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1615510694,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 1259328255,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -0.55955934524536133,
+                        0,
+                        0.894500732421875
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "Children UID": [
+                571892309
+            ]
+        },
+        {
+            "Name": "PROP_Trap (1)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 571892309,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/Prefabs\/Meshes\/Trampa_Electrica\/PROP_Trap.fbx",
+            "Parent UID": 1615510694,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Mesh",
+                    "Active": 1,
+                    "UID": 1523675278,
+                    "Vertex Count": 625,
+                    "Index Count": 1512
+                },
+                {
+                    "Type": "Material",
+                    "Active": 1,
+                    "Shader": "Assets\/Shaders\/MyShader.glsl",
+                    "Uniforms": [
+                        {
+                            "lightDir": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "lightInt": 1,
+                            "lightColor": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "numLights": 1,
+                            "displayNormalMap": true,
+                            "transparency": 1
+                        }
+                    ],
+                    "Diffuse_ID": 32,
+                    "Diffuse_Path": "Assets\/Prefabs\/Meshes\/Trampa_Electrica\/PROP_TEX_Trap_D.png",
+                    "Diffuse_UID": 574579227,
+                    "Specular_ID": 40,
+                    "Specular_Path": "Assets\/Prefabs\/Meshes\/Trampa_Electrica\/PROP_TEX_Trap_S.png",
+                    "Specular_UID": 1346207431,
+                    "Normal_ID": 38,
+                    "Normal_Path": "Assets\/Prefabs\/Meshes\/Trampa_Electrica\/PROP_TEX_Trap_N.png",
+                    "Normal_UID": 420641577,
+                    "Height_ID": 36,
+                    "Height_Path": "Assets\/Prefabs\/Meshes\/Trampa_Electrica\/PROP_TEX_Trap_H.png",
+                    "Height_UID": 1882040983,
+                    "Ambient_ID": 30,
+                    "Ambient_Path": "Assets\/Prefabs\/Meshes\/Trampa_Electrica\/PROP_TEX_Trap_A.png",
+                    "Ambient_UID": 853927709,
+                    "Emissive_ID": 34,
+                    "Emissive_Path": "Assets\/Prefabs\/Meshes\/Trampa_Electrica\/PROP_TEX_Trap_E.png",
+                    "Emissive_UID": 1704284432
+                }
+            ]
+        }
+    ]
+}

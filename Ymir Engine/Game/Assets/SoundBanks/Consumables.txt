@@ -1,0 +1,20 @@
+Event	ID	Name			Wwise Object Path	Notes
+	9152236	W_GrenadeExpl			\Default Work Unit\Weapons\Consumables\W_GrenadeExpl	
+	258259792	W_MolotovExpl			\Default Work Unit\Weapons\Consumables\W_MolotovExpl	
+	1353162901	W_Throw			\Default Work Unit\Weapons\Consumables\W_Throw	
+	2341658306	W_MolotovExpl2			\Default Work Unit\Weapons\Consumables\W_MolotovExpl2	
+	2341658307	W_MolotovExpl3			\Default Work Unit\Weapons\Consumables\W_MolotovExpl3	
+	3032531364	W_MolotovBurn			\Default Work Unit\Weapons\Consumables\W_MolotovBurn	
+	3129002558	W_GrenadeToss			\Default Work Unit\Weapons\Consumables\W_GrenadeToss	
+	3352806838	W_GrenadeExpl2			\Default Work Unit\Weapons\Consumables\W_GrenadeExpl2	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	100740524	SFX_Consumable_MolotovBurning	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SFX_Consumable_MolotovBurning_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Consumables\SFX_Consumable_MolotovBurning		6193920
+	497626075	SFX_Consumable_MolotovExplosion3	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SFX_Consumable_MolotovExplosion3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Consumables\SFX_Consumable_MolotovExplosion3		622024
+	536527461	SFX_Consumable_GrenadeToss	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SFX_Consumable_GrenadeToss_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Consumables\SFX_Consumable_GrenadeToss		388632
+	558001429	SFX_Consumable_MolotovExplosion2	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SFX_Consumable_MolotovExplosion2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Consumables\SFX_Consumable_MolotovExplosion2		259216
+	729796354	SFX_Consumable_Throw	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\Throw_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Consumables\SFX_Consumable_Throw		148460
+	784126376	SFX_Consumable_GranadeExplosion2	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SFX_Consumable_GranadeExplosion2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Consumables\SFX_Consumable_GranadeExplosion2		244836
+	855203340	SFX_Consumable_MolotovExplosion1	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SFX_Consumable_MolotovExplosion1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Consumables\SFX_Consumable_MolotovExplosion1		469264
+	1031933365	SFX_Consumable_GranadeExplosion	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\GranadeExpl_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Consumables\SFX_Consumable_GranadeExplosion		347220
+

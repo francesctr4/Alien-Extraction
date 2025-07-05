@@ -1,0 +1,15 @@
+{
+    "Name": "NavMesh_LVL3",
+    "Assets Path": "Assets\/LVL3_BlockOut\/NavMesh_LVL3.fbx",
+    "Library Path": ".\/Library\/Models\/811451292.ymodel",
+    "UID": 811451292,
+    "Type": "Model",
+    "Meshes num": 1,
+    "Meshes Embedded UID": [
+        1437668469
+    ],
+    "Resources num": 1,
+    "Resources Embedded UID": [
+        227224693
+    ]
+}

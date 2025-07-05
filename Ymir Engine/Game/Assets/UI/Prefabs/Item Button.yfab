@@ -1,0 +1,299 @@
+{
+    "Prefab": [
+        {
+            "Name": "Item (2)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1127923513,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 25326872,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "Children UID": [
+                1458744809,
+                392870004,
+                537754432
+            ]
+        },
+        {
+            "Name": "Image Background (15)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1458744809,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1127923513,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 100,
+                    "Height": 100,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        0,
+                        0,
+                        100,
+                        100
+                    ],
+                    "Path": "Assets\/UI\/Inventory Buttons\/New Buttons\/Unselected.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0.5
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                }
+            ]
+        },
+        {
+            "Name": "Image Item (15)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 392870004,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1127923513,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 100,
+                    "Height": 100,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        0,
+                        0,
+                        100,
+                        100
+                    ],
+                    "Path": "Assets\/UI\/Inventory Buttons\/New Buttons\/Unselected.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                }
+            ]
+        },
+        {
+            "Name": "Item Button (15)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 537754432,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1127923513,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 100,
+                    "Height": 100,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        0,
+                        0,
+                        100,
+                        100
+                    ],
+                    "Path": "Assets\/pato.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0.20000000298023224
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 3,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1377,
+                        255,
+                        300,
+                        50
+                    ],
+                    "Is interactable": true,
+                    "Text": 4294967295,
+                    "Image": 537754432,
+                    "Normal": "Assets\/UI\/Items Slots\/Unselected.png",
+                    "Focused": "Assets\/UI\/Items Slots\/onHover.png",
+                    "Pressed": "Assets\/UI\/Items Slots\/onPressed.png",
+                    "Selected": "Assets\/UI\/Items Slots\/onHover.png",
+                    "Release": "Assets\/Baker_house.png",
+                    "Disabled": "Assets\/pato.png",
+                    "Focused color": [
+                        0,
+                        1,
+                        0,
+                        1
+                    ],
+                    "Pressed color": [
+                        1,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Selected color": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Disabled color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "UI_Item_Button.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "currentSlot": 0,
+                    "enumItem": "NONE",
+                    "enumSlot": "NONE",
+                    "enumRarity": "",
+                    "menuName": "Inventory Menu",
+                    "updateStats": true,
+                    "itemType": 0,
+                    "itemRarity": 0,
+                    "HP": 0,
+                    "armor": 0,
+                    "speed": 0,
+                    "fireRate": 0,
+                    "reloadSpeed": 0,
+                    "damageMultiplier": 0,
+                    "isEquipped": true
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "Prefab": [
+        {
+            "Name": "Electric Cables",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1550863234,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1092854789,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        831.41253662109375,
+                        0,
+                        4.8721117973327637
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "Children UID": [
+                1699364660
+            ]
+        },
+        {
+            "Name": "PROP_Lvl1_ElectricTrap2",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1699364660,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/LVL1_FINAL\/LVL1_MAP.fbx",
+            "Parent UID": 1550863234,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -831.41253662109375,
+                        1,
+                        -4.8721117973327637
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Mesh",
+                    "Active": 1,
+                    "UID": 2007041885,
+                    "Vertex Count": 866,
+                    "Index Count": 2052
+                },
+                {
+                    "Type": "Material",
+                    "Active": 1,
+                    "Shader": "Assets\/Shaders\/MyShader.glsl",
+                    "Uniforms": [
+                        {
+                            "lightDir": [
+                                0,
+                                16.196561813354492,
+                                -3.8318030834197998
+                            ],
+                            "lightInt": 1,
+                            "lightColor": [
+                                1,
+                                1,
+                                1
+                            ],
+                            "numLights": 1,
+                            "displayNormalMap": true,
+                            "transparency": 1
+                        }
+                    ],
+                    "Diffuse_ID": 718,
+                    "Diffuse_Path": "Assets\/BASE_FINAL\/Lvl-0 Base\/Electric Trap\/Texturas\/PROP_Lvl1_ElectricTrap_D.png",
+                    "Diffuse_UID": 380603751,
+                    "Normal_ID": 742,
+                    "Normal_Path": "Assets\/BASE_FINAL\/Lvl-0 Base\/Electric Trap\/Texturas\/PROP_Lvl1_ElectricTrap_N.png",
+                    "Normal_UID": 741547403,
+                    "Height_ID": 730,
+                    "Height_Path": "Assets\/BASE_FINAL\/Lvl-0 Base\/Electric Trap\/Texturas\/PROP_Lvl1_ElectricTrap_H.png",
+                    "Height_UID": 278277227,
+                    "Ambient_ID": 706,
+                    "Ambient_Path": "Assets\/BASE_FINAL\/Lvl-0 Base\/Electric Trap\/Texturas\/PROP_Lvl1_ElectricTrap_A.png",
+                    "Ambient_UID": 21012711
+                }
+            ]
+        }
+    ]
+}

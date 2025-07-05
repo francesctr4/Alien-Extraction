@@ -1,0 +1,21 @@
+{
+    "Name": "PROP_FleshDoor",
+    "Assets Path": "Assets\/Prefabs\/Meshes\/Hatchery_Door\/PROP_FleshDoor.fbx",
+    "Library Path": ".\/Library\/Models\/1944070966.ymodel",
+    "UID": 1944070966,
+    "Type": "Model",
+    "Meshes num": 4,
+    "Meshes Embedded UID": [
+        635705404,
+        1383162696,
+        333881667,
+        2003944193
+    ],
+    "Resources num": 4,
+    "Resources Embedded UID": [
+        125749402,
+        1765575605,
+        165992615,
+        2029166443
+    ]
+}

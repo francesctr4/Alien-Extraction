@@ -1,0 +1,15 @@
+{
+    "Name": "PROP_AccesKey",
+    "Assets Path": "Assets\/Prefabs\/Meshes\/Key\/PROP_AccesKey.fbx",
+    "Library Path": ".\/Library\/Models\/1495121981.ymodel",
+    "UID": 1495121981,
+    "Type": "Model",
+    "Meshes num": 1,
+    "Meshes Embedded UID": [
+        884547342
+    ],
+    "Resources num": 1,
+    "Resources Embedded UID": [
+        2062845143
+    ]
+}

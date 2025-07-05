@@ -1,0 +1,23 @@
+{
+    "Name": "PROP_WareHouseDoor_LowPoly",
+    "Assets Path": "Assets\/Prefabs\/Meshes\/Warehouse_Door\/PROP_WareHouseDoor_LowPoly.fbx",
+    "Library Path": ".\/Library\/Models\/561936188.ymodel",
+    "UID": 561936188,
+    "Type": "Model",
+    "Meshes num": 5,
+    "Meshes Embedded UID": [
+        529243381,
+        1730868769,
+        1252600097,
+        1216118405,
+        485873111
+    ],
+    "Resources num": 5,
+    "Resources Embedded UID": [
+        1294287143,
+        1664732944,
+        1720120032,
+        779215481,
+        1063011626
+    ]
+}

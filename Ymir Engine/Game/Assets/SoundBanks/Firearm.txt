@@ -1,0 +1,18 @@
+Event	ID	Name			Wwise Object Path	Notes
+	68498542	W_FirearmUp2			\Default Work Unit\Weapons\Firearm\W_FirearmUp2	
+	248456116	W_FirearmUp			\Default Work Unit\Weapons\Firearm\W_FirearmUp	
+	2776754476	W_FirearmShooting			\Default Work Unit\Weapons\Firearm\W_FirearmShooting	
+	2811600803	W_FirearmShot			\Default Work Unit\Weapons\Firearm\W_FirearmShot	
+	2893664607	W_FirearmSurf			\Default Work Unit\Weapons\Firearm\W_FirearmSurf	
+	3437299232	W_FirearmReload			\Default Work Unit\Weapons\Firearm\W_FirearmReload	
+	3833394957	W_FirearmEnemy			\Default Work Unit\Weapons\Firearm\W_FirearmEnemy	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	89137871	SFX_Weapon_FirearmShooting	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SFX_Weapon_FirearmShooting_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Firearm\SFX_Weapon_FirearmShooting		159040
+	316221824	SFX_Weapon_FirearmSurface	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SurfaceHit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Firearm\SFX_Weapon_FirearmSurface		417308
+	486821775	SFX_Weapon_FirearmHit	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\EnemyHit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Firearm\SFX_Weapon_FirearmHit		112096
+	576260854	SFX_Weapon_FirearmUpgradeShot2	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SFX_Weapon_FirearmUpgradeShot2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Firearm\SFX_Weapon_FirearmUpgradeShot2		153596
+	583374193	SFX_Weapon_FirearmShot	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\FirearmShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Firearm\SFX_Weapon_FirearmShot		81016
+	863481097	SFX_Weapon_FirearmReload	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SFX_Weapon_FirearmReload_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Firearm\SFX_Weapon_FirearmReload		112082
+	1008556014	SFX_Weapon_FirearmUpgradeShot1	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SFX_Weapon_FirearmUpgradeShot1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Firearm\SFX_Weapon_FirearmUpgradeShot1		40580
+

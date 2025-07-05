@@ -1,0 +1,78 @@
+{
+    "Prefab": [
+        {
+            "Name": "SensorSpawn",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 208637195,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 798699882,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -38.259319305419922,
+                        110.82719421386719,
+                        275.00390625
+                    ],
+                    "Rotation": [
+                        -0,
+                        89.440826416015625,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        45.599998474121094,
+                        34.900001525878906,
+                        5
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": true,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "SpawnSensor.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawner1": 1484304711,
+                    "spawner2": 362525347,
+                    "spawner3": 26138637
+                }
+            ]
+        }
+    ]
+}

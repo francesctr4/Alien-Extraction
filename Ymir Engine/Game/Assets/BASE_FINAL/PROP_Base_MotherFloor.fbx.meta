@@ -1,0 +1,15 @@
+{
+    "Name": "PROP_Base_MotherFloor",
+    "Assets Path": "Assets\/BASE_FINAL\/PROP_Base_MotherFloor.fbx",
+    "Library Path": ".\/Library\/Models\/1199999040.ymodel",
+    "UID": 1199999040,
+    "Type": "Model",
+    "Meshes num": 1,
+    "Meshes Embedded UID": [
+        2061999477
+    ],
+    "Resources num": 1,
+    "Resources Embedded UID": [
+        1541563188
+    ]
+}

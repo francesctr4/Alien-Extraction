@@ -1,0 +1,17 @@
+{
+    "Name": "BakerHouse",
+    "Assets Path": "Assets\/Prefabs\/Meshes\/Pick Up WIP\/BakerHouse.fbx",
+    "Library Path": ".\/Library\/Models\/1650915083.ymodel",
+    "UID": 1650915083,
+    "Type": "Model",
+    "Meshes num": 2,
+    "Meshes Embedded UID": [
+        108945139,
+        215124175
+    ],
+    "Resources num": 2,
+    "Resources Embedded UID": [
+        1534554927,
+        694593550
+    ]
+}

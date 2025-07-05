@@ -1,0 +1,3024 @@
+{
+    "Prefab": [
+        {
+            "Name": "Spawners",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 227903904,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1968864687,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "Children UID": [
+                781807958,
+                191318571,
+                908507000,
+                1939721412,
+                563961333,
+                540693701,
+                1460917160,
+                1482938311,
+                504409160
+            ]
+        },
+        {
+            "Name": "Tutorial",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 781807958,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 227903904,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "Children UID": [
+                1484304711,
+                1729199026,
+                1560924514,
+                1912856147
+            ]
+        },
+        {
+            "Name": "Spawner_Hugger (1)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1484304711,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 781807958,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        40,
+                        10,
+                        -40
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Spawner.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawn": false,
+                    "porcentajeFaceHugger": 1.0000001192092896,
+                    "porcentajeDroneXenomorph": 1.4901161193847656e-08,
+                    "currentEnemies": 0,
+                    "typeOfEnemy": 0
+                }
+            ],
+            "Children UID": [
+                1060257251
+            ]
+        },
+        {
+            "Name": "Sensor",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1060257251,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1484304711,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "SpawnSensor.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawner": 1484304711
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        167.39999389648438,
+                        10,
+                        80
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": true,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0.40000000596046448,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Spawner_Hugger (4)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1729199026,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 781807958,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        66.786384582519531,
+                        10,
+                        -57.649166107177734
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Spawner.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawn": false,
+                    "porcentajeFaceHugger": 1.0000001192092896,
+                    "porcentajeDroneXenomorph": 1.4901161193847656e-08,
+                    "currentEnemies": 0,
+                    "typeOfEnemy": 0
+                }
+            ],
+            "Children UID": [
+                1444795378
+            ]
+        },
+        {
+            "Name": "Sensor (1)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1444795378,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1729199026,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "SpawnSensor.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawner": 1729199026
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        166.89999389648438,
+                        10,
+                        80
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": true,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        -23.299999237060547,
+                        0,
+                        19.100000381469727
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0.40000000596046448,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Spawner_Hugger (2)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1560924514,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 781807958,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        108.89801788330078,
+                        10,
+                        -140.66658020019531
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Spawner.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawn": false,
+                    "porcentajeFaceHugger": 1.0000001192092896,
+                    "porcentajeDroneXenomorph": 1.4901161193847656e-08,
+                    "currentEnemies": 0,
+                    "typeOfEnemy": 0
+                }
+            ],
+            "Children UID": [
+                410552368
+            ]
+        },
+        {
+            "Name": "Sensor (2)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 410552368,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1560924514,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -6.7594680786132812,
+                        0,
+                        6.8119659423828125
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "SpawnSensor.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawner": 1560924514
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        174.69999694824219,
+                        10,
+                        96.5
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": true,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        -37.900001525878906,
+                        0,
+                        72.099998474121094
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0.40000000596046448,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Spawner_Hugger (3)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1912856147,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 781807958,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        154.23529052734375,
+                        10,
+                        -92.428886413574219
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Spawner.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawn": false,
+                    "porcentajeFaceHugger": 1.0000001192092896,
+                    "porcentajeDroneXenomorph": 1.4901161193847656e-08,
+                    "currentEnemies": 0,
+                    "typeOfEnemy": 0
+                }
+            ],
+            "Children UID": [
+                1290993017
+            ]
+        },
+        {
+            "Name": "Sensor (3)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1290993017,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1912856147,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "SpawnSensor.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawner": 1912856147
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        200,
+                        10,
+                        89.800003051757812
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": true,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        -83.199996948242188,
+                        0,
+                        23.600000381469727
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0.40000000596046448,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Room_1",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 191318571,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 227903904,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "Children UID": [
+                1977827860
+            ]
+        },
+        {
+            "Name": "Spawner_Drone (1)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1977827860,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 191318571,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        195.10636901855469,
+                        10,
+                        104.49480438232422
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Spawner.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawn": false,
+                    "porcentajeFaceHugger": 1.4901161193847656e-08,
+                    "porcentajeDroneXenomorph": 1.0000001192092896,
+                    "currentEnemies": 0,
+                    "typeOfEnemy": 0
+                }
+            ],
+            "Children UID": [
+                367016682
+            ]
+        },
+        {
+            "Name": "Sensor (4)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 367016682,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1977827860,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "SpawnSensor.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawner": 1977827860
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        155,
+                        10,
+                        187.80000305175781
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": true,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        37,
+                        0,
+                        18.899999618530273
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        -0.43999999761581421,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Room_2",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 908507000,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 227903904,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "Children UID": [
+                1672717930
+            ]
+        },
+        {
+            "Name": "Spawner_Hugger (5)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1672717930,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 908507000,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        317.23486328125,
+                        10,
+                        243.5849609375
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Spawner.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawn": false,
+                    "porcentajeFaceHugger": 1.0000001192092896,
+                    "porcentajeDroneXenomorph": 1.4901161193847656e-08,
+                    "currentEnemies": 0,
+                    "typeOfEnemy": 0
+                }
+            ],
+            "Children UID": [
+                1377030870
+            ]
+        },
+        {
+            "Name": "Sensor (8)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1377030870,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1672717930,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "SpawnSensor.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawner": 1672717930
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        228.19999694824219,
+                        10,
+                        234.30000305175781
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": true,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        -13.600000381469727,
+                        0,
+                        -23.5
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0.40000000596046448,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Room_3",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1939721412,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 227903904,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "Children UID": [
+                738016807,
+                1227069873,
+                1875104335
+            ]
+        },
+        {
+            "Name": "Spawner_Hugger (6)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 738016807,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 1939721412,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        494.33224487304688,
+                        10,
+                        119.15491485595703
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Spawner.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawn": false,
+                    "porcentajeFaceHugger": 1.0000001192092896,
+                    "porcentajeDroneXenomorph": 1.4901161193847656e-08,
+                    "currentEnemies": 0,
+                    "typeOfEnemy": 0
+                }
+            ],
+            "Children UID": [
+                694290549
+            ]
+        },
+        {
+            "Name": "Sensor (11)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 694290549,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 738016807,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -6.053955078125,
+                        0,
+                        -30.901809692382812
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "SpawnSensor.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawner": 738016807
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        282.89999389648438,
+                        10,
+                        280
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": true,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        -12,
+                        0,
+                        39.5
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0.40000000596046448,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Spawner_Hugger (7)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1227069873,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 1939721412,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        468.67742919921875,
+                        10,
+                        116.36840057373047
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Spawner.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawn": false,
+                    "porcentajeFaceHugger": 1.0000001192092896,
+                    "porcentajeDroneXenomorph": 1.4901161193847656e-08,
+                    "currentEnemies": 0,
+                    "typeOfEnemy": 0
+                }
+            ],
+            "Children UID": [
+                1892094699
+            ]
+        },
+        {
+            "Name": "Sensor (12)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1892094699,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1227069873,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        14.13287353515625,
+                        0,
+                        11.286224365234375
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "SpawnSensor.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawner": 1227069873
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        280,
+                        10,
+                        280
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": true,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        -6.4000000953674316,
+                        0,
+                        5.5999999046325684
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0.40000000596046448,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Spawner_Drone (3)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1875104335,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 1939721412,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        523.68023681640625,
+                        10,
+                        90.195915222167969
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Spawner.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawn": false,
+                    "porcentajeFaceHugger": 1.4901161193847656e-08,
+                    "porcentajeDroneXenomorph": 1.0000001192092896,
+                    "currentEnemies": 0,
+                    "typeOfEnemy": 0
+                }
+            ],
+            "Children UID": [
+                319015211
+            ]
+        },
+        {
+            "Name": "Sensor (13)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 319015211,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1875104335,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        3.79681396484375,
+                        0,
+                        -10.096977233886719
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "SpawnSensor.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawner": 1875104335
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        282.39999389648438,
+                        10,
+                        280
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": true,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        -49.799999237060547,
+                        0,
+                        50.799999237060547
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0.40000000596046448,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Room_Hallway",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 563961333,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 227903904,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        469.65377807617188,
+                        0,
+                        408.0550537109375
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "Children UID": [
+                1099525095
+            ]
+        },
+        {
+            "Name": "Spawner_Drone (2)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1099525095,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 563961333,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        43.622161865234375,
+                        10,
+                        31.20733642578125
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Spawner.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawn": false,
+                    "porcentajeFaceHugger": 1.4901161193847656e-08,
+                    "porcentajeDroneXenomorph": 1.0000001192092896,
+                    "currentEnemies": 0,
+                    "typeOfEnemy": 0
+                }
+            ],
+            "Children UID": [
+                132246570
+            ]
+        },
+        {
+            "Name": "Sensor (10)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 132246570,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1099525095,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -7.271697998046875,
+                        0,
+                        -2.964324951171875
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "SpawnSensor.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawner": 1099525095
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        76.900001525878906,
+                        10,
+                        252.89999389648438
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": true,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        -46.5,
+                        0,
+                        -52.099998474121094
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0.40000000596046448,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Room_4 ",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 540693701,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 227903904,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        14.5,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "Children UID": [
+                1354654404,
+                1507961774,
+                1324438478,
+                1626905087,
+                54667464,
+                652614751,
+                287967428,
+                1770539533,
+                531674475
+            ]
+        },
+        {
+            "Name": "Spawner_Hugger",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1354654404,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 540693701,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        783.33868408203125,
+                        10,
+                        254.45594787597656
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Spawner.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawn": false,
+                    "porcentajeFaceHugger": 1.0000001192092896,
+                    "porcentajeDroneXenomorph": 1.4901161193847656e-08,
+                    "currentEnemies": 0,
+                    "typeOfEnemy": 0
+                }
+            ],
+            "Children UID": [
+                446938948
+            ]
+        },
+        {
+            "Name": "Sensor (23)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 446938948,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1354654404,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -95.95587158203125,
+                        0,
+                        36.075363159179688
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "SpawnSensor.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawner": 1354654404
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 4,
+                    "Size": [
+                        100,
+                        5,
+                        1.25
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": true,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Spawner_Spitter",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1507961774,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 540693701,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        757.5618896484375,
+                        10,
+                        211.4241943359375
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Spawner.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawn": false,
+                    "porcentajeFaceHugger": 1.4901161193847656e-08,
+                    "porcentajeDroneXenomorph": 1.0000001192092896,
+                    "currentEnemies": 0,
+                    "typeOfEnemy": 0
+                }
+            ],
+            "Children UID": [
+                524599951
+            ]
+        },
+        {
+            "Name": "Sensor (22)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 524599951,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1507961774,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -72.63330078125,
+                        0,
+                        71.441802978515625
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "SpawnSensor.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawner": 1507961774
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 4,
+                    "Size": [
+                        100,
+                        5,
+                        1.25
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": true,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Spawner_Hugger (8)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1324438478,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 540693701,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        704.804931640625,
+                        10,
+                        154.27897644042969
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Spawner.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawn": false,
+                    "porcentajeFaceHugger": 1.0000001192092896,
+                    "porcentajeDroneXenomorph": 1.4901161193847656e-08,
+                    "currentEnemies": 0,
+                    "typeOfEnemy": 0
+                }
+            ],
+            "Children UID": [
+                1733376755
+            ]
+        },
+        {
+            "Name": "Sensor (21)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1733376755,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1324438478,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -20.949951171875,
+                        0,
+                        137.87956237792969
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "SpawnSensor.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawner": 1324438478
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 4,
+                    "Size": [
+                        100,
+                        5,
+                        1.25
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": true,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Spawner_Hugger (9)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1626905087,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 540693701,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        613.0389404296875,
+                        10,
+                        342.15167236328125
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Spawner.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawn": false,
+                    "porcentajeFaceHugger": 1.0000001192092896,
+                    "porcentajeDroneXenomorph": 1.4901161193847656e-08,
+                    "currentEnemies": 0,
+                    "typeOfEnemy": 0
+                }
+            ],
+            "Children UID": [
+                2129192566
+            ]
+        },
+        {
+            "Name": "Sensor (20)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 2129192566,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1626905087,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        72.7161865234375,
+                        0,
+                        -52.7265625
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "SpawnSensor.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawner": 1626905087
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 4,
+                    "Size": [
+                        100,
+                        5,
+                        1.25
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": true,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Spawner_Drone",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 54667464,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 540693701,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        716.465087890625,
+                        10.000088691711426,
+                        251.51528930664062
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Spawner.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawn": false,
+                    "porcentajeFaceHugger": 1.4901161193847656e-08,
+                    "porcentajeDroneXenomorph": 1.0000001192092896,
+                    "currentEnemies": 0,
+                    "typeOfEnemy": 0
+                }
+            ],
+            "Children UID": [
+                1567151042
+            ]
+        },
+        {
+            "Name": "Sensor (19)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1567151042,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 54667464,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -33.5064697265625,
+                        3.0517578125e-05,
+                        31.876617431640625
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "SpawnSensor.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawner": 54667464
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 4,
+                    "Size": [
+                        100,
+                        5,
+                        1.25
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": true,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Spawner_Drone (4)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 652614751,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 540693701,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        709.633056640625,
+                        10,
+                        322.577880859375
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Spawner.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawn": false,
+                    "porcentajeFaceHugger": 1.4901161193847656e-08,
+                    "porcentajeDroneXenomorph": 1.0000001192092896,
+                    "currentEnemies": 0,
+                    "typeOfEnemy": 0
+                }
+            ],
+            "Children UID": [
+                1893916120
+            ]
+        },
+        {
+            "Name": "Sensor (18)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1893916120,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 652614751,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -33.02374267578125,
+                        0,
+                        -37.472198486328125
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "SpawnSensor.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawner": 652614751
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 4,
+                    "Size": [
+                        100,
+                        5,
+                        1.25
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": true,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Spawner_Hugger (10)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 287967428,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 540693701,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        624.998046875,
+                        10,
+                        331.98025512695312
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Spawner.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawn": false,
+                    "porcentajeFaceHugger": 1.0000001192092896,
+                    "porcentajeDroneXenomorph": 1.4901161193847656e-08,
+                    "currentEnemies": 0,
+                    "typeOfEnemy": 0
+                }
+            ],
+            "Children UID": [
+                2100182383
+            ]
+        },
+        {
+            "Name": "Sensor (17)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 2100182383,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 287967428,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        53.81488037109375,
+                        0,
+                        -49.641265869140625
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "SpawnSensor.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawner": 287967428
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 4,
+                    "Size": [
+                        100,
+                        5,
+                        1.25
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": true,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Spawner_Drone (5)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1770539533,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 540693701,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        639.08587646484375,
+                        10,
+                        243.26390075683594
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Spawner.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawn": false,
+                    "porcentajeFaceHugger": 1.4901161193847656e-08,
+                    "porcentajeDroneXenomorph": 1.0000001192092896,
+                    "currentEnemies": 0,
+                    "typeOfEnemy": 0
+                }
+            ],
+            "Children UID": [
+                41085362
+            ]
+        },
+        {
+            "Name": "Sensor (16)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 41085362,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1770539533,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        41.71820068359375,
+                        0,
+                        42.814712524414062
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "SpawnSensor.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawner": 1770539533
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 4,
+                    "Size": [
+                        100,
+                        5,
+                        1.25
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": true,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Spawner_Hugger (11)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 531674475,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 540693701,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        678.03729248046875,
+                        10,
+                        284.25433349609375
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Spawner.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawn": false,
+                    "porcentajeFaceHugger": 1.0000001192092896,
+                    "porcentajeDroneXenomorph": 1.4901161193847656e-08,
+                    "currentEnemies": 0,
+                    "typeOfEnemy": 0
+                }
+            ],
+            "Children UID": [
+                1544733922
+            ]
+        },
+        {
+            "Name": "Sensor (15)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1544733922,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 531674475,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "SpawnSensor.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawner": 531674475
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 4,
+                    "Size": [
+                        100,
+                        5,
+                        1.25
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": true,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Room_5",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1460917160,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 227903904,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        597.1776123046875,
+                        0,
+                        -267.28982543945312
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "Children UID": [
+                136775415,
+                913513535
+            ]
+        },
+        {
+            "Name": "Spawner_Hugger (12)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 136775415,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 1460917160,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -21.24932861328125,
+                        10.000019073486328,
+                        1.831085205078125
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Spawner.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawn": false,
+                    "porcentajeFaceHugger": 1.0000001192092896,
+                    "porcentajeDroneXenomorph": 1.4901161193847656e-08,
+                    "currentEnemies": 0,
+                    "typeOfEnemy": 0
+                }
+            ],
+            "Children UID": [
+                879026009
+            ]
+        },
+        {
+            "Name": "Sensor (5)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 879026009,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 136775415,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        20.00177001953125,
+                        0,
+                        -5.53179931640625
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "SpawnSensor.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawner": 136775415
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 4,
+                    "Size": [
+                        100,
+                        5,
+                        1.25
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": true,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Spawner_Hugger (13)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 913513535,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 1460917160,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        16.55975341796875,
+                        10,
+                        9.403350830078125
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Spawner.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawn": false,
+                    "porcentajeFaceHugger": 1.0000001192092896,
+                    "porcentajeDroneXenomorph": 1.4901161193847656e-08,
+                    "currentEnemies": 0,
+                    "typeOfEnemy": 0
+                }
+            ],
+            "Children UID": [
+                1731545298
+            ]
+        },
+        {
+            "Name": "Sensor (7)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1731545298,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 913513535,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -16.74285888671875,
+                        0,
+                        -12.62225341796875
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "SpawnSensor.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawner": 913513535
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 4,
+                    "Size": [
+                        100,
+                        5,
+                        1.25
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": true,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Room_6",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1482938311,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 227903904,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        952.0374755859375,
+                        0,
+                        -144.38201904296875
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "Children UID": [
+                1650252596
+            ]
+        },
+        {
+            "Name": "Spawner_Drone (6)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1650252596,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 1482938311,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -6.23406982421875,
+                        10,
+                        18.703498840332031
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Spawner.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawn": false,
+                    "porcentajeFaceHugger": 1.4901161193847656e-08,
+                    "porcentajeDroneXenomorph": 1.0000001192092896,
+                    "currentEnemies": 0,
+                    "typeOfEnemy": 0
+                }
+            ],
+            "Children UID": [
+                739046681
+            ]
+        },
+        {
+            "Name": "Sensor (6)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 739046681,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1650252596,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -84.29119873046875,
+                        7.62939453125e-06,
+                        37.6015625
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "SpawnSensor.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawner": 1650252596
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        55.799999237060547,
+                        10,
+                        200
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": true,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        -10.199999809265137,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        -0.43999999761581421,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Room_Final",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 504409160,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 227903904,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        945.38970947265625,
+                        0,
+                        39.651802062988281
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "Children UID": [
+                1008579299
+            ]
+        },
+        {
+            "Name": "Spawner_Spitter (1)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1008579299,
+            "Active": true,
+            "Element_Type": "Model",
+            "Parent UID": 504409160,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        69.61346435546875,
+                        10,
+                        18.288810729980469
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Spawner.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawn": false,
+                    "porcentajeFaceHugger": 1.4901161193847656e-08,
+                    "porcentajeDroneXenomorph": 1.0000001192092896,
+                    "currentEnemies": 0,
+                    "typeOfEnemy": 0
+                }
+            ],
+            "Children UID": [
+                98718236
+            ]
+        },
+        {
+            "Name": "Sensor (14)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 98718236,
+            "Active": true,
+            "Element_Type": "None",
+            "Parent UID": 1008579299,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        -134.84185791015625,
+                        0,
+                        38.253631591796875
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "SpawnSensor.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "spawner": 1008579299
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        251.89999389648438,
+                        10,
+                        246.80000305175781
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": true,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        0.40000000596046448,
+                        0,
+                        1
+                    ]
+                }
+            ]
+        }
+    ]
+}

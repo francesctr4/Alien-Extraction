@@ -1,0 +1,1866 @@
+{
+    "Prefab": [
+        {
+            "Name": "Level Selection Canvas",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 365492027,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 1872441970,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 1669,
+                    "Height": 988,
+                    "UI Type": 0,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        0,
+                        0,
+                        655,
+                        435
+                    ]
+                }
+            ],
+            "Children UID": [
+                815848601,
+                1225803009,
+                854003353
+            ]
+        },
+        {
+            "Name": "Background",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 815848601,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 365492027,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 1920,
+                    "Height": 1080,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        0,
+                        0,
+                        1920,
+                        1080
+                    ],
+                    "Path": "Assets\/UI\/Teleport Buttons\/TpMenuFondo.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "BaseTeleporter.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "selectedLvl": 3,
+                    "selectedWeapon": 3
+                }
+            ],
+            "Children UID": [
+                1384942655,
+                1514367215,
+                73189607,
+                1445816975,
+                642862657
+            ]
+        },
+        {
+            "Name": "Lvl Selector",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1384942655,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 815848601,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 280,
+                    "Position Y": 312,
+                    "Width": 200,
+                    "Height": 50,
+                    "UI Type": 2,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        280,
+                        312,
+                        200,
+                        50
+                    ],
+                    "Text": "Select Level",
+                    "Font name": "NK57 Monospace Se Bd.otf",
+                    "Font path": "Assets\\Fonts",
+                    "Font size": 25,
+                    "Line Spacing": 0.5,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 2
+                }
+            ]
+        },
+        {
+            "Name": "Weapon Selector",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1514367215,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 815848601,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1360,
+                    "Position Y": 320,
+                    "Width": 200,
+                    "Height": 50,
+                    "UI Type": 2,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1360,
+                        320,
+                        200,
+                        50
+                    ],
+                    "Text": "Select weapon",
+                    "Font name": "NK57 Monospace Se Bd.otf",
+                    "Font path": "Assets\\Fonts",
+                    "Font size": 25,
+                    "Line Spacing": 0.5,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 2
+                }
+            ]
+        },
+        {
+            "Name": "Grid",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 73189607,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 815848601,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "UI_Inventory_Grid.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "rows": 3,
+                    "cols": 2,
+                    "leftGridName": "",
+                    "rightGridName": "",
+                    "downGridName": "Grid Raid",
+                    "upGridName": "",
+                    "navigateX": true,
+                    "navigateY": true,
+                    "bounceX": false,
+                    "bounceY": false,
+                    "empty": false,
+                    "childX": 0,
+                    "childY": 0
+                }
+            ],
+            "Children UID": [
+                1029089681,
+                1522638992,
+                481170743,
+                1489064132,
+                314406228,
+                1271137560
+            ]
+        },
+        {
+            "Name": "Lvl (1)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1029089681,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 73189607,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 187,
+                    "Position Y": 342,
+                    "Width": 447,
+                    "Height": 114,
+                    "UI Type": 1,
+                    "UI State": 5,
+                    "Drag Limits": [
+                        187,
+                        342,
+                        447,
+                        114
+                    ],
+                    "Path": "Assets\/UI\/Teleport Buttons\/BotonUnselected.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 3,
+                    "UI State": 5,
+                    "Drag Limits": [
+                        0,
+                        0,
+                        300,
+                        50
+                    ],
+                    "Is interactable": true,
+                    "Text": 1389414915,
+                    "Image": 1029089681,
+                    "Normal": "Assets\/UI\/Teleport Buttons\/BotonUnselected.png",
+                    "Focused": "Assets\/UI\/Teleport Buttons\/BotonHover.png",
+                    "Pressed": "Assets\/UI\/Teleport Buttons\/BotonPressed.png",
+                    "Selected": "Assets\/UI\/Teleport Buttons\/BotonHover.png",
+                    "Release": "Assets\/Baker_house.png",
+                    "Disabled": "Assets\/UI\/Teleport Buttons\/BotonUnselected.png",
+                    "Focused color": [
+                        0,
+                        1,
+                        0,
+                        1
+                    ],
+                    "Pressed color": [
+                        1,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Selected color": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Disabled color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "SelectLvl.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "lvl": 1,
+                    "isLocked": false
+                }
+            ],
+            "Children UID": [
+                1389414915,
+                894515750
+            ]
+        },
+        {
+            "Name": "Text (24)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1389414915,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 1029089681,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 305,
+                    "Position Y": 415,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 2,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        305,
+                        415,
+                        300,
+                        50
+                    ],
+                    "Text": "Warehouse",
+                    "Font name": "NK57 Monospace Se Bd.otf",
+                    "Font path": "Assets\\Fonts",
+                    "Font size": 25,
+                    "Line Spacing": 0.5,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 2
+                }
+            ]
+        },
+        {
+            "Name": "Lock (1)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 894515750,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 1029089681,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 386,
+                    "Position Y": 370,
+                    "Width": 40,
+                    "Height": 48,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        386,
+                        370,
+                        40,
+                        48
+                    ],
+                    "Path": "Assets\/UI\/Teleport Buttons\/Candado.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                }
+            ]
+        },
+        {
+            "Name": "Lvl (2)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1522638992,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 73189607,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 187,
+                    "Position Y": 470,
+                    "Width": 447,
+                    "Height": 114,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        187,
+                        470,
+                        447,
+                        114
+                    ],
+                    "Path": "Assets\/UI\/Teleport Buttons\/BotonUnselected.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 3,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        0,
+                        0,
+                        300,
+                        50
+                    ],
+                    "Is interactable": true,
+                    "Text": 1706646381,
+                    "Image": 1522638992,
+                    "Normal": "Assets\/UI\/Teleport Buttons\/BotonUnselected.png",
+                    "Focused": "Assets\/UI\/Teleport Buttons\/BotonHover.png",
+                    "Pressed": "Assets\/UI\/Teleport Buttons\/BotonPressed.png",
+                    "Selected": "Assets\/UI\/Teleport Buttons\/BotonHover.png",
+                    "Release": "Assets\/penguin.png",
+                    "Disabled": "Assets\/UI\/Teleport Buttons\/BotonUnselected.png",
+                    "Focused color": [
+                        0,
+                        1,
+                        0,
+                        1
+                    ],
+                    "Pressed color": [
+                        1,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Selected color": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Disabled color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "SelectLvl.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "lvl": 2,
+                    "isLocked": false
+                }
+            ],
+            "Children UID": [
+                1706646381,
+                1548381858
+            ]
+        },
+        {
+            "Name": "Text (22)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1706646381,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 1522638992,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 337,
+                    "Position Y": 544,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 2,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        337,
+                        544,
+                        300,
+                        50
+                    ],
+                    "Text": "The Lab",
+                    "Font name": "NK57 Monospace Se Bd.otf",
+                    "Font path": "Assets\\Fonts",
+                    "Font size": 25,
+                    "Line Spacing": 0.5,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 2
+                }
+            ]
+        },
+        {
+            "Name": "Lock (2)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1548381858,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 1522638992,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 386,
+                    "Position Y": 498,
+                    "Width": 40,
+                    "Height": 48,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        386,
+                        498,
+                        40,
+                        48
+                    ],
+                    "Path": "Assets\/UI\/Teleport Buttons\/Candado.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                }
+            ]
+        },
+        {
+            "Name": "Lvl (3)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 481170743,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 73189607,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 187,
+                    "Position Y": 597,
+                    "Width": 447,
+                    "Height": 114,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        187,
+                        597,
+                        447,
+                        114
+                    ],
+                    "Path": "Assets\/UI\/Teleport Buttons\/BotonUnselected.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 3,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        0,
+                        0,
+                        300,
+                        50
+                    ],
+                    "Is interactable": true,
+                    "Text": 841147879,
+                    "Image": 481170743,
+                    "Normal": "Assets\/UI\/Teleport Buttons\/BotonUnselected.png",
+                    "Focused": "Assets\/UI\/Teleport Buttons\/BotonHover.png",
+                    "Pressed": "Assets\/UI\/Teleport Buttons\/BotonPressed.png",
+                    "Selected": "Assets\/UI\/Teleport Buttons\/BotonHover.png",
+                    "Release": "Assets\/Baker_house.png",
+                    "Disabled": "Assets\/UI\/Teleport Buttons\/BotonUnselected.png",
+                    "Focused color": [
+                        0,
+                        1,
+                        0,
+                        1
+                    ],
+                    "Pressed color": [
+                        1,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Selected color": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Disabled color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "SelectLvl.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "lvl": 3,
+                    "isLocked": false
+                }
+            ],
+            "Children UID": [
+                841147879,
+                700192384
+            ]
+        },
+        {
+            "Name": "Text (3)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 841147879,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 481170743,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 273,
+                    "Position Y": 671,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 2,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        273,
+                        671,
+                        300,
+                        50
+                    ],
+                    "Text": "The hatchery",
+                    "Font name": "NK57 Monospace Se Bd.otf",
+                    "Font path": "Assets\\Fonts",
+                    "Font size": 25,
+                    "Line Spacing": 0.5,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 2
+                }
+            ]
+        },
+        {
+            "Name": "Lock (3)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 700192384,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 481170743,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 386,
+                    "Position Y": 625,
+                    "Width": 40,
+                    "Height": 48,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        386,
+                        625,
+                        40,
+                        48
+                    ],
+                    "Path": "Assets\/UI\/Teleport Buttons\/Candado.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                }
+            ]
+        },
+        {
+            "Name": "Weapon (1)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1489064132,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 73189607,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1287,
+                    "Position Y": 342,
+                    "Width": 447,
+                    "Height": 114,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1287,
+                        342,
+                        447,
+                        114
+                    ],
+                    "Path": "Assets\/Baker_house.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 3,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        0,
+                        0,
+                        300,
+                        50
+                    ],
+                    "Is interactable": true,
+                    "Text": 4294967295,
+                    "Image": 1489064132,
+                    "Normal": "Assets\/UI\/Teleport Buttons\/SmgUnselected.png",
+                    "Focused": "Assets\/UI\/Teleport Buttons\/SmgHover.png",
+                    "Pressed": "Assets\/UI\/Teleport Buttons\/SmgPressed.png",
+                    "Selected": "Assets\/UI\/Teleport Buttons\/SmgHover.png",
+                    "Release": "Assets\/Baker_house.png",
+                    "Disabled": "Assets\/Baker_house.png",
+                    "Focused color": [
+                        0,
+                        1,
+                        0,
+                        1
+                    ],
+                    "Pressed color": [
+                        1,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Selected color": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Disabled color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "SelectWeapon.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "weapon": 0
+                }
+            ]
+        },
+        {
+            "Name": "Weapon (2)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 314406228,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 73189607,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1287,
+                    "Position Y": 470,
+                    "Width": 447,
+                    "Height": 114,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1287,
+                        470,
+                        447,
+                        114
+                    ],
+                    "Path": "Assets\/Baker_house.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 3,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        0,
+                        0,
+                        300,
+                        50
+                    ],
+                    "Is interactable": true,
+                    "Text": 4294967295,
+                    "Image": 314406228,
+                    "Normal": "Assets\/UI\/Teleport Buttons\/ShotgunUnselected.png",
+                    "Focused": "Assets\/UI\/Teleport Buttons\/ShotgunHover.png",
+                    "Pressed": "Assets\/UI\/Teleport Buttons\/ShotgunPressed.png",
+                    "Selected": "Assets\/UI\/Teleport Buttons\/ShotgunHover.png",
+                    "Release": "Assets\/Baker_house.png",
+                    "Disabled": "Assets\/Baker_house.png",
+                    "Focused color": [
+                        0,
+                        1,
+                        0,
+                        1
+                    ],
+                    "Pressed color": [
+                        1,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Selected color": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Disabled color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "SelectWeapon.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "weapon": 1
+                }
+            ]
+        },
+        {
+            "Name": "Weapon (3)",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1271137560,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 73189607,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1287,
+                    "Position Y": 597,
+                    "Width": 447,
+                    "Height": 114,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1287,
+                        597,
+                        447,
+                        114
+                    ],
+                    "Path": "Assets\/Baker_house.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 3,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        0,
+                        0,
+                        300,
+                        50
+                    ],
+                    "Is interactable": true,
+                    "Text": 4294967295,
+                    "Image": 1271137560,
+                    "Normal": "Assets\/UI\/Teleport Buttons\/LaserUnselected.png",
+                    "Focused": "Assets\/UI\/Teleport Buttons\/LaserHover.png",
+                    "Pressed": "Assets\/UI\/Teleport Buttons\/LaserPressed.png",
+                    "Selected": "Assets\/UI\/Teleport Buttons\/LaserHover.png",
+                    "Release": "Assets\/Baker_house.png",
+                    "Disabled": "Assets\/Baker_house.png",
+                    "Focused color": [
+                        0,
+                        1,
+                        0,
+                        1
+                    ],
+                    "Pressed color": [
+                        1,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Selected color": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Disabled color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "SelectWeapon.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "weapon": 2
+                }
+            ]
+        },
+        {
+            "Name": "Lvl description",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1445816975,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 815848601,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 190,
+                    "Position Y": 795,
+                    "Width": 200,
+                    "Height": 50,
+                    "UI Type": 2,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        190,
+                        795,
+                        200,
+                        50
+                    ],
+                    "Text": "There are no records of this place, although it\nlooks like a research area. A laboratory?\nUnderground?",
+                    "Font name": "NK57 Monospace Se Bd.otf",
+                    "Font path": "Assets\\Fonts",
+                    "Font size": 10.5,
+                    "Line Spacing": 2.5,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 2
+                }
+            ]
+        },
+        {
+            "Name": "Weapon description",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 642862657,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 815848601,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 1284,
+                    "Position Y": 795,
+                    "Width": 200,
+                    "Height": 50,
+                    "UI Type": 2,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        1284,
+                        795,
+                        200,
+                        50
+                    ],
+                    "Text": "The “EM-MK2” is a plasma weapon capable\nof firing a constant beam of lethal\nenergy, ideal for suppressing enemies\nin medium and long-range combat. ",
+                    "Font name": "NK57 Monospace Se Bd.otf",
+                    "Font path": "Assets\\Fonts",
+                    "Font size": 10.5,
+                    "Line Spacing": 2.5,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 2
+                }
+            ]
+        },
+        {
+            "Name": "Grid Raid",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1225803009,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 365492027,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "UI_Inventory_Grid.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "rows": 1,
+                    "cols": 1,
+                    "leftGridName": " ",
+                    "rightGridName": " ",
+                    "downGridName": " ",
+                    "upGridName": "Grid",
+                    "navigateX": true,
+                    "navigateY": true,
+                    "bounceX": false,
+                    "bounceY": false,
+                    "empty": false,
+                    "childX": 0,
+                    "childY": 0
+                }
+            ],
+            "Children UID": [
+                576447595
+            ]
+        },
+        {
+            "Name": "Go to raid",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 576447595,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 1225803009,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 798,
+                    "Position Y": 830,
+                    "Width": 324,
+                    "Height": 102,
+                    "UI Type": 1,
+                    "UI State": 0,
+                    "Drag Limits": [
+                        798,
+                        830,
+                        324,
+                        102
+                    ],
+                    "Path": "Assets\/UI\/Teleport Buttons\/GoToRaidBlocked.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 1,
+                    "Columns": 1,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 3,
+                    "UI State": 0,
+                    "Drag Limits": [
+                        0,
+                        0,
+                        300,
+                        50
+                    ],
+                    "Is interactable": true,
+                    "Text": 1445646835,
+                    "Image": 576447595,
+                    "Normal": "Assets\/UI\/Teleport Buttons\/GoToRaidUnselected.png",
+                    "Focused": "Assets\/UI\/Teleport Buttons\/GoToRaidHover.png",
+                    "Pressed": "Assets\/UI\/Teleport Buttons\/GoToRaidPressed.png",
+                    "Selected": "Assets\/UI\/Teleport Buttons\/GoToRaidHover.png",
+                    "Release": "Assets\/Baker_house.png",
+                    "Disabled": "Assets\/UI\/Teleport Buttons\/GoToRaidBlocked.png",
+                    "Focused color": [
+                        0,
+                        1,
+                        0,
+                        1
+                    ],
+                    "Pressed color": [
+                        1,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Selected color": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "Disabled color": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "Button_GoToScene.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "sceneName": "BASE_FINAL\/LVL_BASE_COLLIDERS",
+                    "time": 0,
+                    "saveGame": true
+                }
+            ],
+            "Children UID": [
+                1445646835
+            ]
+        },
+        {
+            "Name": "Text Button",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 1445646835,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 576447595,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 851,
+                    "Position Y": 898,
+                    "Width": 300,
+                    "Height": 50,
+                    "UI Type": 2,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        851,
+                        898,
+                        300,
+                        50
+                    ],
+                    "Text": "Go To Raid",
+                    "Font name": "NK57 Monospace Se Bd.otf",
+                    "Font path": "Assets\\Fonts",
+                    "Font size": 25,
+                    "Line Spacing": 0.5,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 2
+                }
+            ]
+        },
+        {
+            "Name": "TeleportAnim",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 854003353,
+            "Active": false,
+            "Element_Type": "None",
+            "Parent UID": 365492027,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "UI",
+                    "Active": 1,
+                    "Draggeable": false,
+                    "Position X": 0,
+                    "Position Y": 0,
+                    "Width": 1920,
+                    "Height": 1080,
+                    "UI Type": 1,
+                    "UI State": 1,
+                    "Drag Limits": [
+                        0,
+                        0,
+                        1920,
+                        1080
+                    ],
+                    "Path": "Assets\/UI\/SpriteSheets\/TeleportSpritesheet.png",
+                    "Shader Path": "Assets\/Shaders\/UI Shader.glsl",
+                    "Current Frame X": 0,
+                    "Current Frame Y": 0,
+                    "Rows": 3,
+                    "Columns": 4,
+                    "Color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Type": "UI Transform",
+                    "Component reference": 1
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "UI_Animation.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "loop": false,
+                    "pingpongWIP": false,
+                    "backwards": false,
+                    "animState": true,
+                    "delay": 0.05000000074505806,
+                    "loopCount": 0,
+                    "totalFrames": 12,
+                    "currentIndex": 0,
+                    "disableOnFinish": true
+                }
+            ]
+        }
+    ]
+}

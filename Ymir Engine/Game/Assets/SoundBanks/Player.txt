@@ -1,0 +1,96 @@
+Event	ID	Name			Wwise Object Path	Notes
+	9152236	W_GrenadeExpl			\Default Work Unit\Weapons\Consumables\W_GrenadeExpl	
+	19031741	P_PredRush			\Default Work Unit\Characters\Player\P_PredRush	
+	68498542	W_FirearmUp2			\Default Work Unit\Weapons\Firearm\W_FirearmUp2	
+	248456116	W_FirearmUp			\Default Work Unit\Weapons\Firearm\W_FirearmUp	
+	258259792	W_MolotovExpl			\Default Work Unit\Weapons\Consumables\W_MolotovExpl	
+	547444056	P_Heal			\Default Work Unit\Characters\Player\P_Heal	
+	585791641	W_FSADShot2			\Default Work Unit\Weapons\FSAD\W_FSADShot2	
+	779644395	W_FSADEnemy			\Default Work Unit\Weapons\FSAD\W_FSADEnemy	
+	947529532	P_Death			\Default Work Unit\Characters\Player\P_Death	
+	1073763149	P_Hit			\Default Work Unit\Characters\Player\P_Hit	
+	1216763735	P_Shoot			\Default Work Unit\Characters\Player\P_Shoot	
+	1348116050	P_AcidSpitHit			\Default Work Unit\Characters\Player\P_AcidSpitHit	
+	1353162901	W_Throw			\Default Work Unit\Weapons\Consumables\W_Throw	
+	1530428297	W_FSADShot			\Default Work Unit\Weapons\FSAD\W_FSADShot	
+	1753215977	W_FSADSurf			\Default Work Unit\Weapons\FSAD\W_FSADSurf	
+	1760895991	W_FSADShotLongB			\Default Work Unit\Weapons\FSAD\W_FSADShotLongB	
+	1950171510	W_FSADReloadCap			\Default Work Unit\Weapons\FSAD\W_FSADReloadCap	
+	2025074351	W_PlasmaEnemy			\Default Work Unit\Weapons\Plasma\W_PlasmaEnemy	
+	2157893143	P_Whine			\Default Work Unit\Characters\Player\P_Whine	
+	2182280754	W_PlasmaReload			\Default Work Unit\Weapons\Plasma\W_PlasmaReload	
+	2290830213	P_Relief			\Default Work Unit\Characters\Player\P_Relief	
+	2303045772	W_PlasmaShot3			\Default Work Unit\Weapons\Plasma\W_PlasmaShot3	
+	2303045773	W_PlasmaShot2			\Default Work Unit\Weapons\Plasma\W_PlasmaShot2	
+	2341658306	W_MolotovExpl2			\Default Work Unit\Weapons\Consumables\W_MolotovExpl2	
+	2341658307	W_MolotovExpl3			\Default Work Unit\Weapons\Consumables\W_MolotovExpl3	
+	2776754476	W_FirearmShooting			\Default Work Unit\Weapons\Firearm\W_FirearmShooting	
+	2811600803	W_FirearmShot			\Default Work Unit\Weapons\Firearm\W_FirearmShot	
+	2881165168	P_TailSweep			\Default Work Unit\Characters\Player\P_TailSweep	
+	2893664607	W_FirearmSurf			\Default Work Unit\Weapons\Firearm\W_FirearmSurf	
+	2936341071	P_AcidSpitPuddle			\Default Work Unit\Characters\Player\P_AcidSpitPuddle	
+	2959608070	W_FSADReload			\Default Work Unit\Weapons\FSAD\W_FSADReload	
+	3032531364	W_MolotovBurn			\Default Work Unit\Weapons\Consumables\W_MolotovBurn	
+	3032687762	W_FSADUpShot			\Default Work Unit\Weapons\FSAD\W_FSADUpShot	
+	3129002558	W_GrenadeToss			\Default Work Unit\Weapons\Consumables\W_GrenadeToss	
+	3352806838	W_GrenadeExpl2			\Default Work Unit\Weapons\Consumables\W_GrenadeExpl2	
+	3396224688	P_Talk			\Default Work Unit\Characters\Player\P_Talk	
+	3437299232	W_FirearmReload			\Default Work Unit\Weapons\Firearm\W_FirearmReload	
+	3633830695	P_TailSweepHit			\Default Work Unit\Characters\Player\P_TailSweepHit	
+	3750281125	W_PlasmaShot			\Default Work Unit\Weapons\Plasma\W_PlasmaShot	
+	3833394957	W_FirearmEnemy			\Default Work Unit\Weapons\Firearm\W_FirearmEnemy	
+	3835007941	W_PlasmaSurf			\Default Work Unit\Weapons\Plasma\W_PlasmaSurf	
+	3919743498	P_Dash			\Default Work Unit\Characters\Player\P_Dash	
+	3988877765	P_NoAmmo			\Default Work Unit\Characters\Player\P_NoAmmo	
+	4041423483	P_AcidSpit			\Default Work Unit\Characters\Player\P_AcidSpit	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3285234865	PlayerState			\Default Work Unit\PlayerState	
+
+State	ID	Name	State Group			Notes
+	655265632	Alive	PlayerState			
+	748895195	None	PlayerState			
+	2044049779	Dead	PlayerState			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	61609410	SFX_Weapon_FSADShotLongBarrel	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SFX_Weapon_FSADShotLongBarrel_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\FSAD\SFX_Weapon_FSADShotLongBarrel		271936
+	78189267	SFX_Weapon_FSADShot2	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SFX_Weapon_FSADShot2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\FSAD\SFX_Weapon_FSADShot2		202816
+	89137871	SFX_Weapon_FirearmShooting	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SFX_Weapon_FirearmShooting_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Firearm\SFX_Weapon_FirearmShooting		159040
+	100427288	SFX_Weapon_PlasmaSurface&Hit	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\PlasmaSurface&Enemy_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Plasma\SFX_Weapon_PlasmaSurface&Hit		317584
+	100740524	SFX_Consumable_MolotovBurning	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SFX_Consumable_MolotovBurning_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Consumables\SFX_Consumable_MolotovBurning		6193920
+	222019397	SFX_CHAR_Talk_Raisen	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\P_Talk_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Characters\Player\SFX_CHAR_Talk_Raisen		486412
+	263789084	SFX_ANIM_CHAR_Dash_Raisen	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\Dash_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Characters\Player\SFX_ANIM_CHAR_Dash_Raisen		98360
+	314735228	SFX_ANIM_CHAR_AcidSpit_Raisen	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\AcidSpit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Characters\Player\SFX_ANIM_CHAR_AcidSpit_Raisen		22668
+	316221824	SFX_Weapon_FSADSurface	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SurfaceHit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\FSAD\SFX_Weapon_FSADSurface		417308
+	414184268	SFX_Weapon_FSADUpgradeShot1	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SFX_Weapon_FSADUpgradeShot1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\FSAD\SFX_Weapon_FSADUpgradeShot1		175244
+	425888205	SFX_ANIM_CHAR_Death_Raisen	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\P_Death(WWISE)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Characters\Player\SFX_ANIM_CHAR_Death_Raisen		176560
+	426728128	SFX_Weapon_PlasmaShot2	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SFX_Weapon_PlasmaShot2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Plasma\SFX_Weapon_PlasmaShot2		856984
+	486821775	SFX_Weapon_FSADHit	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\EnemyHit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\FSAD\SFX_Weapon_FSADHit		112096
+	497626075	SFX_Consumable_MolotovExplosion3	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SFX_Consumable_MolotovExplosion3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Consumables\SFX_Consumable_MolotovExplosion3		622024
+	522121485	SFX_Weapon_FSADReloadWithCap	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SFX_Weapon_FSADReloadWithCap_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\FSAD\SFX_Weapon_FSADReloadWithCap		262220
+	536527461	SFX_Consumable_GrenadeToss	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SFX_Consumable_GrenadeToss_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Consumables\SFX_Consumable_GrenadeToss		388632
+	558001429	SFX_Consumable_MolotovExplosion2	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SFX_Consumable_MolotovExplosion2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Consumables\SFX_Consumable_MolotovExplosion2		259216
+	576260854	SFX_Weapon_FirearmUpgradeShot2	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SFX_Weapon_FirearmUpgradeShot2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Firearm\SFX_Weapon_FirearmUpgradeShot2		153596
+	583374193	SFX_ANIM_CHAR_PROV-Shoot_Raisen	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\FirearmShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Characters\Player\SFX_ANIM_CHAR_PROV-Shoot_Raisen		81016
+	645100761	SFX_CHAR_Relief_Raisen	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\Relief_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Characters\Player\SFX_CHAR_Relief_Raisen		108740
+	655425766	SFX_Weapon_PlasmaReload	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\PlasmaReload_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Plasma\SFX_Weapon_PlasmaReload		607180
+	724287722	SFX_Weapon_FSADShot	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\FSADShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\FSAD\SFX_Weapon_FSADShot		221652
+	729796354	SFX_Consumable_Throw	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\Throw_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Consumables\SFX_Consumable_Throw		148460
+	752509438	SFX_ANIM_CHAR_TailHit_Raisen	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\TailSweepHit(WWISE)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Characters\Player\SFX_ANIM_CHAR_TailHit_Raisen		80448
+	767211440	SFX_ANIM_CHAR_TailSweep_Raisen	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\P_TailSweep_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Characters\Player\SFX_ANIM_CHAR_TailSweep_Raisen		70960
+	776615821	SFX_ANIM_CHAR_AcidPuddle_Raisen	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\AcidSpitPuddle_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Characters\Player\SFX_ANIM_CHAR_AcidPuddle_Raisen		129004
+	781339340	SFX_Weapon_PlasmaShot3	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SFX_Weapon_PlasmaShot3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Plasma\SFX_Weapon_PlasmaShot3		407904
+	784126376	SFX_Consumable_GranadeExplosion2	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SFX_Consumable_GranadeExplosion2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Consumables\SFX_Consumable_GranadeExplosion2		244836
+	805997874	SFX_CHAR_Whine_Raisen	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\Whine(WWISE)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Characters\Player\SFX_CHAR_Whine_Raisen		671270
+	812826936	SFX_ANIM_CHAR_AcidHit_Raisen	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\AcidHit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Characters\Player\SFX_ANIM_CHAR_AcidHit_Raisen		115976
+	842039477	SFX_ANIM_CHAR_Hit_Raisen	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\HitTaken_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Characters\Player\SFX_ANIM_CHAR_Hit_Raisen		135540
+	848722011	SFX_CHAR_Heal_Raisen	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\P_Heal(WWISE)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Characters\Player\SFX_CHAR_Heal_Raisen		705664
+	855203340	SFX_Consumable_MolotovExplosion1	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SFX_Consumable_MolotovExplosion1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Consumables\SFX_Consumable_MolotovExplosion1		469264
+	863481097	SFX_Weapon_FirearmReload	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SFX_Weapon_FirearmReload_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Firearm\SFX_Weapon_FirearmReload		112082
+	900068951	SFX_Weapon_FSADReload	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\FSADReload_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\FSAD\SFX_Weapon_FSADReload		58020
+	943356187	SFX_CHAR_NoAmmo	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\CHAR_SFX_NoAmmo_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Characters\Player\SFX_CHAR_NoAmmo		14476
+	952771836	SFX_Weapon_PlasmaShot	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\PlasmaShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Plasma\SFX_Weapon_PlasmaShot		362832
+	1008556014	SFX_Weapon_FirearmUpgradeShot1	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\SFX_Weapon_FirearmUpgradeShot1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Firearm\SFX_Weapon_FirearmUpgradeShot1		40580
+	1031933365	SFX_Consumable_GranadeExplosion	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\GranadeExpl_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Consumables\SFX_Consumable_GranadeExplosion		347220
+	1072391850	SFX_ANIM_CHAR_PredRush_Raisen	C:\Users\victo\Documents\GitHub\Wwise-Project\Ymir-Project\.cache\Windows\SFX\PredRush(WWISE)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Characters\Player\SFX_ANIM_CHAR_PredRush_Raisen		1923348
+

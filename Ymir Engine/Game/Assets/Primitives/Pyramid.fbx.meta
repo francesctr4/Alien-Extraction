@@ -1,0 +1,15 @@
+{
+    "Name": "Pyramid",
+    "Assets Path": "Assets\/Primitives\/Pyramid.fbx",
+    "Library Path": ".\/Library\/Models\/1432085884.ymodel",
+    "UID": 1432085884,
+    "Type": "Model",
+    "Meshes num": 1,
+    "Meshes Embedded UID": [
+        454827082
+    ],
+    "Resources num": 1,
+    "Resources Embedded UID": [
+        639042136
+    ]
+}

@@ -1,0 +1,128 @@
+{
+    "Prefab": [
+        {
+            "Name": "Workstation_Low",
+            "Static": false,
+            "Tag": "Untagged",
+            "UID": 550568999,
+            "Active": true,
+            "Element_Type": "Mesh",
+            "Origin_Path": "Assets\/BASE_FINAL\/BASE_MAP.fbx",
+            "Parent UID": 1950834715,
+            "Components": [
+                {
+                    "Type": "Transform",
+                    "Active": 1,
+                    "Translation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Rotation": [
+                        -0,
+                        0,
+                        -0
+                    ],
+                    "Scale": [
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Mesh",
+                    "Active": 1,
+                    "UID": 523080762,
+                    "Vertex Count": 1867,
+                    "Index Count": 3315
+                },
+                {
+                    "Type": "Material",
+                    "Active": 1,
+                    "Shader": "Assets\/Shaders\/SpecularLight.glsl",
+                    "Uniforms": [
+                        {
+                            "numLights": 1,
+                            "transparency": 1,
+                            "camPos": [
+                                -58.784080505371094,
+                                111.64328002929688,
+                                63.155529022216797
+                            ],
+                            "numPointLights": 1,
+                            "map": 1,
+                            "enableDiffuse": true,
+                            "enableSpecular": true,
+                            "enableNormal": true,
+                            "enableAmbient": true,
+                            "enableHeight": true,
+                            "enableEmissive": true,
+                            "enableLighting": true,
+                            "ambient": 1,
+                            "specularLight": 1,
+                            "normalIntensity": 1,
+                            "emissive": 1
+                        }
+                    ],
+                    "Diffuse_ID": 613,
+                    "Diffuse_Path": "Assets\/BASE_FINAL\/Lvl-0 Base\/Fix Workstation Textures\/TEX_PROP_BaseWorkbench_D.png",
+                    "Diffuse_UID": 1751476291,
+                    "Normal_ID": 609,
+                    "Normal_Path": "Assets\/BASE_FINAL\/Lvl-0 Base\/Fix Workstation Textures\/TEX_PROP_BaseWorkbench_N.png",
+                    "Normal_UID": 1332524953,
+                    "Height_ID": 605,
+                    "Height_Path": "Assets\/BASE_FINAL\/Lvl-0 Base\/Fix Workstation Textures\/TEX_PROP_BaseWorkbench_H.png",
+                    "Height_UID": 908672153,
+                    "Ambient_ID": 597,
+                    "Ambient_Path": "Assets\/BASE_FINAL\/Lvl-0 Base\/Fix Workstation Textures\/TEX_PROP_BaseWorkbench_A.png",
+                    "Ambient_UID": 1099055820,
+                    "Emissive_ID": 601,
+                    "Emissive_Path": "Assets\/BASE_FINAL\/Lvl-0 Base\/Fix Workstation Textures\/TEX_PROP_BaseWorkbench_E.png",
+                    "Emissive_UID": 1366229549
+                },
+                {
+                    "World gravity": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "Type": "Physics",
+                    "Active": true,
+                    "Collider Type": 0,
+                    "Size": [
+                        17.299999237060547,
+                        14.399999618530273,
+                        17.600000381469727
+                    ],
+                    "Physics Type": 2,
+                    "Mass": 0,
+                    "Friction": 0,
+                    "Angular Friction": 0,
+                    "UseGravity": false,
+                    "IsSensor": false,
+                    "LockX": false,
+                    "LockY": false,
+                    "LockZ": false,
+                    "Offset": [
+                        170.10000610351562,
+                        7.6999998092651367,
+                        -17
+                    ],
+                    "Offset Rotation": [
+                        0,
+                        -0.40000000596046448,
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "Type": "Script",
+                    "ScriptName": "OpenMenu_OnCollision.cs",
+                    "Active": 1,
+                    "UID": 0,
+                    "goName": "Upgrade Station"
+                }
+            ]
+        }
+    ]
+}

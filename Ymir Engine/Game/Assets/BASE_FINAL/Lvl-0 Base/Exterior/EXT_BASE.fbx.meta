@@ -1,0 +1,17 @@
+{
+    "Name": "EXT_BASE",
+    "Assets Path": "Assets\/BASE_FINAL\/Lvl-0 Base\/Exterior\/EXT_BASE.fbx",
+    "Library Path": ".\/Library\/Models\/1315014702.ymodel",
+    "UID": 1315014702,
+    "Type": "Model",
+    "Meshes num": 2,
+    "Meshes Embedded UID": [
+        1471760316,
+        1718106813
+    ],
+    "Resources num": 2,
+    "Resources Embedded UID": [
+        2003773398,
+        1652908115
+    ]
+}

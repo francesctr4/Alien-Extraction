@@ -1,0 +1,15 @@
+{
+    "Name": "NavMesh_LVL2_Part1",
+    "Assets Path": "Assets\/LVL2_LAB_PART1_FINAL\/NavMesh_LVL2_Part1.fbx",
+    "Library Path": ".\/Library\/Models\/586686728.ymodel",
+    "UID": 586686728,
+    "Type": "Model",
+    "Meshes num": 1,
+    "Meshes Embedded UID": [
+        1051101988
+    ],
+    "Resources num": 1,
+    "Resources Embedded UID": [
+        1237368966
+    ]
+}

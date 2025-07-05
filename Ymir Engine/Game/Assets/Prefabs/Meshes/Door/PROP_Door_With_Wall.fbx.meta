@@ -1,0 +1,15 @@
+{
+    "Name": "PROP_Door_With_Wall",
+    "Assets Path": "Assets\/Prefabs\/Meshes\/Door\/PROP_Door_With_Wall.fbx",
+    "Library Path": ".\/Library\/Models\/891309315.ymodel",
+    "UID": 891309315,
+    "Type": "Model",
+    "Meshes num": 1,
+    "Meshes Embedded UID": [
+        2133392798
+    ],
+    "Resources num": 1,
+    "Resources Embedded UID": [
+        252516492
+    ]
+}
